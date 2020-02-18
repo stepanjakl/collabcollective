@@ -1,18 +1,26 @@
 <template>
-  <div>
+  <div class="app o">
     <Navbar/>
     <router-view/>
+    <Footer/>
   </div>
 </template>
 
 <script>
-
 import Navbar from '@/components/Navbar'
+import Footer from '@/components/Footer'
 
 export default {
   name: 'App',
   components: {
-    Navbar
+    Navbar,
+    Footer
   }
 }
 </script>
+
+<style>
+.o, .o > *, .o * {
+  outline: red solid thin;
+}
+</style>
