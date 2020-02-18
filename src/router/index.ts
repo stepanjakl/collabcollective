@@ -7,39 +7,54 @@ import Seller from '../views/Seller.vue'
 import About from '../views/About.vue'
 import Contact from '../views/Contact.vue'
 
-Vue.use(VueRouter)
+Vue.use(VueRouter);
 
 const routes = [
   {
     path: '/',
     name: 'Home',
-    component: Home
+    component: Home,
+    meta: {
+      title: "Home"
+    }
   },
   {
     path: '/buyer',
     name: 'Buyer',
-    component: Buyer
+    component: Buyer,
+    meta: {
+      title: "Buyer"
+    }
   },
   {
     path: '/seller',
     name: 'Seller',
-    component: Seller
+    component: Seller,
+    meta: {
+      title: "Seller"
+    }
   },
   {
     path: '/about',
     name: 'About',
-    component: About
+    component: About,
+    meta: {
+      title: "About"
+    }
   },
   {
     path: '/contact',
     name: 'Contact',
-    component: Contact
+    component: Contact,
+    meta: {
+      title: "Contact"
+    }
   }
-]
+];
 
 const router = new VueRouter({
   routes,
   mode: 'history'
-})
+});
 
 export default router
