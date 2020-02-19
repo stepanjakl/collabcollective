@@ -1,9 +1,159 @@
 <template>
-    <div>
-        <h1>Domu</h1>
+    <div class="page">
+
+        <div class="top-picture relative z-0">
+            <img src="@/assets/home-lowres.jpg" alt="Hero pisture">
+            <div class="absolute">
+                <h1 class="pb-2">Buy, sell, and manage your sports media rights online.</h1>
+                <p class="pb-16">ASdasdssadfasgf dfgdfav gr sste n rr etngbwrst dthrgbeu n gb ryjmdn fgwys t hgnryutn dfvf erdh byetn.</p>
+                <button>Register Now</button>
+            </div>
+        </div>
+        
         <div class="relative py-8">
             <section-title title="Testimonials"></section-title>
         </div>
+
+        <div class="bg-gray-300">
+            <div class="flex xl:flex-row lg:flex-row md:flex-col sm:flex-col flex-col">
+
+                <div class="lg:w-1/3 w-full p-8 lg:m-8 mt-0 mb-0">
+                    <h3 class="pb-2">Nadpis</h3>
+                    <p>ASdasdssadfasgf dfgdfav gr sste n rr etngbwrst dthrgbeu n gb ryjmdn fgwys t hgnryutn dfvf erdh byetn.</p>
+                </div>
+                
+                <div class="lg:w-1/3 w-full p-8 lg:m-8 mt-0 mb-0">
+                    <h3 class="pb-2">Nadpis</h3>
+                    <p>ASdasdssadfasgf dfgdfav gr sste n rr etngbwrst dthrgbeu n gb ryjmdn fgwys t hgnryutn dfvf erdh byetn.</p>
+                </div>
+                
+                <div class="lg:w-1/3 w-full p-8 lg:m-8 mt-0 mb-0">
+                    <h3 class="pb-2">Nadpis</h3>
+                    <p>ASdasdssadfasgf dfgdfav gr sste n rr etngbwrst dthrgbeu n gb ryjmdn fgwys t hgnryutn dfvf erdh byetn.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="relative py-8">
+            <section-title title="Our services"></section-title>
+        </div>
+
+        <div class="p-8">
+            <div class="flex xl:flex-row lg:flex-row md:flex-col sm:flex-col flex-col">
+
+                <div class="xl:w-1/2 lg:w-1/2 md:w-full sm:w-full w-full">
+                    <h3 class="pb-2">Nadpis</h3>
+                    <p>ASdasdssadfasgf dfgdfav gr sste n rr etngbwrst dthrgbeu n gb ryjmdn fgwys t hgnryutn dfvf erdh byetn.</p>
+                </div>
+
+                <div class="md:pl-16 pl-0 xl:w-1/2 lg:w-1/2 md:w-full sm:w-full w-full">
+                    <img src="@/assets/aside-lowres.jpg" class="w-full h-full">
+                </div>
+
+            </div>
+        </div>
+
+        <div class="bg-gray-300">
+
+            <div class="relative py-8">
+                <section-title title="Buyers &amp; sellers"></section-title>
+            </div>
+
+            <div class="p-8 flex xl:flex-row lg:flex-row md:flex-col sm:flex-col flex-col">
+
+                <div class="md:pr-8 pr-0 xl:w-1/2 lg:w-1/2 md:w-full sm:w-full w-full relative image-background" style="min-height: 500px;">
+                    <p>content</p>
+                </div>
+
+                <div class="md:pl-8 pl-0 xl:w-1/2 lg:w-1/2 md:w-full sm:w-full w-full relative" style="min-height: 500px;">
+                    <img src="@/assets/halfling-lowres.jpg" class="absolute top-0 left-0 w-full h-full">
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="relative py-8">
+            <section-title title="References"></section-title>
+        </div>
+
+        <div class="flex flex-row flex-wrap">
+
+            <div class="xl:w-1/6 lg:w-1/6 md:w-1/4 sm:w-1/2 w-full p-4">
+                <img src="@/assets/ref-lowres.jpg" class="w-full h-full" style="margin: 0 auto;">
+            </div>
+
+            <div class="xl:w-1/6 lg:w-1/6 md:w-1/4 sm:w-1/2 w-full p-4">
+                <img src="@/assets/ref-lowres.jpg" class="w-full h-full" style="margin: 0 auto;">
+            </div>
+            
+            <div class="xl:w-1/6 lg:w-1/6 md:w-1/4 sm:w-1/2 w-full p-4">
+                <img src="@/assets/ref-lowres.jpg" class="w-full h-full" style="margin: 0 auto;">
+            </div>
+
+            <div class="xl:w-1/6 lg:w-1/6 md:w-1/4 sm:w-1/2 w-full p-4">
+                <img src="@/assets/ref-lowres.jpg" class="w-full h-full" style="margin: 0 auto;">
+            </div>
+
+            <div class="xl:w-1/6 lg:w-1/6 md:w-1/4 sm:w-1/2 w-full p-4">
+                <img src="@/assets/ref-lowres.jpg" class="w-full h-full" style="margin: 0 auto;">
+            </div>
+
+            <div class="xl:w-1/6 lg:w-1/6 md:w-1/4 sm:w-1/2 w-full p-4">
+                <img src="@/assets/ref-lowres.jpg" class="w-full h-full" style="margin: 0 auto;">
+            </div>
+
+            <div class="xl:w-1/6 lg:w-1/6 md:w-1/4 sm:w-1/2 w-full p-4">
+                <img src="@/assets/ref-lowres.jpg" class="w-full h-full" style="margin: 0 auto;">
+            </div>
+
+            <div class="xl:w-1/6 lg:w-1/6 md:w-1/4 sm:w-1/2 w-full p-4">
+                <img src="@/assets/ref-lowres.jpg" class="w-full h-full" style="margin: 0 auto;">
+            </div>
+            
+            <div class="xl:w-1/6 lg:w-1/6 md:w-1/4 sm:w-1/2 w-full p-4">
+                <img src="@/assets/ref-lowres.jpg" class="w-full h-full" style="margin: 0 auto;">
+            </div>
+
+            <div class="xl:w-1/6 lg:w-1/6 md:w-1/4 sm:w-1/2 w-full p-4">
+                <img src="@/assets/ref-lowres.jpg" class="w-full h-full" style="margin: 0 auto;">
+            </div>
+
+            <div class="xl:w-1/6 lg:w-1/6 md:w-1/4 sm:w-1/2 w-full p-4">
+                <img src="@/assets/ref-lowres.jpg" class="w-full h-full" style="margin: 0 auto;">
+            </div>
+
+            <div class="xl:w-1/6 lg:w-1/6 md:w-1/4 sm:w-1/2 w-full p-4">
+                <img src="@/assets/ref-lowres.jpg" class="w-full h-full" style="margin: 0 auto;">
+            </div>
+            
+            <div class="xl:w-1/6 lg:w-1/6 md:w-1/4 sm:w-1/2 w-full p-4">
+                <img src="@/assets/ref-lowres.jpg" class="w-full h-full" style="margin: 0 auto;">
+            </div>
+
+            <div class="xl:w-1/6 lg:w-1/6 md:w-1/4 sm:w-1/2 w-full p-4">
+                <img src="@/assets/ref-lowres.jpg" class="w-full h-full" style="margin: 0 auto;">
+            </div>
+            
+            <div class="xl:w-1/6 lg:w-1/6 md:w-1/4 sm:w-1/2 w-full p-4">
+                <img src="@/assets/ref-lowres.jpg" class="w-full h-full" style="margin: 0 auto;">
+            </div>
+
+            <div class="xl:w-1/6 lg:w-1/6 md:w-1/4 sm:w-1/2 w-full p-4">
+                <img src="@/assets/ref-lowres.jpg" class="w-full h-full" style="margin: 0 auto;">
+            </div>
+
+            <div class="xl:w-1/6 lg:w-1/6 md:w-1/4 sm:w-1/2 w-full p-4">
+                <img src="@/assets/ref-lowres.jpg" class="w-full h-full" style="margin: 0 auto;">
+            </div>
+
+            <div class="xl:w-1/6 lg:w-1/6 md:w-1/4 sm:w-1/2 w-full p-4">
+                <img src="@/assets/ref-lowres.jpg" class="w-full h-full" style="margin: 0 auto;">
+            </div>
+            
+
+        </div>
+
     </div>
 </template>
 
@@ -17,3 +167,26 @@
         }
     }
 </script>
+
+<style scoped>
+.top-picture {
+    width:  100%;
+    height: 100vh;
+    position: relative;
+    z-index: 0;
+}
+.top-picture > img {
+    width:  100%;
+    height: 100%;
+}
+.top-picture > div {
+    max-width: 600px;
+    top: 30%;
+    left: 60px;
+}
+
+.image-background {
+    background: skyblue;
+    border-radius: 8px;
+}
+</style>

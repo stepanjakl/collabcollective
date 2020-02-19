@@ -30,6 +30,13 @@
 .router-link-active {
   text-decoration: underline 2px;
 }
+.navbar {
+  width: 100%; 
+  position: absolute;
+  top:  0;
+  left: 0;
+  z-index: 10;
+}
 nav > * {
   margin: 8px;
 }
