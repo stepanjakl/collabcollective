@@ -1,9 +1,10 @@
 <template>
     <div class="app o">
-        <Navbar/>
-        <div class="container mx-auto">
+        <navbar/>
+        <router-view/>
+        <!--<div class="container mx-auto">
             <router-view/>
-        </div>
+        </div>-->
         <Footer/>
     </div>
 </template>
@@ -22,11 +23,11 @@
 </script>
 
 <style>
-    *, html {
-        font-family: 'Open Sans' !important;
-    }
+*, html {
+    font-family: 'Open Sans' !important;
+}
 
-    .o, .o > *, .o * {
-        outline: red solid thin;
-    }
+.o, .o > *, .o * {
+    outline: red solid thin;
+}
 </style>

@@ -1,43 +1,38 @@
 <template>
-    <div class="top-picture">
-        <img src="@/assets/home-lowres.jpg">
-        <div class="absolute">
-            <h1>{{this.title}}</h1>
-            <h3>{{this.comment}}</h3>
-            <button>{{this.button}}</button>
+    <div class="top-picture relative z-0">
+        
+        <slot></slot>
+        
+        <div class="w-full h-full absolute top-0">
+            <div class="container mx-auto h-full">
+                <div class="extra-container">
+                    <h1 class="pb-8">{{this.title}}</h1>
+                    <p class="pb-16" v-if="this.comment">{{this.comment}}</p>
+                    <button>Register Now</button>
+                </div>
+            </div>
         </div>
+
     </div>
 </template>
 
 <script>
-export default {
-    name: 'TopPicture',
-    props: {
-        file: String,
-        title: String,
-        comment: String,
-        button: String
-    },
-    mounted() {
-        console.log(this.file);
+    export default {
+        name: 'TopPicture',
+        props: {
+            title: String,
+            comment: String,
+            button: String
+        }
     }
-}
 </script>
 
 <style scoped>
-.top-picture {
-    width:  100%;
-    height: 100vh;
-    position: relative;
-    z-index: 0;
-}
-.top-picture > img {
-    width:  100%;
-    height: 100%;
-}
-.top-picture > div {
+.extra-container {
     max-width: 600px;
-    top: 30%;
+    margin-right: 60px;
+    position: relative;
+    top:  50%;
     left: 60px;
 }
 </style>

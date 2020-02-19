@@ -1,8 +1,10 @@
 <template>
     <div class="flex flex-row items-center">
-        <span class="absolute w-full h-2px bg-cc-blue-light" style="transform: translateX(-100%)"></span>
-        <div class="ml-20">
-            <h2 class="uppercase text-xs tracking-widest font-bold text-cc-blue-light">{{ this.title }}</h2>
+        <div class="container mx-auto">
+            <span class="absolute w-full h-2px bg-cc-blue-light top-2" style="transform: translateX(-99%); top: 40px;"></span>
+            <div class="ml-20">
+                <h2 class="uppercase text-xs tracking-widest font-bold text-cc-blue-light">{{ this.title }}</h2>
+            </div>
         </div>
     </div>
 </template>

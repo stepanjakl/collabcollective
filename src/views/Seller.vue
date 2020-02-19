@@ -1,19 +1,18 @@
 <template>
     <div class="page">
-    
-        <div class="top-picture relative z-0">
-            <img src="@/assets/home-lowres.jpg" alt="Hero pisture">
-            <div class="absolute">
-                <h1 class="pb-2">One stop shop to sell your rights.</h1>
-                <button>Register Now</button>
-            </div>
-        </div>
+
+        <top-picture
+            title="One stop shop to sell your rights.">
+            <img src="@/assets/home-lowres.jpg" class="w-full h-full">
+        </top-picture>
 
 		<div class="over-picture p-16">
-			<div class="relative p-8 bg-gray-300" style="top: -130px; margin-bottom: -130px;">
-				<h1 class="pb-2">Rights management and marketplace.</h1>
-			<p>Asdgaexvb bdbwrtsdg vae sbb ndgnc tdnrbdzret rstngfb.</p>
-			</div>
+            <div class="container mx-auto">
+                <div class="relative p-8 bg-gray-300" style="top: -130px; margin-bottom: -130px;">
+                    <h1 class="pb-2">Rights management and marketplace.</h1>
+                    <p>Asdgaexvb bdbwrtsdg vae sbb ndgnc tdnrbdzret rstngfb.</p>
+                </div>
+            </div>
 		</div>
 
 		<div class="relative py-8">
@@ -39,31 +38,19 @@
 </template>
 
 <script>
-	import SectionTitle from '../components/SectionTitle';
+    import SectionTitle from '../components/SectionTitle';
+    import TopPicture from '../components/TopPicture';
 
     export default {
         name: 'Seller',
         components: {
-            SectionTitle
+            SectionTitle,
+            TopPicture
         }
     }
 </script>
 
 
 <style scoped>
-.top-picture {
-    width:  100%;
-    height: 100vh;
-    position: relative;
-    z-index: 0;
-}
-.top-picture > img {
-    width:  100%;
-    height: 100%;
-}
-.top-picture > div {
-    max-width: 600px;
-    top: 30%;
-    left: 60px;
-}
+
 </style>

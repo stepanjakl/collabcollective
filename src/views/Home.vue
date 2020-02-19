@@ -1,14 +1,11 @@
 <template>
     <div class="page">
 
-        <div class="top-picture relative z-0">
-            <img src="@/assets/home-lowres.jpg" alt="Hero pisture">
-            <div class="absolute">
-                <h1 class="pb-2">Buy, sell, and manage your sports media rights online.</h1>
-                <p class="pb-16">ASdasdssadfasgf dfgdfav gr sste n rr etngbwrst dthrgbeu n gb ryjmdn fgwys t hgnryutn dfvf erdh byetn.</p>
-                <button>Register Now</button>
-            </div>
-        </div>
+        <top-picture
+            title="Buy, sell, and manage your sports media rights online."
+            comment="Asdasdssadfasgf dfgdfav gr sste n rr etngbwrst dthrgbeu n gb ryjmdn fgwys t hgnryutn dfvf erdh byetn.">
+            <img src="@/assets/home-lowres.jpg" class="w-full h-full">
+        </top-picture>
         
         <div class="relative py-8">
             <section-title title="Testimonials"></section-title>
@@ -159,32 +156,18 @@
 
 <script>
     import SectionTitle from '../components/SectionTitle';
+    import TopPicture from '../components/TopPicture';
 
     export default {
         name: 'Home',
         components: {
-            SectionTitle
+            SectionTitle,
+            TopPicture
         }
     }
 </script>
 
 <style scoped>
-.top-picture {
-    width:  100%;
-    height: 100vh;
-    position: relative;
-    z-index: 0;
-}
-.top-picture > img {
-    width:  100%;
-    height: 100%;
-}
-.top-picture > div {
-    max-width: 600px;
-    top: 30%;
-    left: 60px;
-}
-
 .image-background {
     background: skyblue;
     border-radius: 8px;

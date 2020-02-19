@@ -1,20 +1,10 @@
 <template>
 	<div class="page">
 
-        <div class="top-picture relative z-0">
-            <img src="@/assets/home-lowres.jpg" alt="Hero pisture">
-            <div class="absolute">
-                <h1 class="pb-2">We make sports media management easy.</h1>
-                <button>Register Now</button>
-            </div>
-        </div>
-
-		<div class="over-picture p-16">
-			<div class="relative p-8 bg-gray-300" style="top: -130px; margin-bottom: -130px;">
-				<h1 class="pb-2">Rights management and marketplace.</h1>
-			<p>Asdgaexvb bdbwrtsdg vae sbb ndgnc tdnrbdzret rstngfb.</p>
-			</div>
-		</div>
+        <top-picture
+            title="We make sports media management easy.">
+            <img src="@/assets/home-lowres.jpg" class="w-full h-full">
+        </top-picture>
 
 		<div class="relative py-8">
             <section-title title="Key features"></section-title>
@@ -39,30 +29,18 @@
 </template>
 
 <script>
-import SectionTitle from '../components/SectionTitle';
+    import SectionTitle from '../components/SectionTitle';
+    import TopPicture from '../components/TopPicture';
 
-export default {
-	name: 'Buyer',
-	components: {
-        SectionTitle
-	}
-}
+    export default {
+        name: 'Buyer',
+        components: {
+            SectionTitle,
+            TopPicture
+        }
+    }
 </script>
 
 <style scoped>
-.top-picture {
-    width:  100%;
-    height: 100vh;
-    position: relative;
-    z-index: 0;
-}
-.top-picture > img {
-    width:  100%;
-    height: 100%;
-}
-.top-picture > div {
-    max-width: 600px;
-    top: 30%;
-    left: 60px;
-}
+
 </style>
