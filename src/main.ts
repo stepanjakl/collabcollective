@@ -3,6 +3,8 @@ import App from './App.vue'
 import router from './router'
 import './assets/tailwind.css'
 
+import './assets/fonts.scss';
+
 Vue.config.productionTip = false;
 
 const DEFAULT_TITLE = 'Default Title';
