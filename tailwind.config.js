@@ -3,6 +3,11 @@ module.exports = {
   important: false,
   separator: ':',
   theme: {
+    extend: {
+      colors: {
+        'cc-blue-light': '#3399ff'
+      }
+    },
     screens: {
       sm: '640px',
       md: '768px',
@@ -128,6 +133,7 @@ module.exports = {
     },
     spacing: {
       px: '1px',
+      '2px': '2px',
       '0': '0',
       '1': '0.25rem',
       '2': '0.5rem',
