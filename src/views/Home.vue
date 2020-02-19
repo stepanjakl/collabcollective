@@ -3,7 +3,7 @@
 
         <top-picture
             title="Buy, sell, and manage your sports media rights online."
-            comment="Asdasdssadfasgf dfgdfav gr sste n rr etngbwrst dthrgbeu n gb ryjmdn fgwys t hgnryutn dfvf erdh byetn.">
+            comment="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis volutpat id dolor sed pharetra.">
             <img src="@/assets/home-lowres.jpg" class="w-full h-full">
         </top-picture>
         
@@ -17,17 +17,17 @@
 
                     <div class="lg:w-1/3 w-full p-8 lg:m-8 mt-0 mb-0">
                         <h3 class="pb-2">Nadpis</h3>
-                        <p>ASdasdssadfasgf dfgdfav gr sste n rr etngbwrst dthrgbeu n gb ryjmdn fgwys t hgnryutn dfvf erdh byetn.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis volutpat id dolor sed pharetra. Donec consectetur dolor a lectus condimentum malesuada.</p>
                     </div>
                     
                     <div class="lg:w-1/3 w-full p-8 lg:m-8 mt-0 mb-0">
                         <h3 class="pb-2">Nadpis</h3>
-                        <p>ASdasdssadfasgf dfgdfav gr sste n rr etngbwrst dthrgbeu n gb ryjmdn fgwys t hgnryutn dfvf erdh byetn.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis volutpat id dolor sed pharetra. Donec consectetur dolor a lectus condimentum malesuada.</p>
                     </div>
                     
                     <div class="lg:w-1/3 w-full p-8 lg:m-8 mt-0 mb-0">
                         <h3 class="pb-2">Nadpis</h3>
-                        <p>ASdasdssadfasgf dfgdfav gr sste n rr etngbwrst dthrgbeu n gb ryjmdn fgwys t hgnryutn dfvf erdh byetn.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis volutpat id dolor sed pharetra. Donec consectetur dolor a lectus condimentum malesuada.</p>
                     </div>
 
                 </div>
@@ -44,7 +44,7 @@
 
                     <div class="xl:w-1/2 lg:w-1/2 md:w-full sm:w-full w-full relative">
                         <h3 class="pb-2">Nadpis content-fit ?? </h3>
-                        <p>ASdasdssadfasgf dfgdfav gr sste n rr etngbwrst dthrgbeu n gb ryjmdn fgwys t hgnryutn dfvf erdh byetn.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis volutpat id dolor sed pharetra. Donec consectetur dolor a lectus condimentum malesuada. Nam facilisis nisi eget justo mollis, vitae viverra ex rutrum. Morbi dolor augue, vestibulum id posuere in, lacinia ut nibh. Quisque in neque pretium, egestas tellus eu, blandit purus.</p>
 
                         <div class="absolute pt-16" style="bottom: 10px">
                             <router-link to="/seller" class="btn-blue mr-2">Sellers</router-link>

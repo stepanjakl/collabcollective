@@ -17,14 +17,14 @@
 							<input type="text">
 						</div>
 						<div class="w-1/2 flex flex-col">
-							<label>Full Name</label>
+							<label>Title</label>
 							<input type="text">
 						</div>
 
 					</div>
 
 					<div class="w-full flex flex-col">
-						<label>Full Name</label>
+						<label>Text</label>
 						<textarea></textarea>
 					</div>
 
