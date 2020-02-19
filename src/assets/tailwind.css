@@ -3,3 +3,37 @@
 @tailwind components;
 
 @tailwind utilities;
+
+
+.btn {
+    padding: 8px 46px;
+    border-radius: 6px;
+}
+.btn.btn-blue {
+    color: whitesmoke;
+    background-color: theme('colors.cc-blue-light');
+}
+.btn.btn-blue:hover {
+    background-color: theme('colors.cc-blue-second');
+}
+.btn.btn-yellow {
+    color: theme('colors.cc-blue-dark');
+    background-color: theme('colors.cc-yellow-light');
+}
+.btn.btn-yellow:hover {
+    background-color: theme('colors.cc-yellow-second');
+}
+
+.btn-connect .btn {
+    font-size: 14px;
+    padding: 6px 24px;
+    border-radius: 0;
+}
+.btn-connect .btn:first-child {
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+.btn-connect .btn:last-child {
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+}

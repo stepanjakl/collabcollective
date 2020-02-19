@@ -5,11 +5,13 @@
         
         <div class="w-full h-full absolute top-0">
             <div class="container mx-auto h-full">
+                
                 <div class="extra-container">
-                    <h1 class="pb-8">{{this.title}}</h1>
-                    <p class="pb-16" v-if="this.comment">{{this.comment}}</p>
-                    <button>Register Now</button>
+                    <h1 class="font-semibold text-white text-3xl pb-4">{{this.title}}</h1>
+                    <p class="font-medium text-white text-lg pb-8" v-if="this.comment">{{this.comment}}</p>
+                    <button class="btn btn-blue">Register Now</button>
                 </div>
+
             </div>
         </div>
 

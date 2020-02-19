@@ -26,8 +26,16 @@
 *, html {
     font-family: 'Open Sans' !important;
 }
-
 .o, .o > *, .o * {
     outline: red solid thin;
+}
+button.blue, .btn-blue {
+    padding: 8px 36px;
+    color: white;
+    background-color: #3399ff;
+    border-radius: 6px;
+}
+button.blue:hover, .btn-blue:hover {
+    background-color: #63b1ff;
 }
 </style>

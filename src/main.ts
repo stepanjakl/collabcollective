@@ -7,14 +7,14 @@ import './assets/fonts.scss';
 
 Vue.config.productionTip = false;
 
-const DEFAULT_TITLE = 'Default Title';
-const PREFIX_TITLE = 'Title';
+const DEFAULT_TITLE = 'Collab Collective';
+const POSTFIX_TITLE = 'Collab Collective';
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 router.afterEach((to, from) => {
     // Use next tick to handle router history correctly
     // see: https://github.com/vuejs/vue-router/issues/914#issuecomment-384477609
     Vue.nextTick(() => {
-        document.title = PREFIX_TITLE + " - " + to.meta.title || DEFAULT_TITLE;
+        document.title = to.meta.title + " - " + POSTFIX_TITLE || DEFAULT_TITLE;
     });
 });
 

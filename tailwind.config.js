@@ -5,7 +5,12 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'cc-blue-light': '#3399ff'
+        'cc-blue-light': '#3399ff',
+        'cc-blue-second': '#2f9aff',
+        'cc-blue-dark': '#015887',
+        'cc-blue-darkest': '#00537d',
+        'cc-yellow-light': '#ffca4a',
+        'cc-yellow-second': '#f9b60e'
       }
     },
     screens: {

@@ -6,31 +6,33 @@
             <img src="@/assets/home-lowres.jpg" class="w-full h-full">
         </top-picture>
 
-		<div class="over-picture p-16">
-            <div class="container mx-auto">
-                <div class="relative p-8 bg-gray-300" style="top: -130px; margin-bottom: -130px;">
-                    <h1 class="pb-2">Rights management and marketplace.</h1>
-                    <p>Asdgaexvb bdbwrtsdg vae sbb ndgnc tdnrbdzret rstngfb.</p>
-                </div>
-            </div>
-		</div>
+        <over-block 
+            title="Rights Management &amp; Marketplace"
+            comment="Asdgaexvb bdbwrtsdg vae sbb ndgnc tdnrbdzret rstngfb."/>
 
 		<div class="relative py-8">
             <section-title title="Key features"></section-title>
         </div>
 
-		<div class="p-8">
-            <div class="flex xl:flex-row lg:flex-row md:flex-col sm:flex-col flex-col">
+		<div class="container mx-auto">
+            <div class="p-8">
+                <div class="flex xl:flex-row lg:flex-row md:flex-col sm:flex-col flex-col">
 
-                <div class="xl:w-1/2 lg:w-1/2 md:w-full sm:w-full w-full">
-                    <h3 class="pb-2">Nadpis</h3>
-                    <p>ASdasdssadfasgf dfgdfav gr sste n rr etngbwrst dthrgbeu n gb ryjmdn fgwys t hgnryutn dfvf erdh byetn.</p>
+                    <div class="xl:w-1/2 lg:w-1/2 md:w-full sm:w-full w-full relative">
+                        <h3 class="pb-2">Nadpis content-fit ?? </h3>
+                        <p>ASdasdssadfasgf dfgdfav gr sste n rr etngbwrst dthrgbeu n gb ryjmdn fgwys t hgnryutn dfvf erdh byetn.</p>
+
+                        <div class="absolute pt-16" style="bottom: 10px">
+                            <router-link to="/seller" class="btn-blue mr-2">Sellers</router-link>
+                            <router-link to="/buyers" class="btn btn-yellow">Buyers</router-link>
+                        </div>
+                    </div>
+
+                    <div class="md:pl-16 pl-0 xl:w-1/2 lg:w-1/2 md:w-full sm:w-full w-full">
+                        <img src="@/assets/aside-lowres.jpg" class="w-full h-full">
+                    </div>
+
                 </div>
-
-                <div class="md:pl-16 pl-0 xl:w-1/2 lg:w-1/2 md:w-full sm:w-full w-full">
-                    <img src="@/assets/aside-lowres.jpg" class="w-full h-full">
-                </div>
-
             </div>
         </div>
 
@@ -40,12 +42,14 @@
 <script>
     import SectionTitle from '../components/SectionTitle';
     import TopPicture from '../components/TopPicture';
+    import OverBlock from '../components/OverBlock';
 
     export default {
         name: 'Seller',
         components: {
             SectionTitle,
-            TopPicture
+            TopPicture,
+            OverBlock
         }
     }
 </script>
