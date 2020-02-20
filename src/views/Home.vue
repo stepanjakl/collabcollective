@@ -4,9 +4,13 @@
         <top-picture
             title="Buy, sell, and manage your sports media rights online."
             comment="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis volutpat id dolor sed pharetra.">
-            <img src="@/assets/home-lowres.jpg" class="w-full h-full">
+            <!--<img src="@/assets/home-lowres.jpg" class="w-full h-full">-->
+            <v-lazy-image
+                    :src="require('@/assets/home.jpg')"
+                    :src-placeholder="require('@/assets/home-lowres.jpg')"
+            />
         </top-picture>
-        
+
         <div class="relative py-8">
             <section-title title="Testimonials"></section-title>
         </div>
@@ -19,12 +23,12 @@
                         <h3 class="pb-2">Nadpis</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis volutpat id dolor sed pharetra. Donec consectetur dolor a lectus condimentum malesuada.</p>
                     </div>
-                    
+
                     <div class="lg:w-1/3 w-full p-8 lg:m-8 mt-0 mb-0">
                         <h3 class="pb-2">Nadpis</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis volutpat id dolor sed pharetra. Donec consectetur dolor a lectus condimentum malesuada.</p>
                     </div>
-                    
+
                     <div class="lg:w-1/3 w-full p-8 lg:m-8 mt-0 mb-0">
                         <h3 class="pb-2">Nadpis</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis volutpat id dolor sed pharetra. Donec consectetur dolor a lectus condimentum malesuada.</p>
@@ -96,7 +100,23 @@
                 <div class="xl:w-1/6 lg:w-1/6 md:w-1/4 sm:w-1/2 w-full p-4">
                     <img src="@/assets/ref-lowres.jpg" class="w-full h-full" style="margin: 0 auto;">
                 </div>
-                
+
+                <div class="xl:w-1/6 lg:w-1/6 md:w-1/4 sm:w-1/2 w-full p-4">
+                    <img src="@/assets/ref-lowres.jpg" class="w-full h-full" style="margin: 0 auto;">
+                </div>
+
+                <div class="xl:w-1/6 lg:w-1/6 md:w-1/4 sm:w-1/2 w-full p-4">
+                    <img src="@/assets/ref-lowres.jpg" class="w-full h-full" style="margin: 0 auto;">
+                </div>
+
+                <div class="xl:w-1/6 lg:w-1/6 md:w-1/4 sm:w-1/2 w-full p-4">
+                    <img src="@/assets/ref-lowres.jpg" class="w-full h-full" style="margin: 0 auto;">
+                </div>
+
+                <div class="xl:w-1/6 lg:w-1/6 md:w-1/4 sm:w-1/2 w-full p-4">
+                    <img src="@/assets/ref-lowres.jpg" class="w-full h-full" style="margin: 0 auto;">
+                </div>
+
                 <div class="xl:w-1/6 lg:w-1/6 md:w-1/4 sm:w-1/2 w-full p-4">
                     <img src="@/assets/ref-lowres.jpg" class="w-full h-full" style="margin: 0 auto;">
                 </div>
@@ -120,7 +140,15 @@
                 <div class="xl:w-1/6 lg:w-1/6 md:w-1/4 sm:w-1/2 w-full p-4">
                     <img src="@/assets/ref-lowres.jpg" class="w-full h-full" style="margin: 0 auto;">
                 </div>
-                
+
+                <div class="xl:w-1/6 lg:w-1/6 md:w-1/4 sm:w-1/2 w-full p-4">
+                    <img src="@/assets/ref-lowres.jpg" class="w-full h-full" style="margin: 0 auto;">
+                </div>
+
+                <div class="xl:w-1/6 lg:w-1/6 md:w-1/4 sm:w-1/2 w-full p-4">
+                    <img src="@/assets/ref-lowres.jpg" class="w-full h-full" style="margin: 0 auto;">
+                </div>
+
                 <div class="xl:w-1/6 lg:w-1/6 md:w-1/4 sm:w-1/2 w-full p-4">
                     <img src="@/assets/ref-lowres.jpg" class="w-full h-full" style="margin: 0 auto;">
                 </div>
@@ -136,31 +164,7 @@
                 <div class="xl:w-1/6 lg:w-1/6 md:w-1/4 sm:w-1/2 w-full p-4">
                     <img src="@/assets/ref-lowres.jpg" class="w-full h-full" style="margin: 0 auto;">
                 </div>
-                
-                <div class="xl:w-1/6 lg:w-1/6 md:w-1/4 sm:w-1/2 w-full p-4">
-                    <img src="@/assets/ref-lowres.jpg" class="w-full h-full" style="margin: 0 auto;">
-                </div>
 
-                <div class="xl:w-1/6 lg:w-1/6 md:w-1/4 sm:w-1/2 w-full p-4">
-                    <img src="@/assets/ref-lowres.jpg" class="w-full h-full" style="margin: 0 auto;">
-                </div>
-                
-                <div class="xl:w-1/6 lg:w-1/6 md:w-1/4 sm:w-1/2 w-full p-4">
-                    <img src="@/assets/ref-lowres.jpg" class="w-full h-full" style="margin: 0 auto;">
-                </div>
-
-                <div class="xl:w-1/6 lg:w-1/6 md:w-1/4 sm:w-1/2 w-full p-4">
-                    <img src="@/assets/ref-lowres.jpg" class="w-full h-full" style="margin: 0 auto;">
-                </div>
-
-                <div class="xl:w-1/6 lg:w-1/6 md:w-1/4 sm:w-1/2 w-full p-4">
-                    <img src="@/assets/ref-lowres.jpg" class="w-full h-full" style="margin: 0 auto;">
-                </div>
-
-                <div class="xl:w-1/6 lg:w-1/6 md:w-1/4 sm:w-1/2 w-full p-4">
-                    <img src="@/assets/ref-lowres.jpg" class="w-full h-full" style="margin: 0 auto;">
-                </div>
-                
 
             </div>
         </div>

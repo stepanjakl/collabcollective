@@ -1,11 +1,17 @@
 import Vue from 'vue'
 import App from './App.vue'
 import router from './router'
+
 import './assets/tailwind.css'
+
+// import { VLazyImagePlugin } = require('v-lazy-image');
+import { VLazyImagePlugin } from 'v-lazy-image';
 
 import './assets/fonts.scss';
 
 Vue.config.productionTip = false;
+
+Vue.use(VLazyImagePlugin);
 
 const DEFAULT_TITLE = 'Collab Collective';
 const POSTFIX_TITLE = 'Collab Collective';

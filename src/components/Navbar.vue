@@ -4,7 +4,7 @@
 
 			<div class="w-full h-full">
 				<router-link to="/">
-					<img src="@/assets/Logo-lowres.png" class="w-auto h-full">
+					<img src="@/assets/logo-w.svg" class="w-auto h-full">
 				</router-link>
 			</div>
 
@@ -13,7 +13,7 @@
 				<router-link to="/buyer">Buyer</router-link>
 				<router-link to="/about">About</router-link>
 				<router-link to="/contact">Contact</router-link>
-				
+
 				<div style="width: max-content;">
 					<div class="btn-connect">
 						<router-link class="btn btn-blue" to="/register">Register</router-link>
