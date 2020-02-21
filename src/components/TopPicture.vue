@@ -14,12 +14,13 @@
                     </div>
                     <div class="w-full md:w-5/12 flex flex-row justify-center md:justify-end items-center md:items-end my-6 md:my-0">
                         <div class="flex items-center">
-                        <span class="text-white text-sm md:text-lg">Trusted by:</span>
-                        <img src="@/assets/pitch.png" class="h-8 ml-4">
+                            <span class="text-white text-sm md:text-lg">Trusted by:</span>
+                            <img src="@/assets/pitch.png" class="h-8 ml-4">
+                        </div>
                     </div>
-                </div>
-                <div class="flex justify-center pb-8">
-                    <img src="@/assets/arrow-down.svg" style="height: 12px">
+                    <div class="flex justify-center pb-8">
+                        <img src="@/assets/arrow-down.svg" style="height: 12px">
+                    </div>
                 </div>
 
             </div>

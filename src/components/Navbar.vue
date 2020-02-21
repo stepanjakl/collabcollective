@@ -4,15 +4,14 @@
 
 			<div class="w-full h-full">
 				<router-link to="/">
-
 					<img src="@/assets/logo-w.svg" class="w-auto h-full" id="logo-light">
 					<img src="@/assets/Logo-lowres.png" class="w-auto h-full hidden" id="logo-dark">
 				</router-link>
 			</div>
 
-			<nav class="flex flex-col md:flex-row items-center text-white">
+			<nav class="flex flex-col md:flex-row items-center">
 				
-				<div class="flex-row">
+				<div class="flex-row" id="text-change">
 					<router-link class="mr-6" to="/seller">Seller</router-link>
 					<router-link class="mr-6" to="/buyer">Buyer</router-link>
 					<router-link class="mr-6" to="/about">About</router-link>

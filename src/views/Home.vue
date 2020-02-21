@@ -4,10 +4,10 @@
         <top-picture
             title="Buy, sell, and manage your sports media rights online."
             comment="Our bespoke software helps sports federations, leagues, agencies, and media companies to optimise their media rights business.">
-            <!--<v-lazy-image
+            <v-lazy-image
                     :src="require('@/assets/home.jpg')"
                     :src-placeholder="require('@/assets/home-lowres.jpg')"
-            class="object-none md:object-cover w-full"/>-->
+            class="object-none md:object-cover w-full"/>
         </top-picture>
 
         <div class="bg-gray-300 w-full bg-contain bg-center pt-4 pb-16" :style="{ backgroundImage: 'url(' + require('@/assets/bg-testimonials.png') }">
