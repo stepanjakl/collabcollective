@@ -2,8 +2,9 @@
 	<div class="page">
 
         <top-picture
-            title="We make sports media management easy.">
-            <img src="@/assets/home-lowres.jpg" class="w-full h-full">
+            title="We make sports media management easy."
+            comment="Bringing efficiency to the bussiness">
+            <img src="@/assets/about-lowres.jpg" class="w-full h-full">
         </top-picture>
 
 		<div class="relative py-8">

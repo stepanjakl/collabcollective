@@ -2,22 +2,19 @@
     <div class="app o">
         <navbar/>
         <router-view/>
-        <!--<div class="container mx-auto">
-            <router-view/>
-        </div>-->
-        <Footer/>
+        <page-footer/>
     </div>
 </template>
 
 <script>
     import Navbar from '@/components/Navbar'
-    import Footer from '@/components/Footer'
+    import PageFooter from '@/components/PageFooter'
 
     export default {
         name: 'App',
         components: {
             Navbar,
-            Footer
+            PageFooter
         }
     }
 </script>
