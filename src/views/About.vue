@@ -7,25 +7,98 @@
             <img src="@/assets/about-lowres.jpg" class="w-full h-full">
         </top-picture>
 
-		<div class="relative py-8">
-            <section-title title="Key features"></section-title>
-        </div>
+        <div class="bg-gray-300">
 
-		<div class="p-8">
-            <div class="flex xl:flex-row lg:flex-row md:flex-col sm:flex-col flex-col">
+            <div class="relative py-8">
+                <section-title title="About us"></section-title>
+            </div>
 
-                <div class="xl:w-1/2 lg:w-1/2 md:w-full sm:w-full w-full">
-                    <h3 class="pb-2">Nadpis</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis volutpat id dolor sed pharetra. Donec consectetur dolor a lectus condimentum malesuada. Nam facilisis nisi eget justo mollis, vitae viverra ex rutrum. Morbi dolor augue, vestibulum id posuere in, lacinia ut nibh. Quisque in neque pretium, egestas tellus eu, blandit purus.</p>
-                </div>
+            <div class="container mx-auto p-20 pt-8">
 
-                <div class="md:pl-16 pl-0 xl:w-1/2 lg:w-1/2 md:w-full sm:w-full w-full">
-                    <img src="@/assets/aside-lowres.jpg" class="w-full h-full">
+                <h2 class="text-bolder text-4xl pb-4">Our story</h2>
+
+                <div class="flex md:flex-row flex-col justify-around">
+                    <div class="md:pr-4 pr-0 md:w-1/2 w-full">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis volutpat id dolor sed pharetra. Donec consectetur dolor a lectus condimentum malesuada. Nam facilisis nisi eget justo mollis, vitae viverra ex rutrum. Morbi dolor augue, vestibulum id posuere in, lacinia ut nibh. Quisque in neque pretium, egestas tellus eu.</p>
+                    </div>
+                    <div class="md:pl-4 pl-0 md:w-1/2 w-full">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis volutpat id dolor sed pharetra. Donec consectetur dolor a lectus condimentum malesuada. Nam facilisis nisi eget justo mollis, vitae viverra ex rutrum. Morbi dolor augue, vestibulum id posuere in, lacinia ut nibh. Quisque in neque pretium, egestas tellus eu.</p>
+                    </div>
                 </div>
 
             </div>
         </div>
-		
+
+        <div class="relative py-8">
+            <section-title title="The team"></section-title>
+        </div>
+
+        <div class="container mx-auto flex flex-row md:justify-between sm:justify-center justify-center flex-wrap p-8">
+
+            <div class="xl:px-8 px-4 mb-4 text-center">
+                <img src="@/assets/people-lowres.jpg" class="py-2">
+                <h3 class="text-xl text-gray-800 capitalize pb-1">Erik Lorenz</h3>
+                <p class="text-md text-gray-700">CEO</p>
+            </div>
+
+            <div class="xl:px-8 px-4 mb-4 text-center">
+                <img src="@/assets/people-lowres.jpg" class="py-2">
+                <h3 class="text-xl text-gray-800 capitalize pb-1">Erik Lorenz</h3>
+                <p class="text-md text-gray-700">CEO</p>
+            </div>
+
+            <div class="xl:px-8 px-4 mb-4 text-center">
+                <img src="@/assets/people-lowres.jpg" class="py-2">
+                <h3 class="text-xl text-gray-800 capitalize pb-1">Erik Lorenz</h3>
+                <p class="text-md text-gray-700">CEO</p>
+            </div>
+
+            <div class="xl:px-8 px-4 mb-4 text-center">
+                <img src="@/assets/people-lowres.jpg" class="py-2">
+                <h3 class="text-xl text-gray-800 capitalize pb-1">Erik Lorenz</h3>
+                <p class="text-md text-gray-700">CEO</p>
+            </div>
+
+        </div>
+
+        <div class="relative py-8">
+            <section-title title="The advisory board"></section-title>
+        </div>
+
+        <div class="container mx-auto flex flex-row md:justify-between sm:justify-center justify-center flex-wrap p-8">
+
+            <div class="xl:px-8 px-4 mb-4 text-center">
+                <img src="@/assets/people-lowres.jpg" class="py-2">
+                <h3 class="text-xl text-gray-800 capitalize pb-1">Erik Lorenz</h3>
+                <p class="text-md text-gray-700">CEO</p>
+            </div>
+
+            <div class="xl:px-8 px-4 mb-4 text-center">
+                <img src="@/assets/people-lowres.jpg" class="py-2">
+                <h3 class="text-xl text-gray-800 capitalize pb-1">Erik Lorenz</h3>
+                <p class="text-md text-gray-700">CEO</p>
+            </div>
+
+            <div class="xl:px-8 px-4 mb-4 text-center">
+                <img src="@/assets/people-lowres.jpg" class="py-2">
+                <h3 class="text-xl text-gray-800 capitalize pb-1">Erik Lorenz</h3>
+                <p class="text-md text-gray-700">CEO</p>
+            </div>
+
+            <div class="xl:px-8 px-4 mb-4 text-center">
+                <img src="@/assets/people-lowres.jpg" class="py-2">
+                <h3 class="text-xl text-gray-800 capitalize pb-1">Erik Lorenz</h3>
+                <p class="text-md text-gray-700">CEO</p>
+            </div>
+
+            <div class="xl:px-8 px-4 mb-4 text-center">
+                <img src="@/assets/people-lowres.jpg" class="py-2">
+                <h3 class="text-xl text-gray-800 capitalize pb-1">Erik Lorenz</h3>
+                <p class="text-md text-gray-700">CEO</p>
+            </div>
+
+        </div>
+
 	</div>
 </template>
 

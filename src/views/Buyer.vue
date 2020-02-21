@@ -14,8 +14,8 @@
             <section-title title="Key features"></section-title>
         </div>
 
-        <div class="container mx-auto">
-            <p class="text-4xl">Obsah návrhu totožný se Seller.</p>
+        <div class="container mx-auto mb-16">
+            <p class="text-4xl">Content here is identical to Seller page in the draft.</p>
         </div>
 		
 	</div>
