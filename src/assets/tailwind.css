@@ -23,6 +23,32 @@
 .btn.btn-yellow:hover {
     background-color: theme('colors.cc-yellow-second');
 }
+.btn.btn-black {
+    color: white;
+    background-color: #000000;
+}
+.btn.btn-black:hover {
+    background-color: #202020;
+}
+
+.btn.btn-shallow-white {
+    padding: 16px 54px;
+    border-radius: 0;
+    color: white;
+    border-bottom: solid whitesmoke 2px;
+}
+.btn.btn-shallow-white:hover {
+    border-bottom: solid lightgray 2px;
+}
+.btn.btn-shallow-black {
+    padding: 16px 46px;
+    border-radius: 0;
+    color: theme('colors.cc-blue-dark');
+    border-bottom: solid theme('colors.cc-blue-dark') 2px;
+}
+.btn.btn-shallow-black:hover {
+    background-color: theme('colors.cc-blue-dark');
+}
 
 .btn-connect .btn {
     font-size: 14px;
