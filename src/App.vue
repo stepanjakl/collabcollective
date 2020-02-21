@@ -26,9 +26,9 @@
 *, html {
     font-family: 'Open Sans' !important;
 }
-.o, .o > *, .o * {
+/*.o, .o > *, .o * {
     outline: red solid thin;
-}
+}*/
 button.blue, .btn-blue {
     padding: 8px 36px;
     color: white;
