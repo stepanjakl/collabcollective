@@ -4,11 +4,9 @@
         <top-picture
             title="Buy, sell, and manage your sports media rights online."
             comment="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis volutpat id dolor sed pharetra.">
-            <!--<img src="@/assets/home-lowres.jpg" class="w-full h-full">-->
             <v-lazy-image
-                    :src="require('@/assets/home-lowres.jpg')"
-                    :src-placeholder="require('@/assets/home-lowres.jpg')"
-            />
+                    :src="require('@/assets/home.jpg')"
+                    :src-placeholder="require('@/assets/home-lowres.jpg')" />
         </top-picture>
 
         <div class="relative py-8">

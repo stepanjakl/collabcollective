@@ -17,7 +17,7 @@
                     </div>
                 </div>
                 <div class="flex justify-center pb-8">
-                    <!--<img src="@/assets/arrow-down.svg" style="height: 12px">-->
+                    <img src="@/assets/arrow-down.svg" style="height: 12px">
                 </div>
 
             </div>

@@ -4,8 +4,7 @@
 
 			<div class="w-full h-full">
 				<router-link to="/">
-					<img src="@/assets/Logo-w-lowres.png" class="w-auto h-full">
-					<!--<img src="@/assets/logo-w.svg" class="w-auto h-full">-->
+					<img src="@/assets/logo-w.svg" class="w-auto h-full">
 				</router-link>
 			</div>
 
