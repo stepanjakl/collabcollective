@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="19px" height="9px" viewBox="0 0 19 9" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>Rectangle</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Website" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home-A" transform="translate(-674.000000, -730.000000)" stroke="#3399FF">
+            <polyline id="Rectangle" transform="translate(683.500000, 730.500000) rotate(45.000000) translate(-683.500000, -730.500000) " points="689.5 724.5 689.5 736.5 677.5 736.5"></polyline>
+        </g>
+    </g>
+</svg>
