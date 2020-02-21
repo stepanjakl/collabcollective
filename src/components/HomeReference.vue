@@ -1,12 +1,12 @@
 <template>
-    <div class="home-reference lg:w-1/3 w-full lg:m-8 mt-0 mb-0 bg-white flex flex-col">
-        
-        <div class="h-full p-8 text-center">
-            <p class="font-semibold text-md">"{{this.quote}}"</p>    
+    <div class="home-reference flex lg:w-1/3 w-full lg:m-8 mt-0 mb-0 bg-white flex flex-col">
+
+        <div class="h-full p-8 text-center flex items-center">
+            <p class="font-semibold text-md">"{{this.quote}}"</p>
         </div>
-        
-        <div class="w-full px-8 py-4 bg-blue-600 flex flex-row nowrap" style="align-self: flex-end;">
-            <div class="reference-logo">
+
+        <div class="w-full pl-6 py-8 bg-blue-600 flex flex-row nowrap shadow-xl items-center" style="align-self: flex-end; background-image: linear-gradient(to bottom left, #03547C, #3399FF)">
+            <div class="pr-4">
                 <slot></slot>
             </div>
             <div class="w-full">
@@ -30,12 +30,4 @@
 </script>
 
 <style scoped>
-.reference-logo {
-    width:  50px;
-    height: 50px;
-}
-.reference-logo > img {
-    width:  100%;
-    height: auto;
-}
 </style>
