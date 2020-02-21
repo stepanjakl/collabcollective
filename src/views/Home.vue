@@ -3,17 +3,18 @@
 
         <top-picture
             title="Buy, sell, and manage your sports media rights online."
-            comment="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis volutpat id dolor sed pharetra.">
-            <v-lazy-image
+            comment="Our bespoke software helps sports federations, leagues, agencies, and media companies to optimise their media rights business.">
+            <!--<v-lazy-image
                     :src="require('@/assets/home.jpg')"
-                    :src-placeholder="require('@/assets/home-lowres.jpg')" />
+                    :src-placeholder="require('@/assets/home-lowres.jpg')"
+            class="object-none md:object-cover w-full"/>-->
         </top-picture>
 
-        <div class="relative py-8">
-            <section-title title="Testimonials"></section-title>
-        </div>
+        <div class="bg-gray-300 w-full bg-contain bg-center pt-4 pb-16" :style="{ backgroundImage: 'url(' + require('@/assets/bg-testimonials.png') }">
+            <div class="relative py-8">
+                <section-title title="Testimonials"></section-title>
+            </div>
 
-        <div class="bg-gray-300 w-full">
             <div class="container mx-auto">
                 <div class="flex xl:flex-row lg:flex-row md:flex-col sm:flex-col flex-col">
 
@@ -21,21 +22,21 @@
                         quote="Creating a marketplace listing was a straightforward prodess. The platform really covers all relevant points in our complex media rights world."
                         name="Miguel Mateo"
                         position="European Handball Federation (Austria)">
-                        <img src="@/assets/Logo-lowres.png" style="width: 40px; height: 40px;">
+                        <img src="@/assets/ehf.png" class="w-12">
                     </home-reference>
 
                     <home-reference
                         quote="We have so much content that it is impossible to promote everything manually. Having a digital channel to create visibillity and automate timeconsuming processes is a great idea."
                         name="Annie O'Shea"
                         position="FIBA (Switzerland)">
-                        <img src="@/assets/Logo-lowres.png" style="width: 40px; height: 40px;">
+                        <img src="@/assets/fiba.png" class="w-24">
                     </home-reference>
 
                     <home-reference
                         quote="It is great to have a platform like Content Arena which procides a new and innovative way to find sports media rights. They really make buying rights simple."
                         name="Oliver Godallier"
                         position="Game Sport Management (France)">
-                        <img src="@/assets/Logo-lowres.png" style="width: 40px; height: 40px;">
+                        <img src="@/assets/sportklub.png" class="w-16">
                     </home-reference>
 
                 </div>
