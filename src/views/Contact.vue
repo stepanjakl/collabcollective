@@ -6,7 +6,7 @@
 				<div class="relative w-full pt-20 pb-16 text-center">
 
 					<h1 class="text-bolder text-cc-blue-darkest text-4xl">Our Locations</h1>
-					<img src="@/assets/contact-lowres.jpg" class="mx-auto">
+					<img src="@/assets/headers/contact-lowres.jpg" class="mx-auto">
 					<p class="text-normal text-cc-blue-light text-md uppercase">Argentina (Americas) * United Kingdom, France, Germany, &amp; Spain (Europe) * South Africa (Africa) * Singapore (Asia)</p>
 
 				</div>

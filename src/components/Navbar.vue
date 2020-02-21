@@ -4,8 +4,8 @@
 
 			<div class="w-full h-full">
 				<router-link to="/">
-					<img src="@/assets/logo-w.svg" class="w-auto h-full" id="logo-light">
-					<img src="@/assets/Logo-lowres.png" class="w-auto h-full hidden" id="logo-dark">
+					<img src="@/assets/logos/logo-w.svg" class="w-auto h-full" id="logo-light">
+					<img src="@/assets/logos/Logo-lowres.png" class="w-auto h-full hidden" id="logo-dark">
 				</router-link>
 			</div>
 
@@ -34,7 +34,7 @@
 <script>
     export default {
 		name: 'Navbar',
-		watch:{
+		watch: {
 			$route() {
 				this.$nextTick( () => {
 				

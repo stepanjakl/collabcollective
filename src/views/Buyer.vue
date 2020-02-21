@@ -3,7 +3,9 @@
 
         <top-picture
             title="One stop 24/7 to buy the content you need.">
-            <img src="@/assets/home-lowres.jpg" class="w-full h-full">
+            <v-lazy-image class="w-full h-full"
+                :src="require('@/assets/headers/home.jpg')"
+                :src-placeholder="require('@/assets/headers/home-lowres.jpg')"/>
         </top-picture>
 
         <over-block 

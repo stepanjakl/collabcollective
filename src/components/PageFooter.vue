@@ -3,7 +3,7 @@
 		<div class="container mx-auto p-8">
 
 			<div class="w-full">
-				<img src="@/assets/Logo-w-lowres.png" class="w-auto mb-2" style="height: 40px">
+				<img src="@/assets/logos/Logo-w-lowres.png" class="w-auto mb-2" style="height: 40px">
 			</div>
 
 			<div class="flex sm:flex-row flex-col">

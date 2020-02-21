@@ -4,10 +4,9 @@
         <top-picture
             title="Buy, sell, and manage your sports media rights online."
             comment="Our bespoke software helps sports federations, leagues, agencies, and media companies to optimise their media rights business.">
-            <v-lazy-image
-                    :src="require('@/assets/home.jpg')"
-                    :src-placeholder="require('@/assets/home-lowres.jpg')"
-            class="object-none md:object-cover w-full"/>
+            <v-lazy-image class="w-full h-full"
+                :src="require('@/assets/headers/home.jpg')"
+                :src-placeholder="require('@/assets/headers/home-lowres.jpg')"/>
         </top-picture>
 
         <div class="bg-gray-300 w-full bg-contain bg-center pt-4 pb-16" :style="{ backgroundImage: 'url(' + require('@/assets/bg-testimonials.png') }">
@@ -22,21 +21,21 @@
                         quote="Creating a marketplace listing was a straightforward prodess. The platform really covers all relevant points in our complex media rights world."
                         name="Miguel Mateo"
                         position="European Handball Federation (Austria)">
-                        <img src="@/assets/ehf.png" class="w-12">
+                        <img src="@/assets/logos/ehf.png" class="w-12">
                     </home-reference>
 
                     <home-reference
                         quote="We have so much content that it is impossible to promote everything manually. Having a digital channel to create visibillity and automate timeconsuming processes is a great idea."
                         name="Annie O'Shea"
                         position="FIBA (Switzerland)">
-                        <img src="@/assets/fiba.png" class="w-24">
+                        <img src="@/assets/logos/fiba.png" class="w-24">
                     </home-reference>
 
                     <home-reference
                         quote="It is great to have a platform like Content Arena which procides a new and innovative way to find sports media rights. They really make buying rights simple."
                         name="Oliver Godallier"
                         position="Game Sport Management (France)">
-                        <img src="@/assets/sportklub.png" class="w-16">
+                        <img src="@/assets/logos/sportklub.png" class="w-16">
                     </home-reference>
 
                 </div>
@@ -65,7 +64,7 @@
                     </div>
 
                     <div class="md:pl-16 pl-0 xl:w-1/2 lg:w-1/2 md:w-full sm:w-full w-full">
-                        <img src="@/assets/aside-lowres.jpg" class="w-full h-full">
+                        <img src="@/assets/asides/home-marketplace.png" class="w-full h-auto">
                     </div>
 
                 </div>
@@ -79,7 +78,7 @@
                     <!-- IMAGE LEFT -->
 
                     <div class="md:pr-16 pr-0 xl:w-1/2 lg:w-1/2 md:w-full sm:w-full w-full">
-                        <img src="@/assets/aside-lowres.jpg" class="w-full h-full" style="transform: scaleX(-1);">
+                        <img src="@/assets/asides/home-rights-manager.png" class="w-full h-auto">
                     </div>
 
                     <div class="xl:w-1/2 lg:w-1/2 md:w-full sm:w-full w-full relative">
@@ -113,7 +112,7 @@
                     </div>
 
                     <div class="md:pl-16 pl-0 xl:w-1/2 lg:w-1/2 md:w-full sm:w-full w-full">
-                        <img src="@/assets/aside-lowres.jpg" class="w-full h-full">
+                        <img src="@/assets/asides/home-content-marketing.png" class="w-full h-auto">
                     </div>
 
                 </div>
@@ -130,13 +129,13 @@
                 <div class="p-8 flex xl:flex-row lg:flex-row md:flex-col sm:flex-col flex-col">
 
                     <div class="xl:w-1/2 lg:w-1/2 md:w-full sm:w-full w-full relative image-background" style="min-height: 500px;">
-                        <p>content</p>
+                        <img src="@/assets/home-buyers.png" class="absolute top-0 left-0 w-full h-full">
                     </div>
 
                     <div class="md:mx-16 sm:my-8 md:h-500px sm:h-2px md:w-2px sm:w-full bg-cc-blue-light"></div>
 
                     <div class="xl:w-1/2 lg:w-1/2 md:w-full sm:w-full w-full relative" style="min-height: 500px;">
-                        <img src="@/assets/halfling-lowres.jpg" class="absolute top-0 left-0 w-full h-full">
+                        <img src="@/assets/home-sellers.png" class="absolute top-0 left-0 w-full h-full">
                     </div>
 
                 </div>
@@ -148,81 +147,80 @@
             <section-title title="References"></section-title>
         </div>
 
-        <div class="container mx-auto">
+        <div class="container mx-auto pb-4">
             <div class="flex flex-row flex-wrap">
 
                 <div class="xl:w-1/6 lg:w-1/6 md:w-1/4 sm:w-1/2 w-full p-4">
-                    <img src="@/assets/ref-lowres.jpg" class="w-full h-full" style="margin: 0 auto;">
+                    <img src="@/assets/logos/ref-lowres.jpg" class="w-full h-full" style="margin: 0 auto;">
                 </div>
 
                 <div class="xl:w-1/6 lg:w-1/6 md:w-1/4 sm:w-1/2 w-full p-4">
-                    <img src="@/assets/ref-lowres.jpg" class="w-full h-full" style="margin: 0 auto;">
+                    <img src="@/assets/logos/ref-lowres.jpg" class="w-full h-full" style="margin: 0 auto;">
                 </div>
 
                 <div class="xl:w-1/6 lg:w-1/6 md:w-1/4 sm:w-1/2 w-full p-4">
-                    <img src="@/assets/ref-lowres.jpg" class="w-full h-full" style="margin: 0 auto;">
+                    <img src="@/assets/logos/ref-lowres.jpg" class="w-full h-full" style="margin: 0 auto;">
                 </div>
 
                 <div class="xl:w-1/6 lg:w-1/6 md:w-1/4 sm:w-1/2 w-full p-4">
-                    <img src="@/assets/ref-lowres.jpg" class="w-full h-full" style="margin: 0 auto;">
+                    <img src="@/assets/logos/ref-lowres.jpg" class="w-full h-full" style="margin: 0 auto;">
                 </div>
 
                 <div class="xl:w-1/6 lg:w-1/6 md:w-1/4 sm:w-1/2 w-full p-4">
-                    <img src="@/assets/ref-lowres.jpg" class="w-full h-full" style="margin: 0 auto;">
+                    <img src="@/assets/logos/ref-lowres.jpg" class="w-full h-full" style="margin: 0 auto;">
                 </div>
 
                 <div class="xl:w-1/6 lg:w-1/6 md:w-1/4 sm:w-1/2 w-full p-4">
-                    <img src="@/assets/ref-lowres.jpg" class="w-full h-full" style="margin: 0 auto;">
+                    <img src="@/assets/logos/ref-lowres.jpg" class="w-full h-full" style="margin: 0 auto;">
                 </div>
 
                 <div class="xl:w-1/6 lg:w-1/6 md:w-1/4 sm:w-1/2 w-full p-4">
-                    <img src="@/assets/ref-lowres.jpg" class="w-full h-full" style="margin: 0 auto;">
+                    <img src="@/assets/logos/ref-lowres.jpg" class="w-full h-full" style="margin: 0 auto;">
                 </div>
 
                 <div class="xl:w-1/6 lg:w-1/6 md:w-1/4 sm:w-1/2 w-full p-4">
-                    <img src="@/assets/ref-lowres.jpg" class="w-full h-full" style="margin: 0 auto;">
+                    <img src="@/assets/logos/ref-lowres.jpg" class="w-full h-full" style="margin: 0 auto;">
                 </div>
 
                 <div class="xl:w-1/6 lg:w-1/6 md:w-1/4 sm:w-1/2 w-full p-4">
-                    <img src="@/assets/ref-lowres.jpg" class="w-full h-full" style="margin: 0 auto;">
+                    <img src="@/assets/logos/ref-lowres.jpg" class="w-full h-full" style="margin: 0 auto;">
                 </div>
 
                 <div class="xl:w-1/6 lg:w-1/6 md:w-1/4 sm:w-1/2 w-full p-4">
-                    <img src="@/assets/ref-lowres.jpg" class="w-full h-full" style="margin: 0 auto;">
+                    <img src="@/assets/logos/ref-lowres.jpg" class="w-full h-full" style="margin: 0 auto;">
                 </div>
 
                 <div class="xl:w-1/6 lg:w-1/6 md:w-1/4 sm:w-1/2 w-full p-4">
-                    <img src="@/assets/ref-lowres.jpg" class="w-full h-full" style="margin: 0 auto;">
+                    <img src="@/assets/logos/ref-lowres.jpg" class="w-full h-full" style="margin: 0 auto;">
                 </div>
 
                 <div class="xl:w-1/6 lg:w-1/6 md:w-1/4 sm:w-1/2 w-full p-4">
-                    <img src="@/assets/ref-lowres.jpg" class="w-full h-full" style="margin: 0 auto;">
+                    <img src="@/assets/logos/ref-lowres.jpg" class="w-full h-full" style="margin: 0 auto;">
                 </div>
 
                 <div class="xl:w-1/6 lg:w-1/6 md:w-1/4 sm:w-1/2 w-full p-4">
-                    <img src="@/assets/ref-lowres.jpg" class="w-full h-full" style="margin: 0 auto;">
+                    <img src="@/assets/logos/ref-lowres.jpg" class="w-full h-full" style="margin: 0 auto;">
                 </div>
 
                 <div class="xl:w-1/6 lg:w-1/6 md:w-1/4 sm:w-1/2 w-full p-4">
-                    <img src="@/assets/ref-lowres.jpg" class="w-full h-full" style="margin: 0 auto;">
+                    <img src="@/assets/logos/ref-lowres.jpg" class="w-full h-full" style="margin: 0 auto;">
                 </div>
 
                 <div class="xl:w-1/6 lg:w-1/6 md:w-1/4 sm:w-1/2 w-full p-4">
-                    <img src="@/assets/ref-lowres.jpg" class="w-full h-full" style="margin: 0 auto;">
+                    <img src="@/assets/logos/ref-lowres.jpg" class="w-full h-full" style="margin: 0 auto;">
                 </div>
 
                 <div class="xl:w-1/6 lg:w-1/6 md:w-1/4 sm:w-1/2 w-full p-4">
-                    <img src="@/assets/ref-lowres.jpg" class="w-full h-full" style="margin: 0 auto;">
+                    <img src="@/assets/logos/ref-lowres.jpg" class="w-full h-full" style="margin: 0 auto;">
                 </div>
 
                 <div class="xl:w-1/6 lg:w-1/6 md:w-1/4 sm:w-1/2 w-full p-4">
-                    <img src="@/assets/ref-lowres.jpg" class="w-full h-full" style="margin: 0 auto;">
+                    <img src="@/assets/logos/ref-lowres.jpg" class="w-full h-full" style="margin: 0 auto;">
                 </div>
 
                 <div class="xl:w-1/6 lg:w-1/6 md:w-1/4 sm:w-1/2 w-full p-4">
-                    <img src="@/assets/ref-lowres.jpg" class="w-full h-full" style="margin: 0 auto;">
+                    <img src="@/assets/logos/ref-lowres.jpg" class="w-full h-full" style="margin: 0 auto;">
                 </div>
-
 
             </div>
         </div>

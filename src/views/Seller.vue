@@ -3,7 +3,9 @@
 
         <top-picture
             title="One stop shop to sell your rights.">
-            <img src="@/assets/home-lowres.jpg" class="w-full h-full">
+            <v-lazy-image class="w-full h-full"
+                :src="require('@/assets/headers/home.jpg')"
+                :src-placeholder="require('@/assets/headers/home-lowres.jpg')"/>
         </top-picture>
 
         <over-block 
@@ -32,7 +34,7 @@
                     </div>
 
                     <div class="md:pl-16 pl-0 xl:w-1/2 lg:w-1/2 md:w-full sm:w-full w-full">
-                        <img src="@/assets/aside-lowres.jpg" class="w-full h-full">
+                        <img src="@/assets/asides/aside-lowres.jpg" class="w-full h-auto">
                     </div>
 
                 </div>
@@ -46,7 +48,7 @@
                     <!-- IMAGE LEFT -->
 
                     <div class="md:pr-16 pr-0 xl:w-1/2 lg:w-1/2 md:w-full sm:w-full w-full">
-                        <img src="@/assets/aside-lowres.jpg" class="w-full h-full" style="transform: scaleX(-1);">
+                        <img src="@/assets/asides/aside-lowres.jpg" class="w-full h-auto" style="transform: scaleX(-1);">
                     </div>
 
                     <div class="xl:w-1/2 lg:w-1/2 md:w-full sm:w-full w-full relative">
@@ -80,7 +82,7 @@
                     </div>
 
                     <div class="md:pl-16 pl-0 xl:w-1/2 lg:w-1/2 md:w-full sm:w-full w-full">
-                        <img src="@/assets/aside-lowres.jpg" class="w-full h-full">
+                        <img src="@/assets/asides/aside-lowres.jpg" class="w-full h-auto">
                     </div>
 
                 </div>
@@ -104,7 +106,7 @@
                     <!-- IMAGE LEFT -->
 
                     <div class="md:pr-16 pr-0 xl:w-1/2 lg:w-1/2 md:w-full sm:w-full w-full">
-                        <img src="@/assets/aside-lowres.jpg" class="w-full h-full" style="transform: scaleX(-1);">
+                        <img src="@/assets/asides/aside-lowres.jpg" class="w-full h-auto" style="transform: scaleX(-1);">
                     </div>
 
                     <div class="xl:w-1/2 lg:w-1/2 md:w-full sm:w-full w-full relative">
