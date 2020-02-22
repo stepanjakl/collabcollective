@@ -40,11 +40,11 @@
             $route() {
                 this.$nextTick(() => {
 
-                    if (this.$router.currentRoute.name == 'About') {
-                        console.log('do');
+                    if (this.$router.currentRoute.name === 'About') {
+
                         document.getElementById('color-change').style.color = '#015887';
                     } else {
-                        console.log('dont');
+
                         document.getElementById('color-change').style.color = 'white';
                     }
                 })
@@ -52,11 +52,11 @@
         },
         mounted() {
 
-            if (this.$router.currentRoute.name == 'About') {
-                console.log('do');
+            if (this.$router.currentRoute.name === 'About') {
+
                 document.getElementById('color-change').style.color = '#015887';
             } else {
-                console.log('dont');
+
                 document.getElementById('color-change').style.color = 'white';
             }
         }
