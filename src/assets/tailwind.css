@@ -32,7 +32,7 @@
 }
 
 .btn.btn-shallow-white {
-    padding: 16px 54px;
+    padding: 16px;
     border-radius: 0;
     color: white;
     border-bottom: solid whitesmoke 2px;
@@ -41,10 +41,10 @@
     border-bottom-color: lightgray;
 }
 .btn.btn-shallow-black {
-    padding: 16px 46px;
+    padding: 16px;
     border-radius: 0;
     color: theme('colors.cc-blue-dark');
-    border-bottom: solid theme('colors.cc-blue-dark') 2px;
+    border-bottom: solid theme('colors.cc-blue-dark') 3px;
 }
 .btn.btn-shallow-black:hover {
     border-bottom-color: theme('colors.cc-blue-darkest');
