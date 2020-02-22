@@ -6,12 +6,14 @@ import './assets/tailwind.css'
 
 // import { VLazyImagePlugin } = require('v-lazy-image');
 import { VLazyImagePlugin } from 'v-lazy-image';
+import VueScrollTo from 'vue-scrollto';
 
 import './assets/fonts.scss';
 
 Vue.config.productionTip = false;
 
 Vue.use(VLazyImagePlugin);
+Vue.use(VueScrollTo);
 
 const DEFAULT_TITLE = 'Collab Collective';
 const POSTFIX_TITLE = 'Collab Collective';

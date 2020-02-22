@@ -1,5 +1,5 @@
 <template>
-    <div class="top-picture relative">
+    <div class="top-picture relative" id="top">
         <div class="w-full h-full z-10 relative">
             <div class="container flex flex-col justify-end mx-auto h-full">
                 <div class="flex flex-col md:flex-row justify-end pt-56 lg:pt-64 pb-4 md:pb-12 lg:pb-24 xl:pb-48">
