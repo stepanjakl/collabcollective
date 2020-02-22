@@ -3,12 +3,12 @@
 
         <top-picture
             title="One stop shop to sell your rights.">
-            <v-lazy-image class="w-full h-full"
+            <v-lazy-image class="w-full h-full absolute object-cover top-0"
                 :src="require('@/assets/headers/home.jpg')"
                 :src-placeholder="require('@/assets/headers/home-lowres.jpg')"/>
         </top-picture>
 
-        <over-block 
+        <over-block
             title="Rights Management &amp; Marketplace"
             comment="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis volutpat id dolor sed pharetra."/>
 

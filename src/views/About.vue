@@ -4,7 +4,7 @@
         <top-picture
             title="We make sports media management easy."
             comment="Bringing efficiency to the bussiness">
-            <img src="@/assets/headers/about-lowres.jpg" class="w-full h-full">
+            <img src="@/assets/headers/about-lowres.jpg" class="w-full h-full absolute object-cover top-0">
         </top-picture>
 
         <div class="bg-gray-300">
