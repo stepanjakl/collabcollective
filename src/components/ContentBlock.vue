@@ -1,5 +1,5 @@
 <template>
-    <div class="container mx-auto pt-4 pb-24">
+    <div class="container mx-auto pt-4 md:pb-24 pb-8">
         <div class="p-8">
 
             <!-- IMAGE LEFT -->
@@ -43,7 +43,7 @@
                     </div>
                 </div>
 
-                <div v-if="this.right" class="md:pl-16 pl-0 xl:w-7/12 lg:w-7/12 md:w-full sm:w-full w-full">
+                <div v-if="this.right" class="md:pl-16 pl-0 md:mb-0 mb-4 xl:w-7/12 lg:w-7/12 md:w-full sm:w-full w-full">
                     <slot></slot>
                 </div>
             </div>

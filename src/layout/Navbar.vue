@@ -14,7 +14,7 @@
                 <div class="flex-row mt-6 md:m-0" id="text-change">
                     <router-link class="mr-8" to="/seller">Seller</router-link>
                     <router-link class="mr-8" to="/buyer">Buyer</router-link>
-                    <router-link class="mr-8" to="/about">About</router-link>
+                    <router-link class="mr-8" to="/about-us">About</router-link>
                     <router-link class="md:mr-12" to="/contact">Contact</router-link>
                 </div>
 

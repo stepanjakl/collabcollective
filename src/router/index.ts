@@ -35,11 +35,11 @@ const routes = [
     }
   },
   {
-    path: '/about',
+    path: '/about-us',
     name: 'About',
     component: About,
     meta: {
-      title: "About"
+      title: "About us"
     }
   },
   {

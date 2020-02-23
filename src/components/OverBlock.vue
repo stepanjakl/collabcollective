@@ -1,5 +1,5 @@
 <template>
-    <div class="over-picture p-16">
+    <div class="over-picture sm:p-16 px-8 py-16">
 
         <div class="container mx-auto">
             <div class="relative p-8 bg-gray-100" style="top: -130px; margin-bottom: -130px; border-radius: 2px;">

@@ -117,6 +117,7 @@
 
                     </div>
 
+                    <!-- Line between pictures, switches from verticat to horizontal -->
                     <div class="lg:mx-16 sm:my-8 my-8 lg:h-500px sm:h-2px h-2px lg:w-2px sm:w-full w-full bg-cc-blue-light"></div>
 
                     <div class="lg:w-1/2 w-full relative"
@@ -202,8 +203,5 @@
 </script>
 
 <style scoped>
-    .image-background {
-        background: skyblue;
-        border-radius: 8px;
-    }
+ 
 </style>
