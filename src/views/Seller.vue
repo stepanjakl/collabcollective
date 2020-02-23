@@ -16,78 +16,44 @@
             <section-title title="Key features"></section-title>
         </div>
 
-		<div class="container mx-auto">
-            <div class="p-8">
-                <div class="flex xl:flex-row lg:flex-row md:flex-col-reverse sm:flex-col-reverse flex-col-reverse">
+        <content-block right
+            label="Rights Overview"
+            header="Stay on top of your rights"
+            text="Lorem ipsum dolor sit amet, consectetur adipiscing
+                  elit. Duis volutpat id dolor sed pharetra. Donec consectetur dolor a lectus condimentum
+                  malesuada. Nam facilisis nisi eget justo mollis, vitae viverra ex rutrum. Morbi dolor augue,
+                  vestibulum id posuere in, lacinia ut nibh. Quisque in neque pretium, egestas tellus eu,
+                  blandit purus.">
+            <v-lazy-image class="w-full h-auto"
+                          :src="require('@/assets/asides/home-marketplace.png')"
+                          :src-placeholder="require('@/assets/asides/home-marketplace-lowres.png')"/>
+        </content-block>
 
-                    <!-- IMAGE RIGHT -->
+        <content-block left
+            label="Market place"
+            header="Your right visible to the sellers around the world"
+            text="Lorem ipsum dolor sit amet, consectetur adipiscing
+                  elit. Duis volutpat id dolor sed pharetra. Donec consectetur dolor a lectus condimentum
+                  malesuada. Nam facilisis nisi eget justo mollis, vitae viverra ex rutrum. Morbi dolor augue,
+                  vestibulum id posuere in, lacinia ut nibh. Quisque in neque pretium, egestas tellus eu,
+                  blandit purus.">
+            <v-lazy-image class="w-full h-auto" style="transform: scaleX(-1);"
+                          :src="require('@/assets/asides/home-marketplace.png')"
+                          :src-placeholder="require('@/assets/asides/home-marketplace-lowres.png')"/>
+        </content-block>
 
-                    <div class="xl:w-1/2 lg:w-1/2 md:w-full sm:w-full w-full relative">
-                        <h4 class="font-bold text-md uppercase pb-2">Market place</h4>
-                        <h3 class="font-bold text-3xl pb-2">The easiest way to sell and buy media rights.</h3>
-                        <p class="font-normal text-gray-700">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis volutpat id dolor sed pharetra. Donec consectetur dolor a lectus condimentum malesuada. Nam facilisis nisi eget justo mollis, vitae viverra ex rutrum. Morbi dolor augue, vestibulum id posuere in, lacinia ut nibh. Quisque in neque pretium, egestas tellus eu, blandit purus.</p>
-
-                        <div class="pt-4">
-                            <router-link to="/seller" class="btn-blue mr-2">Sellers</router-link>
-                            <router-link to="/buyers" class="btn btn-yellow">Buyers</router-link>
-                        </div>
-                    </div>
-
-                    <div class="md:pl-16 pl-0 xl:w-1/2 lg:w-1/2 md:w-full sm:w-full w-full">
-                        <img src="@/assets/asides/aside-lowres.jpg" class="w-full h-auto">
-                    </div>
-
-                </div>
-            </div>
-        </div>
-
-        <div class="container mx-auto">
-            <div class="p-8">
-                <div class="flex xl:flex-row lg:flex-row md:flex-col sm:flex-col flex-col">
-
-                    <!-- IMAGE LEFT -->
-
-                    <div class="md:pr-16 pr-0 xl:w-1/2 lg:w-1/2 md:w-full sm:w-full w-full">
-                        <img src="@/assets/asides/aside-lowres.jpg" class="w-full h-auto" style="transform: scaleX(-1);">
-                    </div>
-
-                    <div class="xl:w-1/2 lg:w-1/2 md:w-full sm:w-full w-full relative">
-                        <h4 class="font-bold text-md uppercase pb-2">Learn more</h4>
-                        <h3 class="font-bold text-3xl pb-2">The easiest way to sell and buy media rights.</h3>
-                        <p class="font-normal text-gray-700">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis volutpat id dolor sed pharetra. Donec consectetur dolor a lectus condimentum malesuada. Nam facilisis nisi eget justo mollis, vitae viverra ex rutrum. Morbi dolor augue, vestibulum id posuere in, lacinia ut nibh. Quisque in neque pretium, egestas tellus eu, blandit purus.</p>
-
-                        <div class="pt-4">
-                            <router-link to="/#" class="btn-blue mr-2">Learn more</router-link>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-
-        <div class="container mx-auto">
-            <div class="p-8">
-                <div class="flex xl:flex-row lg:flex-row md:flex-col-reverse sm:flex-col-reverse flex-col-reverse">
-
-                    <!-- IMAGE RIGHT -->
-
-                    <div class="xl:w-1/2 lg:w-1/2 md:w-full sm:w-full w-full relative">
-                        <h4 class="font-bold text-md uppercase pb-2">Content marketing</h4>
-                        <h3 class="font-bold text-3xl pb-2">The easiest way to sell and buy media rights.</h3>
-                        <p class="font-normal text-gray-700">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis volutpat id dolor sed pharetra. Donec consectetur dolor a lectus condimentum malesuada. Nam facilisis nisi eget justo mollis, vitae viverra ex rutrum. Morbi dolor augue, vestibulum id posuere in, lacinia ut nibh. Quisque in neque pretium, egestas tellus eu, blandit purus.</p>
-
-                        <div class="pt-4">
-                            <router-link to="/#" class="btn-blue">Learn more</router-link>
-                        </div>
-                    </div>
-
-                    <div class="md:pl-16 pl-0 xl:w-1/2 lg:w-1/2 md:w-full sm:w-full w-full">
-                        <img src="@/assets/asides/aside-lowres.jpg" class="w-full h-auto">
-                    </div>
-
-                </div>
-            </div>
-        </div>
+        <content-block right
+            label="Commercial Reports"
+            header="Extract the infromation that you need"
+            text="Lorem ipsum dolor sit amet, consectetur adipiscing
+                  elit. Duis volutpat id dolor sed pharetra. Donec consectetur dolor a lectus condimentum
+                  malesuada. Nam facilisis nisi eget justo mollis, vitae viverra ex rutrum. Morbi dolor augue,
+                  vestibulum id posuere in, lacinia ut nibh. Quisque in neque pretium, egestas tellus eu,
+                  blandit purus.">
+            <v-lazy-image class="w-full h-auto"
+                          :src="require('@/assets/asides/home-marketplace.png')"
+                          :src-placeholder="require('@/assets/asides/home-marketplace-lowres.png')"/>
+        </content-block>
 
         <div class="w-full bg-blue-600">
             <div class="container mx-auto px-8 py-16 text-center">
@@ -99,44 +65,35 @@
             </div>
         </div>
 
-        <div class="container mx-auto">
-            <div class="p-8">
-                <div class="flex xl:flex-row lg:flex-row md:flex-col sm:flex-col flex-col">
-
-                    <!-- IMAGE LEFT -->
-
-                    <div class="md:pr-16 pr-0 xl:w-1/2 lg:w-1/2 md:w-full sm:w-full w-full">
-                        <img src="@/assets/asides/aside-lowres.jpg" class="w-full h-auto" style="transform: scaleX(-1);">
-                    </div>
-
-                    <div class="xl:w-1/2 lg:w-1/2 md:w-full sm:w-full w-full relative">
-                        <h4 class="font-bold text-md uppercase pb-2">Learn more</h4>
-                        <h3 class="font-bold text-3xl pb-2">The easiest way to sell and buy media rights.</h3>
-                        <p class="font-normal text-gray-700">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis volutpat id dolor sed pharetra. Donec consectetur dolor a lectus condimentum malesuada. Nam facilisis nisi eget justo mollis, vitae viverra ex rutrum. Morbi dolor augue, vestibulum id posuere in, lacinia ut nibh. Quisque in neque pretium, egestas tellus eu, blandit purus.</p>
-
-                        <div class="pt-4">
-                            <router-link to="/#" class="btn-blue mr-2">Learn more</router-link>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </div>
+        <content-block left
+            label="Automated License Agreement"
+            header="Eliminate the hassle of manual contract reviews"
+            text="Lorem ipsum dolor sit amet, consectetur adipiscing
+                  elit. Duis volutpat id dolor sed pharetra. Donec consectetur dolor a lectus condimentum
+                  malesuada. Nam facilisis nisi eget justo mollis, vitae viverra ex rutrum. Morbi dolor augue,
+                  vestibulum id posuere in, lacinia ut nibh. Quisque in neque pretium, egestas tellus eu,
+                  blandit purus.">
+            <v-lazy-image class="w-full h-auto" style="transform: scaleX(-1);"
+                          :src="require('@/assets/asides/home-marketplace.png')"
+                          :src-placeholder="require('@/assets/asides/home-marketplace-lowres.png')"/>
+        </content-block>
 
     </div>
 </template>
 
 <script>
     import SectionTitle from '../components/SectionTitle';
-    import TopPicture from '../components/TopPicture';
+    import TopPicture from '../layout/TopPicture';
     import OverBlock from '../components/OverBlock';
+    import ContentBlock from '../components/ContentBlock';
 
     export default {
         name: 'Seller',
         components: {
             SectionTitle,
             TopPicture,
-            OverBlock
+            OverBlock,
+            ContentBlock
         }
     }
 </script>

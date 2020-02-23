@@ -25,7 +25,7 @@
 
 <script>
     import SectionTitle from '../components/SectionTitle';
-    import TopPicture from '../components/TopPicture';
+    import TopPicture from '../layout/TopPicture';
     import OverBlock from '../components/OverBlock';
 
     export default {

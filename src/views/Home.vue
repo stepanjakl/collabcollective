@@ -43,99 +43,50 @@
             </div>
         </div>
 
-        <div class="container mx-auto pt-6 pb-24">
-            <div class="relative py-8">
-                <section-title title="Our services"></section-title>
-            </div>
-            <div class="p-8">
-                <div class="flex xl:flex-row lg:flex-row md:flex-col-reverse sm:flex-col-reverse flex-col-reverse">
+        <div class="pt-12"></div>
 
-                    <!-- IMAGE RIGHT -->
-
-                    <div class="xl:w-5/12 lg:w-5/12 md:w-full sm:w-full w-full relative">
-                        <h4 class="font-bold text-sm uppercase pb-4 tracking-widest">Market place</h4>
-                        <h3 class="font-semibold text-2xl pb-4">The easiest way to sell and buy media rights.</h3>
-                        <p class="font-normal text-gray-700 pb-6">Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elit. Duis volutpat id dolor sed pharetra. Donec consectetur dolor a lectus condimentum
-                            malesuada. Nam facilisis nisi eget justo mollis, vitae viverra ex rutrum. Morbi dolor augue,
-                            vestibulum id posuere in, lacinia ut nibh. Quisque in neque pretium, egestas tellus eu,
-                            blandit purus.</p>
-
-                        <div class="pt-4">
-                            <router-link to="/seller" class="btn btn-blue mr-2">Sellers</router-link>
-                            <router-link to="/buyers" class="btn btn-yellow">Buyers</router-link>
-                        </div>
-                    </div>
-
-                    <div class="md:pl-16 pl-0 xl:w-7/12 lg:w-7/12 md:w-full sm:w-full w-full">
-                        <v-lazy-image class="w-full h-auto"
-                                      :src="require('@/assets/asides/home-marketplace.png')"
-                                      :src-placeholder="require('@/assets/asides/home-marketplace-lowres.png')"/>
-                    </div>
-
-                </div>
-            </div>
+        <div class="relative py-8">
+            <section-title title="Our services"></section-title>
         </div>
 
-        <div class="container mx-auto pt-4 pb-24">
-            <div class="p-8">
-                <div class="flex xl:flex-row lg:flex-row md:flex-col sm:flex-col flex-col">
+        <content-block right btnTwo
+            label="Our services"
+            header="The easiest way to sell and buy media rights."
+            text="Lorem ipsum dolor sit amet, consectetur adipiscing
+                  elit. Duis volutpat id dolor sed pharetra. Donec consectetur dolor a lectus condimentum
+                  malesuada. Nam facilisis nisi eget justo mollis, vitae viverra ex rutrum. Morbi dolor augue,
+                  vestibulum id posuere in, lacinia ut nibh. Quisque in neque pretium, egestas tellus eu,
+                  blandit purus.">
+            <v-lazy-image class="w-full h-auto"
+                          :src="require('@/assets/asides/home-marketplace.png')"
+                          :src-placeholder="require('@/assets/asides/home-marketplace-lowres.png')"/>
+        </content-block>
 
-                    <!-- IMAGE LEFT -->
+        <content-block left btnOne btnLink="/#"
+            label="Rights Manager"
+            header="The most efficient way to manage your right portfolio."
+            text="Lorem ipsum dolor sit amet, consectetur adipiscing
+                  elit. Duis volutpat id dolor sed pharetra. Donec consectetur dolor a lectus condimentum
+                  malesuada. Nam facilisis nisi eget justo mollis, vitae viverra ex rutrum. Morbi dolor augue,
+                  vestibulum id posuere in, lacinia ut nibh. Quisque in neque pretium, egestas tellus eu,
+                  blandit purus.">
+            <v-lazy-image class="w-full h-auto"
+                          :src="require('@/assets/asides/home-rights-manager.png')"
+                          :src-placeholder="require('@/assets/asides/home-rights-manager-lowres.png')"/>
+        </content-block>
 
-                    <div class="md:pr-16 pr-0 xl:w-7/12 lg:w-7/12 md:w-full sm:w-full w-full">
-                        <v-lazy-image class="w-full h-auto"
-                                      :src="require('@/assets/asides/home-rights-manager.png')"
-                                      :src-placeholder="require('@/assets/asides/home-rights-manager-lowres.png')"/>
-                    </div>
-
-                    <div class="xl:w-5/12 lg:w-5/12 md:w-full sm:w-full w-full relative">
-                        <h4 class="font-bold text-sm uppercase pb-4 tracking-widest">Learn more</h4>
-                        <h3 class="font-semibold text-2xl pb-4">The easiest way to sell and buy media rights.</h3>
-                        <p class="font-normal text-gray-700 pb-6">Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elit. Duis volutpat id dolor sed pharetra. Donec consectetur dolor a lectus condimentum
-                            malesuada. Nam facilisis nisi eget justo mollis, vitae viverra ex rutrum. Morbi dolor augue,
-                            vestibulum id posuere in, lacinia ut nibh. Quisque in neque pretium, egestas tellus eu,
-                            blandit purus.</p>
-
-                        <div class="pt-4">
-                            <router-link to="/#" class="btn btn-blue">Learn more</router-link>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-
-        <div class="container mx-auto pt-4 pb-24">
-            <div class="p-8">
-                <div class="flex xl:flex-row lg:flex-row md:flex-col-reverse sm:flex-col-reverse flex-col-reverse">
-
-                    <!-- IMAGE RIGHT -->
-
-                    <div class="xl:w-5/12 lg:w-5/12 md:w-full sm:w-full w-full relative">
-                        <h4 class="font-bold text-sm uppercase pb-4 tracking-widest">Content marketing</h4>
-                        <h3 class="font-semibold text-3xl pb-4">The easiest way to sell and buy media rights.</h3>
-                        <p class="font-normal text-gray-700 pb-6">Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elit. Duis volutpat id dolor sed pharetra. Donec consectetur dolor a lectus condimentum
-                            malesuada. Nam facilisis nisi eget justo mollis, vitae viverra ex rutrum. Morbi dolor augue,
-                            vestibulum id posuere in, lacinia ut nibh. Quisque in neque pretium, egestas tellus eu,
-                            blandit purus.</p>
-
-                        <div class="pt-4">
-                            <router-link to="/#" class="btn btn-blue">Learn more</router-link>
-                        </div>
-                    </div>
-
-                    <div class="md:pl-16 pl-0 xl:w-7/12 lg:w-7/12 md:w-full sm:w-full w-full">
-                        <v-lazy-image class="w-full h-auto"
-                                      :src="require('@/assets/asides/home-content-marketing.png')"
-                                      :src-placeholder="require('@/assets/asides/home-content-marketing-lowres.png')"/>
-                    </div>
-
-                </div>
-            </div>
-        </div>
+        <content-block right btnOne btnLink="/#"
+            label="Content marketing"
+            header="Bringing the right message to the right people."
+            text="Lorem ipsum dolor sit amet, consectetur adipiscing
+                  elit. Duis volutpat id dolor sed pharetra. Donec consectetur dolor a lectus condimentum
+                  malesuada. Nam facilisis nisi eget justo mollis, vitae viverra ex rutrum. Morbi dolor augue,
+                  vestibulum id posuere in, lacinia ut nibh. Quisque in neque pretium, egestas tellus eu,
+                  blandit purus.">
+            <v-lazy-image class="w-full h-auto"
+                          :src="require('@/assets/asides/home-content-marketing.png')"
+                          :src-placeholder="require('@/assets/asides/home-content-marketing-lowres.png')"/>
+        </content-block>
 
         <div class="bg-gray-300">
             <div class="container mx-auto pt-16 pb-32">
@@ -211,15 +162,17 @@
 
 <script>
     import SectionTitle from '../components/SectionTitle';
-    import TopPicture from '../components/TopPicture';
+    import TopPicture from '../layout/TopPicture';
     import HomeReference from '../components/HomeReference';
+    import ContentBlock from '../components/ContentBlock';
 
     export default {
         name: 'Home',
         components: {
             SectionTitle,
             TopPicture,
-            HomeReference
+            HomeReference,
+            ContentBlock
         },
         data() {
             return {

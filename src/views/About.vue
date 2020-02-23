@@ -104,7 +104,7 @@
 
 <script>
     import SectionTitle from '../components/SectionTitle';
-    import TopPicture from '../components/TopPicture';
+    import TopPicture from '../layout/TopPicture';
 
     export default {
         name: 'Buyer',
