@@ -47,8 +47,8 @@
             <div class="relative py-8">
                 <section-title title="Our services"></section-title>
             </div>
-            <div class="pl-20 py-12">
-                <div class="flex xl:flex-row lg:flex-row md:flex-col sm:flex-col flex-col">
+            <div class="p-8">
+                <div class="flex xl:flex-row lg:flex-row md:flex-col-reverse sm:flex-col-reverse flex-col-reverse">
 
                     <!-- IMAGE RIGHT -->
 
@@ -62,7 +62,7 @@
                             blandit purus.</p>
 
                         <div class="pt-4">
-                            <router-link to="/seller" class="btn-blue mr-2">Sellers</router-link>
+                            <router-link to="/seller" class="btn btn-blue mr-2">Sellers</router-link>
                             <router-link to="/buyers" class="btn btn-yellow">Buyers</router-link>
                         </div>
                     </div>
@@ -99,7 +99,7 @@
                             blandit purus.</p>
 
                         <div class="pt-4">
-                            <router-link to="/#" class="btn-blue mr-2">Learn more</router-link>
+                            <router-link to="/#" class="btn btn-blue">Learn more</router-link>
                         </div>
                     </div>
 
@@ -109,7 +109,7 @@
 
         <div class="container mx-auto pt-4 pb-24">
             <div class="p-8">
-                <div class="flex xl:flex-row lg:flex-row md:flex-col sm:flex-col flex-col">
+                <div class="flex xl:flex-row lg:flex-row md:flex-col-reverse sm:flex-col-reverse flex-col-reverse">
 
                     <!-- IMAGE RIGHT -->
 
@@ -123,7 +123,7 @@
                             blandit purus.</p>
 
                         <div class="pt-4">
-                            <router-link to="/#" class="btn-blue">Learn more</router-link>
+                            <router-link to="/#" class="btn btn-blue">Learn more</router-link>
                         </div>
                     </div>
 
@@ -144,17 +144,48 @@
                     <section-title title="Buyers &amp; sellers"></section-title>
                 </div>
 
-                <div class="p-8 flex xl:flex-row lg:flex-row md:flex-col sm:flex-col flex-col">
+                <div class="sm:p-8 p-2 flex xl:flex-row lg:flex-row md:flex-col sm:flex-col flex-col">
 
-                    <div class="xl:w-1/2 lg:w-1/2 md:w-full sm:w-full w-full relative image-background"
+                    <div class="lg:w-1/2 w-full relative"
                          style="min-height: 500px;">
-                        <img src="@/assets/home-buyers.png" class="absolute top-0 left-0 w-full h-full">
+
+                        <div class="relative z-10 sm:p-16 p-12 xl:pt-32 sm:pt-20 pt-12 text-center">
+                            <h3 class="font-bold text-white sm:text-3xl text-2xl uppercase mb-4">Rightsholders Federations &amp; Agencies</h3>
+                            <p class="text-white text-lg mb-8">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                elit. Duis volutpat id dolor sed pharetra. Donec consectetur dolor a lectus condimentum
+                                malesuada.</p>
+                        </div>
+                        
+                        <div class="w-full absolute z-10 xl:bottom-142px sm:bottom-102px bottom-60px">
+                            <div class="w-48 mx-auto">
+                                <router-link to="/#" class="btn btn-yellow">Learn&nbsp;more</router-link>
+                            </div>
+                        </div>
+
+                        <img src="@/assets/home-buyers.png" class="w-full h-full absolute top-0 left-0 z-0">
+
                     </div>
 
-                    <div class="md:mx-16 sm:my-8 md:h-500px sm:h-2px md:w-2px sm:w-full bg-cc-blue-light"></div>
+                    <div class="lg:mx-16 sm:my-8 my-8 lg:h-500px sm:h-2px h-2px lg:w-2px sm:w-full w-full bg-cc-blue-light"></div>
 
-                    <div class="xl:w-1/2 lg:w-1/2 md:w-full sm:w-full w-full relative" style="min-height: 500px;">
-                        <img src="@/assets/home-sellers.png" class="absolute top-0 left-0 w-full h-full">
+                    <div class="lg:w-1/2 w-full relative"
+                         style="min-height: 500px;">
+
+                         <div class="relative z-10 sm:p-16 p-12 xl:pt-32 sm:pt-20 pt-12 text-center">
+                            <h3 class="font-bold text-white sm:text-3xl text-2xl uppercase mb-4">Broadcasters</h3>
+                            <p class="text-white text-lg mb-8">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                elit. Duis volutpat id dolor sed pharetra. Donec consectetur dolor a lectus condimentum
+                                malesuada.</p>
+                        </div>
+
+                        <div class="w-full absolute z-10 xl:bottom-142px sm:bottom-102px bottom-60px">
+                            <div class="w-48 mx-auto">
+                                <router-link to="/#" class="btn btn-yellow">Learn&nbsp;more</router-link>
+                            </div>
+                        </div>
+
+                        <img src="@/assets/home-sellers.png" class="w-full h-full absolute top-0 left-0 z-0">
+
                     </div>
 
                 </div>

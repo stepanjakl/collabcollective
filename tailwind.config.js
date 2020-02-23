@@ -11,7 +11,7 @@ module.exports = {
         'cc-blue-darkest': '#00537d',
         'cc-yellow-light': '#ffca4a',
         'cc-yellow-second': '#f9b60e'
-      }
+      },
     },
     screens: {
       sm: '640px',

@@ -5,9 +5,21 @@
 @tailwind utilities;
 
 
+@responsive {
+    .bottom-60px{
+        bottom: 60px;
+    }
+    .bottom-102px{
+        bottom: 102px;
+    }
+    .bottom-142px{
+        bottom: 142px;
+    }
+}
+
 .btn {
     padding: 8px 46px;
-    border-radius: 6px;
+    border-radius: 4px;
 }
 .btn.btn-blue {
     color: whitesmoke;
