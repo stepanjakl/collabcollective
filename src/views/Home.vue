@@ -118,7 +118,7 @@
                     </div>
 
                     <!-- Line between pictures, switches from verticat to horizontal -->
-                    <div class="lg:mx-16 sm:my-8 my-8 lg:h-500px sm:h-2px h-2px lg:w-2px sm:w-full w-full bg-cc-blue-light"></div>
+                    <div class="lg:h-500px sm:h-2px h-2px lg:w-2px sm:w-10/12 w-10/12 lg:mx-16 sm:my-8 my-8 mx-auto bg-cc-blue-light"></div>
 
                     <div class="lg:w-1/2 w-full relative"
                          style="min-height: 500px;">

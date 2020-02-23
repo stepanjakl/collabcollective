@@ -9,11 +9,12 @@
 
         <div class="bg-gray-300">
 
+            <div class="pt-4"></div>
             <div class="relative py-8">
                 <section-title title="About us"></section-title>
             </div>
 
-            <div class="container mx-auto p-20 pt-8">
+            <div class="container mx-auto md:p-20 p-8 pb-16 pt-0">
 
                 <h2 class="text-bolder text-4xl pb-4">Our story</h2>
 
@@ -29,32 +30,33 @@
             </div>
         </div>
 
+        <div class="pt-4"></div>
         <div class="relative py-8">
             <section-title title="The team"></section-title>
         </div>
 
-        <div class="container mx-auto flex flex-row md:justify-between sm:justify-center justify-center flex-wrap p-8">
+        <div class="container mx-auto flex flex-row md:justify-between sm:justify-center justify-center flex-wrap sm:p-8 p-2">
 
-            <div class="xl:px-8 px-4 mb-4 text-center">
-                <img src="@/assets/people-lowres.jpg" class="py-2">
+            <div class="md:w-auto w-1/2 xl:px-8 px-4 mb-4 text-center">
+                <img src="@/assets/people-lowres.jpg" class="py-2 mx-auto">
                 <h3 class="text-xl text-gray-800 capitalize pb-1">Erik Lorenz</h3>
                 <p class="text-md text-gray-700">CEO</p>
             </div>
 
-            <div class="xl:px-8 px-4 mb-4 text-center">
-                <img src="@/assets/people-lowres.jpg" class="py-2">
+            <div class="md:w-auto w-1/2 xl:px-8 px-4 mb-4 text-center">
+                <img src="@/assets/people-lowres.jpg" class="py-2 mx-auto">
                 <h3 class="text-xl text-gray-800 capitalize pb-1">Erik Lorenz</h3>
                 <p class="text-md text-gray-700">CEO</p>
             </div>
 
-            <div class="xl:px-8 px-4 mb-4 text-center">
-                <img src="@/assets/people-lowres.jpg" class="py-2">
+            <div class="md:w-auto w-1/2 xl:px-8 px-4 mb-4 text-center">
+                <img src="@/assets/people-lowres.jpg" class="py-2 mx-auto">
                 <h3 class="text-xl text-gray-800 capitalize pb-1">Erik Lorenz</h3>
                 <p class="text-md text-gray-700">CEO</p>
             </div>
 
-            <div class="xl:px-8 px-4 mb-4 text-center">
-                <img src="@/assets/people-lowres.jpg" class="py-2">
+            <div class="md:w-auto w-1/2 xl:px-8 px-4 mb-4 text-center">
+                <img src="@/assets/people-lowres.jpg" class="py-2 mx-auto">
                 <h3 class="text-xl text-gray-800 capitalize pb-1">Erik Lorenz</h3>
                 <p class="text-md text-gray-700">CEO</p>
             </div>
@@ -65,34 +67,34 @@
             <section-title title="The advisory board"></section-title>
         </div>
 
-        <div class="container mx-auto flex flex-row md:justify-between sm:justify-center justify-center flex-wrap p-8">
+        <div class="container mx-auto flex flex-row md:justify-between sm:justify-center justify-center flex-wrap sm:p-8 p-2">
 
-            <div class="xl:px-8 px-4 mb-4 text-center">
-                <img src="@/assets/people-lowres.jpg" class="py-2">
+            <div class="md:w-auto w-1/2 xl:px-8 px-4 mb-4 text-center">
+                <img src="@/assets/people-lowres.jpg" class="py-2 mx-auto">
                 <h3 class="text-xl text-gray-800 capitalize pb-1">Erik Lorenz</h3>
                 <p class="text-md text-gray-700">CEO</p>
             </div>
 
-            <div class="xl:px-8 px-4 mb-4 text-center">
-                <img src="@/assets/people-lowres.jpg" class="py-2">
+            <div class="md:w-auto w-1/2 xl:px-8 px-4 mb-4 text-center">
+                <img src="@/assets/people-lowres.jpg" class="py-2 mx-auto">
                 <h3 class="text-xl text-gray-800 capitalize pb-1">Erik Lorenz</h3>
                 <p class="text-md text-gray-700">CEO</p>
             </div>
 
-            <div class="xl:px-8 px-4 mb-4 text-center">
-                <img src="@/assets/people-lowres.jpg" class="py-2">
+            <div class="md:w-auto w-1/2 xl:px-8 px-4 mb-4 text-center">
+                <img src="@/assets/people-lowres.jpg" class="py-2 mx-auto">
                 <h3 class="text-xl text-gray-800 capitalize pb-1">Erik Lorenz</h3>
                 <p class="text-md text-gray-700">CEO</p>
             </div>
 
-            <div class="xl:px-8 px-4 mb-4 text-center">
-                <img src="@/assets/people-lowres.jpg" class="py-2">
+            <div class="md:w-auto w-1/2 xl:px-8 px-4 mb-4 text-center">
+                <img src="@/assets/people-lowres.jpg" class="py-2 mx-auto">
                 <h3 class="text-xl text-gray-800 capitalize pb-1">Erik Lorenz</h3>
                 <p class="text-md text-gray-700">CEO</p>
             </div>
 
-            <div class="xl:px-8 px-4 mb-4 text-center">
-                <img src="@/assets/people-lowres.jpg" class="py-2">
+            <div class="md:w-auto w-1/2 xl:px-8 px-4 mb-4 text-center">
+                <img src="@/assets/people-lowres.jpg" class="py-2 mx-auto">
                 <h3 class="text-xl text-gray-800 capitalize pb-1">Erik Lorenz</h3>
                 <p class="text-md text-gray-700">CEO</p>
             </div>

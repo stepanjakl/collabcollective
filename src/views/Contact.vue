@@ -3,7 +3,7 @@
 
 		<div class="w-full bg-gray-100">
 			<div class="container mx-auto">
-				<div class="relative w-full pt-20 pb-16 text-center">
+				<div class="relative w-full md:pt-20 pt-56 pb-16 text-center">
 
 					<h1 class="text-bolder text-cc-blue-darkest text-4xl">Our Locations</h1>
 					<img src="@/assets/headers/contact-lowres.jpg" class="mx-auto">
@@ -15,19 +15,20 @@
 
 		<div class="container mx-auto p-8">
 
-			<h2 class="text-bold text-cc-blue-darkest text-3xl pb-8">Get in touch with us</h2>
+			<h2 class="text-bold text-cc-blue-darkest text-3xl pb-8">Get in touch with&nbsp;us</h2>
 
-			<div class="flex xl:flex-row lg:flex-row md:flex-row sm:flex-col flex-col  mb-20">
-				<div class="relative xl:w-3/4 lg:w-3/4 md:w-3/4 sm:w-full w-full mx-auto pr-16">
+			<div class="flex xl:flex-row lg:flex-row md:flex-row sm:flex-col flex-col md:mb-20 mb-8">
+				<div class="relative xl:w-3/4 lg:w-3/4 md:w-3/4 sm:w-full w-full mx-auto md:pr-16 pr-0">
 
 					<form action="sendMail">
-						<div class="flex flex-row">
+						<div class="flex sm:flex-row flex-col">
 
-							<div class="mr-4 w-1/2 flex flex-col">
+							<div class="sm:mr-4 mr-0 sm:w-1/2 w-full flex flex-col">
 								<label class="text-extrabold text-black text-sm mb-4">Full Name</label>
 								<input class="outline" type="text" placeholder="Write...">
 							</div>
-							<div class="ml-4 w-1/2 flex flex-col">
+
+							<div class="sm:ml-4 ml-0 sm:mt-4 mt-2 sm:w-1/2 w-full flex flex-col">
 								<label class="text-extrabold text-black text-sm mb-4">Title</label>
 								<input class="outline" type="text" placeholder="Write...">
 							</div>
@@ -35,18 +36,18 @@
 						</div>
 
 						<div class="w-full flex flex-col mt-8">
-							<label class="text-extrabold text-black text-sm mb-4">Title</label>
-							<textarea class="outline" rows="6" placeholder="Write..." style="width: calc(100% + 7px)"></textarea>
+							<label class="text-extrabold text-black text-sm mb-4">Text</label>
+							<textarea class="outline" rows="6" placeholder="Write..." style="width: calc(100% + 6px)"></textarea>
 						</div>
 
-						<div class="flex flex-row justify-end relative" style="top: 32px; right: -7px;">
+						<div class="flex flex-row justify-end relative" style="top: 32px; right: -6px;">
 							<button class="btn btn-black rounded-none">Send Message</button>
 						</div>
 
 					</form>
 
 				</div>
-				<div class="md:ml-4 sm:ml-0 xl:w-1/4 lg:w-1/4 md:w-1/4 sm:w-full w-full">
+				<div class="md:ml-4 sm:ml-0 xl:w-1/4 lg:w-1/4 md:w-1/4 sm:w-full w-full md:mt-0 mt-20">
 					
 					<h6 class="text-extrabold text-gray-800 text-sm mb-2">Our Email:</h6>
 					<p>info@contentarena.com</p>
