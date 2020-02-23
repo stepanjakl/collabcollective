@@ -18,7 +18,7 @@
 
 		<div class="container mx-auto">
             <div class="p-8">
-                <div class="flex xl:flex-row lg:flex-row md:flex-col sm:flex-col flex-col">
+                <div class="flex xl:flex-row lg:flex-row md:flex-col-reverse sm:flex-col-reverse flex-col-reverse">
 
                     <!-- IMAGE RIGHT -->
 
@@ -67,7 +67,7 @@
 
         <div class="container mx-auto">
             <div class="p-8">
-                <div class="flex xl:flex-row lg:flex-row md:flex-col sm:flex-col flex-col">
+                <div class="flex xl:flex-row lg:flex-row md:flex-col-reverse sm:flex-col-reverse flex-col-reverse">
 
                     <!-- IMAGE RIGHT -->
 

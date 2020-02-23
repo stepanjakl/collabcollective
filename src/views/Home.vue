@@ -197,10 +197,10 @@
             <div class="relative pt-8 pb-12">
                 <section-title title="References"></section-title>
             </div>
-            <div class="flex flex-row flex-wrap pl-20">
+            <div class="flex flex-row flex-wrap md:px-20 px-8">
 
-                <div v-for="reference in references" :key="reference" class="xl:w-1/6 lg:w-1/6 md:w-1/4 sm:w-1/2 mb-12 flex items-center">
-                    <img class="w-24" :src="require('@/assets/logos/' + reference + '-ref.png')">
+                <div v-for="reference in references" :key="reference" class="xl:w-1/6 lg:w-1/6 md:w-1/4 sm:w-1/4 w-1/2 mb-12 flex items-center">
+                    <img class="w-24 mx-auto" :src="require('@/assets/logos/' + reference + '-ref.png')">
                 </div>
 
             </div>
