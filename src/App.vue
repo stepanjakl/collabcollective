@@ -39,8 +39,8 @@
     }
 
     .v-lazy-image {
-        filter: blur(10px);
-        transition: filter 0.7s;
+        filter: blur(4px);
+        transition: filter 0.5s;
     }
 
     .v-lazy-image-loaded {

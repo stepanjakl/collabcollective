@@ -19,21 +19,21 @@
                 <div class="flex xl:flex-row lg:flex-row md:flex-col sm:flex-col flex-col">
 
                     <home-reference
-                            quote="Creating a marketplace listing was a straightforward prodess. The platform really covers all relevant points in our complex media rights world."
+                            quote="Creating a marketplace listing was a straightforward process. The platform really covers all relevant points in our complex media rights world."
                             name="Miguel Mateo"
                             position="European Handball Federation (Austria)">
                         <img src="@/assets/logos/ehf.png" class="w-12">
                     </home-reference>
 
                     <home-reference
-                            quote="We have so much content that it is impossible to promote everything manually. Having a digital channel to create visibillity and automate timeconsuming processes is a great idea."
+                            quote="We have so much content that it is impossible to promote everything manually. Having a digital channel to create visibility and automate time consuming processes is a great idea."
                             name="Annie O'Shea"
                             position="FIBA (Switzerland)">
                         <img src="@/assets/logos/fiba.png" class="w-24">
                     </home-reference>
 
                     <home-reference
-                            quote="It is great to have a platform like Content Arena which procides a new and innovative way to find sports media rights. They really make buying rights simple."
+                            quote="It is great to have a platform like Content Arena which provides a new and innovative way to find sports media rights. They really make buying rights simple."
                             name="Oliver Godallier"
                             position="Game Sport Management (France)">
                         <img src="@/assets/logos/sportklub.png" class="w-16">
@@ -106,7 +106,7 @@
                                 elit. Duis volutpat id dolor sed pharetra. Donec consectetur dolor a lectus condimentum
                                 malesuada.</p>
                         </div>
-                        
+
                         <div class="w-full absolute z-10 xl:bottom-142px sm:bottom-102px bottom-60px">
                             <div class="w-48 mx-auto">
                                 <router-link to="/#" class="btn btn-yellow">Learn&nbsp;more</router-link>
@@ -203,5 +203,5 @@
 </script>
 
 <style scoped>
- 
+
 </style>

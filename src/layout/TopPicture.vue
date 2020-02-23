@@ -13,13 +13,13 @@
                         </button>
                     </div>
                     <div class="w-full md:w-5/12 flex flex-row justify-center md:justify-end items-center md:items-end my-6 md:my-0">
-                        <div class="flex items-center">
+                        <div class="flex items-center" v-if="this.$router.currentRoute.name === 'Home'">
                             <span class="text-white text-sm md:text-lg">Trusted by:</span>
                             <img src="@/assets/logos/pitch.png" class="h-8 ml-4">
                         </div>
                     </div>
                 </div>
-                <div class="flex justify-center pb-8">
+                <div class="flex justify-center pb-8" v-if="this.$router.currentRoute.name === 'Home'">
                     <img src="@/assets/arrow-down.svg" style="height: 12px">
                 </div>
             </div>

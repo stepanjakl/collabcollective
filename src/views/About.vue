@@ -3,8 +3,10 @@
 
         <top-picture
             title="We make sports media management easy."
-            comment="Bringing efficiency to the bussiness">
-            <img src="@/assets/headers/about-lowres.jpg" class="w-full h-full absolute object-cover top-0">
+            comment="Bringing efficiency to the business">
+            <v-lazy-image class="w-full h-full absolute object-cover top-0 no-blur"
+                          :src="require('@/assets/headers/about.jpg')"
+                          :src-placeholder="require('@/assets/headers/about-lowres.jpg')"/>
         </top-picture>
 
         <div class="bg-gray-300">
