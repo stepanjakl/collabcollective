@@ -10,7 +10,7 @@
 
         <over-block
             title="Buyers Marketplace"
-            comment="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis volutpat id dolor sed pharetra."/>
+            comment="Buyers can easily access small and large industry players, filter and sort results to find what they are looking for all with the click of a mouse."/>
 
 		<div class="relative py-8">
             <section-title title="Key features"></section-title>

@@ -4,13 +4,13 @@
         <top-picture
             title="One stop shop to sell your rights.">
             <v-lazy-image class="w-full h-full absolute object-cover top-0 no-blur"
-                :src="require('@/assets/headers/home.jpg')"
-                :src-placeholder="require('@/assets/headers/home-lowres.jpg')"/>
+                :src="require('@/assets/headers/seller.jpg')"
+                :src-placeholder="require('@/assets/headers/seller-lowres.jpg')"/>
         </top-picture>
 
         <over-block
             title="Rights Management &amp; Marketplace"
-            comment="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis volutpat id dolor sed pharetra."/>
+            comment="The first turn-key solution for sports media rights management with a directly linked market access opportunity."/>
 
 		<div class="relative py-8">
             <section-title title="Key features"></section-title>

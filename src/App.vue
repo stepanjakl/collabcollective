@@ -1,7 +1,9 @@
 <template>
     <div class="app o">
         <navbar/>
-        <router-view/>
+        <transition name="fade" mode="out-in">
+            <router-view/>
+        </transition>
         <page-footer/>
     </div>
 </template>
@@ -27,6 +29,7 @@
     /*.o, .o > *, .o * {
         outline: red solid thin;
     }*/
+
     button.blue, .btn-blue {
         padding: 8px 36px;
         color: white;
@@ -49,5 +52,17 @@
 
     .no-blur {
         filter: blur(0) !important;
+    }
+
+    .fade-enter-active,
+    .fade-leave-active {
+        transition-duration: 0.25s;
+        transition-property: opacity;
+        transition-timing-function: ease;
+    }
+
+    .fade-enter,
+    .fade-leave-active {
+        opacity: 0
     }
 </style>

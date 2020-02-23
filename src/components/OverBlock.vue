@@ -2,10 +2,10 @@
     <div class="over-picture sm:p-16 px-8 py-16">
 
         <div class="container mx-auto">
-            <div class="relative p-8 bg-gray-100" style="top: -130px; margin-bottom: -130px; border-radius: 2px;">
+            <div class="relative p-16 bg-gray-100 rounded-sm" style="top: -130px; margin-bottom: -130px;">
 
-                <h2 class="font-semibold text-cc-blue-second text-xl text-center pb-2">{{this.title}}</h2>
-                <p class="font-normal text-gray-600 text-base text-center pb-2">{{this.comment}}</p>
+                <h2 class="font-semibold text-cc-blue-second text-2xl text-center pb-2">{{this.title}}</h2>
+                <p class="font-normal text-gray-600 text-base text-lg text-center pb-2">{{this.comment}}</p>
 
             </div>
         </div>

@@ -11,7 +11,7 @@
 
             <nav class="flex flex-col md:flex-row items-center">
 
-                <div class="flex-row mt-6 md:m-0" id="text-change">
+                <div class="flex-row mt-6 md:m-0 tracking-wide" id="text-change">
                     <router-link class="mr-8" to="/seller">Seller</router-link>
                     <router-link class="mr-8" to="/buyer">Buyer</router-link>
                     <router-link class="mr-8" to="/about-us">About</router-link>
@@ -72,6 +72,8 @@
                 document.getElementById('text-change').style.color = '#00537d';
                 document.getElementsByClassName('router-link-active')[1].style.textDecorationColor = '#00537d';
 
+                document.getElementById('text-change').style.borderBottomColor = '#00537d';
+
             } else {
 
                 document.getElementById('logo-light').classList.remove('hidden');
@@ -79,6 +81,8 @@
 
                 document.getElementById('text-change').style.color = 'whitesmoke';
                 document.getElementsByClassName('router-link-active')[1].style.textDecorationColor = 'whitesmoke';
+
+                document.getElementById('text-change').style.borderBottomColor = 'whitesmoke';
 
             }
         }
@@ -88,7 +92,8 @@
 <style scoped>
     .router-link-active {
         font-weight: 600;
-        text-decoration: underline whitesmoke 2px;
+        padding-bottom: 4px;
+        border-bottom: solid 2px;
     }
 
     nav > * {
