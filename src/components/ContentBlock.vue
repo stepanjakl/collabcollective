@@ -10,17 +10,17 @@
                 </div>
 
                 <div class="xl:w-5/12 lg:w-5/12 md:w-full sm:w-full w-full relative">
-                    <h4 class="font-bold text-sm uppercase pb-4 tracking-widest">{{ this.label }}</h4>
-                    <h3 class="font-semibold text-2xl pb-4">{{ this.header }}</h3>
-                    <p class="font-normal text-gray-700 pb-6">{{ this.text }}</p>
+                    <h4 class="font-bold text-sm uppercase pb-4 tracking-widest text-gray-800">{{ this.label }}</h4>
+                    <h3 class="font-semibold text-2xl pb-6 text-gray-800">{{ this.header }}</h3>
+                    <p class="font-normal text-gray-600 pb-8">{{ this.text }}</p>
 
                     <div v-if="this.btnTwo" class="pt-4">
-                        <router-link to="/seller" class="btn btn-blue mr-2">Sellers</router-link>
-                        <router-link to="/buyer" class="btn btn-yellow">Buyers</router-link>
+                        <router-link to="/seller" class="btn btn-blue mr-2 rounded-sm">Sellers</router-link>
+                        <router-link to="/buyer" class="btn btn-yellow rounded-sm">Buyers</router-link>
                     </div>
 
                     <div v-if="this.btnOne" class="pt-4">
-                        <a :href="this.btnLink" class="btn btn-blue">Learn More</a>
+                        <a :href="this.btnLink" class="btn btn-blue rounded-sm">Learn More</a>
                     </div>
                 </div>
             </div>
@@ -29,17 +29,17 @@
             <div v-if="this.right" class="flex xl:flex-row lg:flex-row md:flex-col-reverse sm:flex-col-reverse flex-col-reverse">
 
                 <div class="xl:w-5/12 lg:w-5/12 md:w-full sm:w-full w-full relative">
-                    <h4 class="font-bold text-sm uppercase pb-4 tracking-widest">{{ this.label }}</h4>
-                    <h3 class="font-semibold text-2xl pb-4">{{ this.header }}</h3>
-                    <p class="font-normal text-gray-700 pb-6">{{ this.text }}</p>
+                    <h4 class="font-bold text-sm uppercase pb-4 tracking-widest text-gray-800">{{ this.label }}</h4>
+                    <h3 class="font-semibold text-2xl pb-6 text-gray-800">{{ this.header }}</h3>
+                    <p class="font-normal text-gray-600 pb-8">{{ this.text }}</p>
 
                     <div v-if="this.btnTwo" class="pt-4">
-                        <router-link to="/seller" class="btn btn-blue mr-2">Sellers</router-link>
-                        <router-link to="/buyer" class="btn btn-yellow">Buyers</router-link>
+                        <router-link to="/seller" class="btn btn-blue mr-2 rounded-sm">Sellers</router-link>
+                        <router-link to="/buyer" class="btn btn-yellow rounded-sm">Buyers</router-link>
                     </div>
 
                     <div v-if="this.btnOne" class="pt-4">
-                        <a :href="this.btnLink" class="btn btn-blue">Learn More</a>
+                        <a :href="this.btnLink" class="btn btn-blue rounded-sm">Learn More</a>
                     </div>
                 </div>
 
@@ -63,7 +63,7 @@
             label: String,
             header: String,
             text: String,
-            
+
             btnTwo: Boolean,
 
             btnOne: Boolean,

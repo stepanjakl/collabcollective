@@ -15,14 +15,14 @@ Vue.config.productionTip = false;
 Vue.use(VLazyImagePlugin);
 Vue.use(VueScrollTo);
 
-const DEFAULT_TITLE = 'Collab Collective';
-const POSTFIX_TITLE = 'Collab Collective';
+const DEFAULT_TITLE = 'Content Arena – Buy, sell, and manage your sport media rights online';
+const POSTFIX_TITLE = 'Content Arena – Buy, sell, and manage your sport media rights online';
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 router.afterEach((to, from) => {
     // Use next tick to handle router history correctly
     // see: https://github.com/vuejs/vue-router/issues/914#issuecomment-384477609
     Vue.nextTick(() => {
-        document.title = to.meta.title + " - " + POSTFIX_TITLE || DEFAULT_TITLE;
+        document.title = to.meta.title + " | " + POSTFIX_TITLE || DEFAULT_TITLE;
     });
 });
 

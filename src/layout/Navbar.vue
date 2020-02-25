@@ -20,8 +20,8 @@
 
                 <div style="width: max-content;">
                     <div class="btn-connect">
-                        <router-link class="btn btn-blue" to="/register">Register</router-link>
-                        <router-link class="btn btn-yellow" to="/signin">Sign in</router-link>
+                        <router-link class="btn btn-blue rounded-l-sm" to="/register">Register</router-link>
+                        <router-link class="btn btn-yellow rounded-r-sm" to="/signin">Sign in</router-link>
                     </div>
                 </div>
 
