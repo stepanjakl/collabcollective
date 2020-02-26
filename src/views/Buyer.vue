@@ -21,8 +21,8 @@
                        header="Optimize your content portfolio"
                        text="Browse available live and non-live rights from sellers around the world that suit your needs by filtering sports, territories and rights categories. Recieve automated alerts when new content is available for your markets.">
             <v-lazy-image class="w-full h-auto"
-                          :src="require('@/assets/asides/home-rights-manager.png')"
-                          :src-placeholder="require('@/assets/asides/home-rights-manager-lowres.png')"/>
+                          :src="require('@/assets/asides/buyer-listing.png')"
+                          :src-placeholder="require('@/assets/asides/buyer-listing-lowres.png')"/>
         </content-block>
 
         <content-block left
@@ -30,8 +30,8 @@
                        header="Buying sports content has never been easier"
                        text="All information that is important for your buying decisions is provided for each content listing. Review event information, comprehensive term sheets, production standarts and other relevenat iformation. Contact the seller or directly bid for content with just a few clicks.">
             <v-lazy-image class="w-full h-auto"
-                          :src="require('@/assets/asides/home-marketplace.png')"
-                          :src-placeholder="require('@/assets/asides/home-marketplace-lowres.png')"/>
+                          :src="require('@/assets/asides/buyer-bid.png')"
+                          :src-placeholder="require('@/assets/asides/buyer-bid-lowres.png')"/>
         </content-block>
 
         <content-block right class="md:pl-12 pl-0"
@@ -39,8 +39,8 @@
                        header="Buy from vetted sellers only"
                        text="All sellers and rights listed are vetted by Content Arena. Communicate with sellers directly via the platform and review all contractual details before making a bid. You will recieve a counter-signed license agreement immidiately after your offer has been accepted.">
             <v-lazy-image class="w-full h-auto"
-                          :src="require('@/assets/asides/seller-commercial-reports.png')"
-                          :src-placeholder="require('@/assets/asides/seller-commercial-reports-lowres.png')"/>
+                          :src="require('@/assets/asides/buyer-security.png')"
+                          :src-placeholder="require('@/assets/asides/buyer-security-lowres.png')"/>
         </content-block>
 
 	</div>
@@ -50,13 +50,15 @@
     import SectionTitle from '../components/SectionTitle';
     import TopPicture from '../layout/TopPicture';
     import OverBlock from '../components/OverBlock';
+    import ContentBlock from '../components/ContentBlock';
 
     export default {
         name: 'Buyer',
         components: {
             SectionTitle,
             TopPicture,
-            OverBlock
+            OverBlock,
+            ContentBlock
         }
     }
 </script>

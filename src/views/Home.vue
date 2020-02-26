@@ -49,7 +49,7 @@
             <section-title title="Our services"></section-title>
         </div>
 
-        <content-block right btnTwo class="md:pl-12 pl-0"
+        <content-block right btnTwo class="lg:pl-12 pl-0"
             label="Market place"
             header="The easiest way to sell and buy media rights."
             text="The worldwide only digital marketplace dedicated to sports content. Creating additional revenue opportunities for rights holders. Allowing buyers to easily find live and non-live content for their territories.">
@@ -67,7 +67,7 @@
                           :src-placeholder="require('@/assets/asides/home-rights-manager-lowres.png')"/>
         </content-block>
 
-        <content-block right btnOne btnLink="/#" class="md:pl-12 pl-0"
+        <content-block right btnOne btnLink="/#" class="lg:pl-12 pl-0"
             label="Content marketing"
             header="Bringing the right message to the right people."
             text="Create meaningful visibility for your available rights around the world through targeted communication. Email & SMS alerts, newsletters, social media marketing Content Arena covers it all for you, expose your potential to thousands of buyers.">
