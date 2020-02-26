@@ -15,32 +15,40 @@
                 <section-title title="Testimonials"></section-title>
             </div>
 
-            <div class="container mx-auto">
-                <div class="flex xl:flex-row lg:flex-row md:flex-col sm:flex-col flex-col">
+            <div class="container mx-auto px-8">
+                <vue-slick-carousel v-bind="this.carouselSetting">
 
-                    <home-reference
+                    <carousel-reference
                             quote="Creating a marketplace listing was a straightforward process. The platform really covers all relevant points in our complex media rights world."
                             name="Miguel Mateo"
                             position="European Handball Federation (Austria)">
                         <img src="@/assets/logos/ehf.png" class="w-12">
-                    </home-reference>
+                    </carousel-reference>
 
-                    <home-reference
+                    <carousel-reference
                             quote="We have so much content that it is impossible to promote everything manually. Having a digital channel to create visibility and automate time consuming processes is a great idea."
                             name="Annie O'Shea"
                             position="FIBA (Switzerland)">
                         <img src="@/assets/logos/fiba.png" class="w-24">
-                    </home-reference>
+                    </carousel-reference>
 
-                    <home-reference
+                    <carousel-reference
                             quote="It is great to have a platform like Content Arena which provides a new and innovative way to find sports media rights. They really make buying rights simple."
                             name="Oliver Godallier"
                             position="Game Sport Management (France)">
                         <img src="@/assets/logos/sportklub.png" class="w-16">
-                    </home-reference>
+                    </carousel-reference>
 
-                </div>
+                    <carousel-reference
+                            quote="We have so much content that it is impossible to promote everything manually. Having a digital channel to create visibility and automate time consuming processes is a great idea."
+                            name="Annie O'Shea"
+                            position="FIBA (Switzerland)">
+                        <img src="@/assets/logos/fiba.png" class="w-24">
+                    </carousel-reference>
+
+                </vue-slick-carousel>
             </div>
+
         </div>
 
         <div class="pt-12"></div>
@@ -146,9 +154,15 @@
 </template>
 
 <script>
+    import VueSlickCarousel from 'vue-slick-carousel'
+    //import 'vue-slick-carousel/dist/slick.css'
+    //import 'vue-slick-carousel/dist/slick-theme.css'
+    require('vue-slick-carousel/dist/vue-slick-carousel.css')
+    require('vue-slick-carousel/dist/vue-slick-carousel-theme.css')
+
     import SectionTitle from '../components/SectionTitle';
     import TopPicture from '../layout/TopPicture';
-    import HomeReference from '../components/HomeReference';
+    import CarouselReference from '../components/CarouselReference';
     import ContentBlock from '../components/ContentBlock';
 
     export default {
@@ -156,8 +170,9 @@
         components: {
             SectionTitle,
             TopPicture,
-            HomeReference,
-            ContentBlock
+            CarouselReference,
+            ContentBlock,
+            VueSlickCarousel
         },
         data() {
             return {
@@ -180,7 +195,36 @@
                     'eurosport',
                     'bundesliga',
                     'astro'
-                ]
+                ],
+                carouselSetting: {
+                    "focusOnSelect": true,
+                    "speed": 500,
+                    "infinite": true,
+                    "arrows": true,
+                    "dots": true,
+                    "slidesToShow": 3,
+                    "slidesToScroll": 2,
+                    "cssEase": "ease-in-out",
+                    "touchThreshold": 5,
+                    "initialSlide": 0,
+                    "responsive": [
+                        {
+                            "breakpoint": 1024, // tailwind LG 
+                            "settings": {
+                                "slidesToShow": 2,
+                                "slidesToScroll": 1
+                            }
+                        },
+                        {
+                            "breakpoint": 640, // tailwind SM
+                            "settings": {
+                                "slidesToShow": 1,
+                                "slidesToScroll": 1,
+                                "dots": false
+                            }
+                        }
+                    ]
+                }
             }
         }
     }

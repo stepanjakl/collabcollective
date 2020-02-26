@@ -1,5 +1,5 @@
 <template>
-    <div class="home-reference lg:w-1/3 w-full lg:p-0 p-4 lg:m-8 m-0">
+    <div class="p-4">
         <div class="flex w-full h-full bg-white flex flex-col">
 
             <div class="h-full p-8 text-center flex items-center">
@@ -10,7 +10,7 @@
                 <div class="pr-4 reference-logo">
                     <slot></slot>
                 </div>
-                <div class="w-full">
+                <div class="w-full pr-4">
                     <p class="font-bold text-white text-md">{{this.name}}</p>
                     <p class="font-normal text-white text-sm">{{this.position}}</p>
                 </div>
@@ -22,7 +22,7 @@
 
 <script>
     export default {
-        name: 'HomeReference',
+        name: 'CarouselReference',
         props: {
             quote: String,
             name: String,
