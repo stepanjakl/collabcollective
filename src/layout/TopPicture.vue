@@ -8,7 +8,7 @@
                             {{this.title}}</h1>
                         <p class="font-light text-md sm:text-lg md:text-xl xl:text-2xl pb-8" v-if="this.comment">
                             {{this.comment}}</p>
-                        <button class="btn btn-blue rounded-sm self-center md:self-start text-sm md:text-lg py-2 md:py-4 px-10 md:px-20">
+                        <button class="btn btn-blue rounded-sm self-center md:self-start text-sm mt-10 md:text-lg py-2 md:py-4 px-10 md:px-20">
                             Register Now
                         </button>
                     </div>

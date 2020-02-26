@@ -58,7 +58,7 @@
 					<p class="lg:w-1/2 w-full text-white text-lg font-light  sm:-ml-0 -ml-2">
 						<span class="h-px mr-6 mb-1 bg-white inline-block" style="width: 32px"></span>
 						<a href="" class="mr-4">Facebook</a>
-						<a href="">Linkedin</a>
+						<a href="">LinkedIn</a>
 					</p>
 					<div class="lg:w-1/2 sm:w-16 w-12  sm:-ml-0 -ml-2">
 						<a href="#" v-scroll-to="'#top'">

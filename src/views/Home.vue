@@ -49,14 +49,10 @@
             <section-title title="Our services"></section-title>
         </div>
 
-        <content-block right btnTwo
-            label="Our services"
+        <content-block right btnTwo class="pl-12"
+            label="Market place"
             header="The easiest way to sell and buy media rights."
-            text="Lorem ipsum dolor sit amet, consectetur adipiscing
-                  elit. Duis volutpat id dolor sed pharetra. Donec consectetur dolor a lectus condimentum
-                  malesuada. Nam facilisis nisi eget justo mollis, vitae viverra ex rutrum. Morbi dolor augue,
-                  vestibulum id posuere in, lacinia ut nibh. Quisque in neque pretium, egestas tellus eu,
-                  blandit purus.">
+            text="The worldwide only digital marketplace dedicated to sports content. Creating additional revenue opportunities for rights holders. Allowing buyers to easily find live and non-live content for their territories.">
             <v-lazy-image class="w-full h-auto"
                           :src="require('@/assets/asides/home-marketplace.png')"
                           :src-placeholder="require('@/assets/asides/home-marketplace-lowres.png')"/>
@@ -65,30 +61,22 @@
         <content-block left btnOne btnLink="/#"
             label="Rights Manager"
             header="The most efficient way to manage your right portfolio."
-            text="Lorem ipsum dolor sit amet, consectetur adipiscing
-                  elit. Duis volutpat id dolor sed pharetra. Donec consectetur dolor a lectus condimentum
-                  malesuada. Nam facilisis nisi eget justo mollis, vitae viverra ex rutrum. Morbi dolor augue,
-                  vestibulum id posuere in, lacinia ut nibh. Quisque in neque pretium, egestas tellus eu,
-                  blandit purus.">
+            text="Stay on top of your rights and optimize your sales management. Forget about spreadsheets! Have all information in one place, generate commercial reports, and expose available rights on the marketplace with just a few clicks.">
             <v-lazy-image class="w-full h-auto"
                           :src="require('@/assets/asides/home-rights-manager.png')"
                           :src-placeholder="require('@/assets/asides/home-rights-manager-lowres.png')"/>
         </content-block>
 
-        <content-block right btnOne btnLink="/#"
+        <content-block right btnOne btnLink="/#" class="pl-12"
             label="Content marketing"
             header="Bringing the right message to the right people."
-            text="Lorem ipsum dolor sit amet, consectetur adipiscing
-                  elit. Duis volutpat id dolor sed pharetra. Donec consectetur dolor a lectus condimentum
-                  malesuada. Nam facilisis nisi eget justo mollis, vitae viverra ex rutrum. Morbi dolor augue,
-                  vestibulum id posuere in, lacinia ut nibh. Quisque in neque pretium, egestas tellus eu,
-                  blandit purus.">
+            text="Create meaningful visibility for your available rights around the world through targeted communication. Email & SMS alerts, newsletters, social media marketing Content Arena covers it all for you, expose your potential to thousands of buyers.">
             <v-lazy-image class="w-full h-auto"
                           :src="require('@/assets/asides/home-content-marketing.png')"
                           :src-placeholder="require('@/assets/asides/home-content-marketing-lowres.png')"/>
         </content-block>
 
-        <div class="bg-gray-300">
+        <div style="background-color: #F7F7F7">
             <div class="container mx-auto pt-16 pb-32">
 
                 <div class="relative py-8">
@@ -101,19 +89,17 @@
                          style="min-height: 500px;">
 
                         <div class="relative z-10 sm:p-16 p-12 xl:pt-32 sm:pt-20 pt-12 text-center">
-                            <h3 class="font-bold text-white sm:text-3xl text-2xl uppercase mb-4">Rightsholders Federations &amp; Agencies</h3>
-                            <p class="text-white text-lg mb-8">Lorem ipsum dolor sit amet, consectetur adipiscing
-                                elit. Duis volutpat id dolor sed pharetra. Donec consectetur dolor a lectus condimentum
-                                malesuada.</p>
+                            <h3 class="font-bold text-white sm:text-2xl text-xl uppercase mb-4 tracking-widest">Rightsholders Federations &amp; Agencies</h3>
+                            <p class="text-white font-light text-lg mb-8 leading-relaxed">No more manual updates of spreadsheets - manage all your rights in one place and create additional revenue opportunities.</p>
                         </div>
 
-                        <div class="w-full absolute z-10 xl:bottom-142px sm:bottom-102px bottom-60px">
-                            <div class="w-48 mx-auto">
-                                <router-link to="/#" class="btn btn-yellow">Learn&nbsp;more</router-link>
+                        <div class="w-full absolute z-10 xl:bottom-142px sm:bottom-102px bottom-60px flex items-center">
+                            <div class="mx-auto">
+                                <router-link to="/#" class="btn btn-yellow py-6 px-10 font-bold uppercase tracking-wider rounded-sm">Learn&nbsp;more</router-link>
                             </div>
                         </div>
 
-                        <img src="@/assets/home-buyers.png" class="w-full h-full absolute top-0 left-0 z-0">
+                        <img src="@/assets/home-sellers.png" class="w-full h-full absolute top-0 left-0 z-0">
 
                     </div>
 
@@ -124,19 +110,17 @@
                          style="min-height: 500px;">
 
                          <div class="relative z-10 sm:p-16 p-12 xl:pt-32 sm:pt-20 pt-12 text-center">
-                            <h3 class="font-bold text-white sm:text-3xl text-2xl uppercase mb-4">Broadcasters</h3>
-                            <p class="text-white text-lg mb-8">Lorem ipsum dolor sit amet, consectetur adipiscing
-                                elit. Duis volutpat id dolor sed pharetra. Donec consectetur dolor a lectus condimentum
-                                malesuada.</p>
+                            <h3 class="font-bold text-white sm:text-2xl text-xl uppercase mb-4 tracking-widest">Broadcasters</h3>
+                            <p class="text-white font-light text-lg mb-8 leading-relaxed">Disover a multitude of rights opportunities at your finger tips and optimize your content portfolio.</p>
                         </div>
 
-                        <div class="w-full absolute z-10 xl:bottom-142px sm:bottom-102px bottom-60px">
-                            <div class="w-48 mx-auto">
-                                <router-link to="/#" class="btn btn-yellow">Learn&nbsp;more</router-link>
+                        <div class="w-full absolute z-10 xl:bottom-142px sm:bottom-102px bottom-60px flex items-center">
+                            <div class="mx-auto">
+                                <router-link to="/#" class="btn btn-yellow py-6 px-10 font-bold uppercase tracking-wider rounded-sm">Learn&nbsp;more</router-link>
                             </div>
                         </div>
 
-                        <img src="@/assets/home-sellers.png" class="w-full h-full absolute top-0 left-0 z-0">
+                        <img src="@/assets/home-buyers.png" class="w-full h-full absolute top-0 left-0 z-0">
 
                     </div>
 
