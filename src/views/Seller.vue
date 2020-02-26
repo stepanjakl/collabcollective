@@ -15,7 +15,9 @@
             <section-title title="Key features"></section-title>
         </div>
 
-        <content-block right class="pl-12" label="Rights Overview" header="Stay on top of your rights"
+        <content-block right class="md:pl-12 pl-0"
+                       label="Rights Overview"
+                       header="Stay on top of your rights"
                        text="All information available at your fingertips. Check your rights status across seasons, rights categories, territories. Have all closed deals in one place with user-friendly summaries of the key terms.">
             <v-lazy-image class="w-full h-auto"
                           :src="require('@/assets/asides/home-rights-manager.png')"
@@ -31,7 +33,7 @@
                           :src-placeholder="require('@/assets/asides/home-marketplace-lowres.png')"/>
         </content-block>
 
-        <content-block right class="pl-12"
+        <content-block right class="md:pl-12 pl-0"
                        label="Commercial Reports"
                        header="Extract the information that you need"
                        text="Eliminate manual, time-consuming work and easily generate commercial reports. Easily satisfy the needs of internal stakeholders and derive strategies to optimise your media rights business.">
