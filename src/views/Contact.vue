@@ -24,45 +24,48 @@
             <div class="flex xl:flex-row lg:flex-row md:flex-row sm:flex-col flex-col md:mb-20 mb-8">
                 <div class="relative xl:w-3/4 lg:w-3/4 md:w-3/4 sm:w-full w-full mx-auto md:pr-16 pr-0">
 
-                    <form action="sendMail">
+                    <form action="https://formspree.io/xyyjwada" method="POST">
+
                         <div class="flex sm:flex-row flex-col">
 
                             <div class="sm:mr-4 mr-0 sm:w-1/2 w-full flex flex-col">
-                                <label class="text-extrabold text-black text-sm mb-4">Full Name</label>
-                                <input class="outline" type="text" placeholder="Write...">
+                                <label class="font-semibold text-black text-sm mb-4" for="name">Full Name</label>
+                                <input class="outline" type="text" name="name" placeholder="Write..." />
                             </div>
 
-                            <div class="sm:ml-4 ml-0 sm:mt-4 mt-2 sm:w-1/2 w-full flex flex-col">
-                                <label class="text-extrabold text-black text-sm mb-4">Title</label>
-                                <input class="outline" type="text" placeholder="Write...">
+                            <div class="sm:ml-4 ml-0 sm:mt-0 mt-6 sm:w-1/2 w-full flex flex-col">
+                                <label class="font-semibold text-black text-sm mb-4" for="_replyto">Email</label>
+                                <input class="outline" type="text" name="_replyto" placeholder="Write..." />
                             </div>
 
                         </div>
 
+                        <input hidden class="outline" type="text" name="_subject" value="Email sent from website" />
+                        
                         <div class="w-full flex flex-col mt-8">
-                            <label class="text-extrabold text-black text-sm mb-4">Text</label>
-                            <textarea class="outline" rows="6" placeholder="Write..."
+                            <label class="font-semibold text-black text-sm mb-4" for="message">Text</label>
+                            <textarea class="outline" rows="6" name="message" placeholder="Write..."
                                       style="width: calc(100% + 6px)"></textarea>
                         </div>
 
                         <div class="flex flex-row justify-end relative" style="top: 32px; right: -6px;">
-                            <button class="btn btn-black rounded-none">Send Message</button>
+                            <input class="btn btn-black rounded-none" type="submit" value="Send Message" />
                         </div>
 
                     </form>
 
                 </div>
-                <div class="md:ml-4 sm:ml-0 xl:w-1/4 lg:w-1/4 md:w-1/4 sm:w-full w-full md:mt-0 mt-20">
+                <div class="md:ml-4 sm:ml-0 xl:w-1/4 lg:w-1/4 md:w-1/4 sm:w-full w-full md:mt-0 mt-16">
 
-                    <h6 class="text-extrabold text-gray-800 text-sm mb-2">Our Email:</h6>
+                    <h6 class="font-semibold text-gray-700 text-sm mb-2">Our Email:</h6>
                     <p>info@contentarena.com</p>
 
-                    <h6 class="text-extrabold text-gray-800 text-sm mb-2 mt-8">Address:</h6>
+                    <h6 class="font-semibold text-gray-700 text-sm mb-2 sm:mt-12 mt-6">Address:</h6>
                     <p>
-                        afdasfafbr<br>
-                        afdasfa asdfbr<br>
-                        afdasasfafbr<br>
-                        afda fafbr<br>
+                        Content Arena PTE. Ltd.,<br />
+                        Upper Cross Street #04-02<br />
+                        Hong Lim Complex<br />
+                        050531 Singapore
                     </p>
                 </div>
 
