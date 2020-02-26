@@ -7,6 +7,9 @@ import Seller from '../views/Seller.vue'
 import About from '../views/About.vue'
 import Contact from '../views/Contact.vue'
 
+import Login from '../views/Login.vue'
+import Register from '../views/Register.vue'
+
 Vue.use(VueRouter);
 
 const routes = [
@@ -48,6 +51,23 @@ const routes = [
     component: Contact,
     meta: {
       title: "Contact"
+    }
+  },
+  
+  {
+    path: '/login',
+    name: 'Login',
+    component: Login,
+    meta: {
+      title: "Sign in"
+    }
+  },
+  {
+    path: '/register',
+    name: 'Register',
+    component: Register,
+    meta: {
+      title: "Register"
     }
   }
 ];

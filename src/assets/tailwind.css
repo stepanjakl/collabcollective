@@ -33,6 +33,7 @@
 .btn {
     padding: 8px 46px;
     border-radius: 4px;
+    border-color: transparent !important;
 }
 .btn.btn-blue {
     color: whitesmoke;

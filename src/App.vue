@@ -1,10 +1,10 @@
 <template>
     <div class="app o">
-        <navbar/>
+        <navbar v-if="this.showNav"/>
         <transition name="fade" mode="out-in">
             <router-view/>
         </transition>
-        <page-footer/>
+        <page-footer v-if="this.showFooter"/>
     </div>
 </template>
 
@@ -14,9 +14,50 @@
 
     export default {
         name: 'App',
+        data() {
+            return {
+                showNav: true,
+                showFooter: true
+            }
+        },
         components: {
             Navbar,
             PageFooter
+        },
+        watch: {
+            $route() {
+                this.$nextTick(() => {
+
+                    const name = this.$router.currentRoute.name;
+
+                    if (name == 'Login' || name == 'Register') {
+
+                        this.showNav = false;
+                        this.showFooter = false;
+
+                    } else {
+
+                        this.showNav = true;
+                        this.showFooter = true;
+
+                    }
+                })
+            }
+        },
+        mounted() {
+            const name = this.$router.currentRoute.name;
+
+            if (name == 'Login' || name == 'Register') {
+
+                this.showNav = false;
+                this.showFooter = false;
+
+            } else {
+
+                this.showNav = true;
+                this.showFooter = true;
+
+            }
         }
     }
 </script>

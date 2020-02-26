@@ -52,7 +52,7 @@
 
 			<div class="flex flex-wrap sm:flex-row flex-col sm:mt-12 mt-4">
 				<div class="sm:w-1/2 w-full">
-					<button class="btn btn-yellow py-4 px-16 text-lg">Register Now</button>
+					<router-link to="/login" class="btn btn-yellow py-4 px-16 text-lg">Register Now</router-link>
 				</div>
 				<div class="sm:w-1/2 w-full sm:pl-4 sm: pl-0 sm:pt-2 pt-6 flex flex-row items-center">
 					<p class="lg:w-1/2 w-full text-white text-lg font-light  sm:-ml-0 -ml-2">
