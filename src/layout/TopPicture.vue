@@ -2,7 +2,7 @@
     <div class="top-picture relative" id="top">
         <div class="w-full h-full z-10 relative">
             <div class="container flex flex-col justify-end mx-auto h-full">
-                <div class="flex flex-col md:flex-row justify-end pt-56 lg:pt-64 pb-4 md:pb-12 lg:pb-24 xl:pb-48">
+                <div class="flex flex-col md:flex-row justify-end pt-56 lg:pt-64 pb-4 md:pb-12 lg:pb-24 xl:pb-48  md:px-8 px-4">
                     <div class="flex flex-col w-full md:w-7/12 items-start md:text-left text-center" id="color-change">
                         <h1 class="w-full font-semibold text-2xl md:text-3xl lg:text-4xl xl:text-5xl pb-4">
                             {{this.title}}</h1>
