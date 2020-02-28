@@ -19,7 +19,7 @@
 
         <div class="container mx-auto p-8">
 
-            <h2 class="text-bold text-cc-blue-darkest text-3xl pb-8">Get in touch with&nbsp;us</h2>
+            <h2 class="text-bold text-cc-blue-darkest text-3xl py-12">Get in touch with&nbsp;us</h2>
 
             <div class="flex xl:flex-row lg:flex-row md:flex-row sm:flex-col flex-col md:mb-20 mb-8">
                 <div class="relative xl:w-3/4 lg:w-3/4 md:w-3/4 sm:w-full w-full mx-auto md:pr-16 pr-0">
@@ -41,14 +41,14 @@
                         </div>
 
                         <input hidden class="outline" type="text" name="_subject" value="Email sent from website" />
-                        
+
                         <div class="w-full flex flex-col mt-8">
                             <label class="font-semibold text-black text-sm mb-4" for="message">Text</label>
                             <textarea class="outline w-full" rows="6" name="message" placeholder="Write..."></textarea>
                         </div>
 
-                        <div class="flex flex-row justify-end relative" style="top: 32px">
-                            <input class="btn btn-black rounded-none cursor-pointer" type="submit" value="Send Message" />
+                        <div class="flex flex-row justify-end relative mt-6">
+                            <input class="btn btn-black bg-gray-800 rounded-none cursor-pointer px-10 py-4" type="submit" value="Send Message" />
                         </div>
 
                     </form>

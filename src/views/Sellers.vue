@@ -42,11 +42,9 @@
                           :src-placeholder="require('@/assets/asides/seller-commercial-reports-lowres.png')"/>
         </content-block>
 
-        <div class="w-full">
+            <div class="w-full relative">
+                <div class="container mx-auto pt-16 pb-20 text-center z-10 relative">
 
-            <div class="w-full absolute z-10">
-                <div class="container mx-auto px-8 py-16 pt-6 text-center">
-                    
                     <div class="flex flex-row justify-center">
                         <div class="lg:seller-badge-3x sm:seller-badge-2x seller-badge-1x">
                             <img alt="Security badge" class="w-full h-full" src="@/assets/seller-security-icon-1.svg">
@@ -59,22 +57,21 @@
                         </div>
                     </div>
 
-                    <p class="text-bold text-white text-md uppercase pb-2">Data secutiry &amp; confidentiality</p>
-                    <h3 class="text-bold text-white text-3xl pb-2">Your data in good hands</h3>
+                    <p class="font-semibold text-white text-sm uppercase pb-6 tracking-widest">Data security & confidentiality</p>
+                    <h3 class="font-semibold text-white text-4xl pb-4">Your data in good hands</h3>
 
-                    <div class="mx-auto" style="max-width: 640px;">
-                        <p class="text-normal text-white text-xl">Content Arena guarantees highest data security standarts
-                            to assure that your data is safe and remains confidential.
+                    <div class="mx-auto">
+                        <p class="font-light text-white text-2xl">Content Arena guarantees highest data security standards
+                            to assure<br>that your data is safe and remains confidential.
                         </p>
                     </div>
 
                 </div>
-            </div>
 
-            <v-lazy-image class="w-full h-auto relative top-0 left-0 z-0" style="min-height: 300px"
-                          :src="require('@/assets/seller-security-background.jpg')"
-                          :src-placeholder="require('@/assets/seller-security-background-lowres.jpg')"/>
-        </div>
+                <v-lazy-image class="w-full h-full absolute object-cover top-0"
+                              :src="require('@/assets/seller-security-background.jpg')"
+                              :src-placeholder="require('@/assets/seller-security-background-lowres.jpg')"/>
+            </div>
 
         <content-block left class="mt-16"
                        label="Automated License Agreement"

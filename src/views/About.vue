@@ -63,7 +63,7 @@
 
             <ContactPerson name="John Gleasure" role="Chief Bussiness Developer Officer DANZ Media"/>
 
-            <ContactPerson name="Alexander Fryba" role="Product Developer Expert"/>
+            <ContactPerson name="Alexander Fryba" role="Product Developmet Expert"/>
 
         </div>
 

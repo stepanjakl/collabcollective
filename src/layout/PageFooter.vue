@@ -27,7 +27,7 @@
 					</div>
 
 					<div class="w-full sm:hidden block my-8">
-						<router-link to="/login" class="btn btn-yellow py-2 px-12 text-lg">Register Now</router-link>
+						<a href="https://contentarena.com/registration" class="btn btn-yellow py-2 px-12 text-lg">Register Now</a>
 					</div>
 
 				</div>
@@ -37,17 +37,17 @@
 					<div class="w-1/2 sm:pl-4 pl-0">
 						<h3 class="font-bold text-cc-blue-darkest mb-6 uppercase sm:text-sm text-xs tracking-widest">Info</h3>
 						<ul>
-							<li class="font-medium text-white text-lg mb-3">FAQ</li>
-							<li class="font-medium text-white text-lg mb-3">Contact</li>
-							<li class="font-medium text-white text-lg mb-3">Cookies Policy</li>
+							<li class="font-medium text-white text-lg mb-3"><a href="https://landing.contentarena.com/web/faq/">FAQ</a></li>
+							<li class="font-medium text-white text-lg mb-3"><router-link to="/contact">Contact</router-link></li>
+							<li class="font-medium text-white text-lg mb-3"><a href="https://landing.contentarena.com/web/cookie-policy/">Cookies Policy</a></li>
 						</ul>
 					</div>
 
 					<div class="w-1/2 pl-4">
 						<h3 class="font-bold text-cc-blue-darkest mb-6 uppercase sm:text-sm text-xs tracking-widest">Policy</h3>
 						<ul>
-							<li class="font-medium text-white text-lg mb-3">Terms</li>
-							<li class="font-medium text-white text-lg mb-3">Privacy</li>
+							<li class="font-medium text-white text-lg mb-3"><a href="https://landing.contentarena.com/web/terms-of-use/">Terms</a></li>
+							<li class="font-medium text-white text-lg mb-3"><a href="https://landing.contentarena.com/web/privacy-policy/">Privacy</a></li>
 						</ul>
 					</div>
 
@@ -56,7 +56,7 @@
 
 			<div class="flex flex-wrap sm:flex-row flex-col sm:mt-12 mt-4">
 				<div class="w-1/2 sm:block hidden relative" style="top: 20px">
-					<router-link to="/login" class="btn btn-yellow py-4 px-16 text-lg">Register Now</router-link>
+					<a href="https://contentarena.com/registration" class="btn btn-yellow py-4 px-16 text-lg">Register Now</a>
 				</div>
 				<div class="sm:w-1/2 w-full sm:pl-4 sm: pl-0 sm:pt-2 pt-6 flex flex-row items-center">
 					<p class="lg:w-1/2 w-full text-white text-lg font-light">
