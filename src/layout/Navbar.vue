@@ -12,10 +12,10 @@
             <nav class="flex flex-col md:flex-row items-center">
 
                 <div class="flex-row mt-6 md:m-0 tracking-wide" id="text-change">
-                    <router-link class="mr-8" to="/sellers">Sellers</router-link>
-                    <router-link class="mr-8" to="/buyers">Buyers</router-link>
-                    <router-link class="mr-8" to="/about-us">About</router-link>
-                    <router-link class="md:mr-12" to="/contact">Contact</router-link>
+                    <router-link class="text-shadow mr-8" to="/sellers">Sellers</router-link>
+                    <router-link class="text-shadow mr-8" to="/buyers">Buyers</router-link>
+                    <router-link class="text-shadow mr-8" to="/about-us">About</router-link>
+                    <router-link class="text-shadow md:mr-12" to="/contact">Contact</router-link>
                 </div>
 
                 <div class="sm:mt-0 mt-6" style="width: max-content;">
