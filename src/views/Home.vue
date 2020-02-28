@@ -40,10 +40,24 @@
                     </carousel-reference>
 
                     <carousel-reference
-                            quote="We have so much content that it is impossible to promote everything manually. Having a digital channel to create visibility and automate time consuming processes is a great idea."
-                            name="Annie O'Shea"
-                            position="FIBA (Switzerland)">
-                        <img alt="Slideshow picture" src="@/assets/logos/fiba.png" class="w-24">
+                            quote="Creating a marketplace listing was a very straightforward process. The platform really covers all relevant points in our complex media rights world."
+                            name="Miguel Mateo"
+                            position="EHF Marketing, Austria">
+                        <img alt="Slideshow picture" src="@/assets/logos/ehf-marketing.jpg" class="w-20">
+                    </carousel-reference>
+
+                    <carousel-reference
+                            quote="Our needs for new content are increasing non-stop, especially for our digital channels. Having an additional source like Content Arena is of great help."
+                            name="ORF"
+                            position="Austria">
+                        <img alt="Slideshow picture" src="@/assets/logos/orf.png" class="w-24">
+                    </carousel-reference>
+
+                    <carousel-reference
+                            quote="It is great to have a platform like Content Arena which provides a new and innovative way to find sports media rights. They really make buying rights simple."
+                            name="Tom Schuster"
+                            position="SportKlub, Serbia">
+                        <img alt="Slideshow picture" src="@/assets/logos/sportklub.png" class="w-20">
                     </carousel-reference>
 
                 </vue-slick-carousel>
@@ -199,8 +213,8 @@
                 carouselSetting: {
                     "focusOnSelect": false,
                     "speed": 500,
-                    "autoplay": false,
-                    "autoplaySpeed": 5000,
+                    "autoplay": true,
+                    "autoplaySpeed": 3000,
                     "draggable": true,
                     "infinite": true,
                     "arrows": false,
