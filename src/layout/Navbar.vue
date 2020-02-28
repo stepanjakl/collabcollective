@@ -4,8 +4,8 @@
 
             <div class="w-full h-full">
                 <router-link to="/">
-                    <img src="@/assets/logos/logo-w.svg" class="w-auto h-full mx-auto md:mx-0" id="logo-light">
-                    <img src="@/assets/logos/logo-b.svg" class="w-auto h-full mx-auto md:mx-0" id="logo-dark">
+                    <img alt="Logo" src="@/assets/logos/logo-w.svg" class="w-auto h-full mx-auto md:mx-0" id="logo-light">
+                    <img alt="Logo" src="@/assets/logos/logo-b.svg" class="w-auto h-full mx-auto md:mx-0" id="logo-dark">
                 </router-link>
             </div>
 

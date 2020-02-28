@@ -22,28 +22,28 @@
                             quote="Creating a marketplace listing was a straightforward process. The platform really covers all relevant points in our complex media rights world."
                             name="Miguel Mateo"
                             position="European Handball Federation (Austria)">
-                        <img src="@/assets/logos/ehf.png" class="w-12">
+                        <img alt="Slideshow picture" src="@/assets/logos/ehf.png" class="w-12">
                     </carousel-reference>
 
                     <carousel-reference
                             quote="We have so much content that it is impossible to promote everything manually. Having a digital channel to create visibility and automate time consuming processes is a great idea."
                             name="Annie O'Shea"
                             position="FIBA (Switzerland)">
-                        <img src="@/assets/logos/fiba.png" class="w-24">
+                        <img alt="Slideshow picture" src="@/assets/logos/fiba.png" class="w-24">
                     </carousel-reference>
 
                     <carousel-reference
                             quote="It is great to have a platform like Content Arena which provides a new and innovative way to find sports media rights. They really make buying rights simple."
                             name="Oliver Godallier"
                             position="Game Sport Management (France)">
-                        <img src="@/assets/logos/sportklub.png" class="w-16">
+                        <img alt="Slideshow picture" src="@/assets/logos/sportklub.png" class="w-16">
                     </carousel-reference>
 
                     <carousel-reference
                             quote="We have so much content that it is impossible to promote everything manually. Having a digital channel to create visibility and automate time consuming processes is a great idea."
                             name="Annie O'Shea"
                             position="FIBA (Switzerland)">
-                        <img src="@/assets/logos/fiba.png" class="w-24">
+                        <img alt="Slideshow picture" src="@/assets/logos/fiba.png" class="w-24">
                     </carousel-reference>
 
                 </vue-slick-carousel>
@@ -107,7 +107,7 @@
                             </div>
                         </div>
 
-                        <img src="@/assets/home-sellers.png" class="w-full h-full absolute top-0 left-0 z-0">
+                        <img alt="Sellers" src="@/assets/home-sellers.png" class="w-full h-full absolute top-0 left-0 z-0">
 
                     </div>
 
@@ -128,7 +128,7 @@
                             </div>
                         </div>
 
-                        <img src="@/assets/home-buyers.png" class="w-full h-full absolute top-0 left-0 z-0">
+                        <img alt="Buyers" src="@/assets/home-buyers.png" class="w-full h-full absolute top-0 left-0 z-0">
 
                     </div>
 
@@ -144,7 +144,7 @@
             <div class="flex flex-row flex-wrap md:px-20 px-8">
 
                 <div v-for="reference in references" :key="reference" class="xl:w-1/6 lg:w-1/6 md:w-1/4 sm:w-1/4 w-1/2 mb-12 flex items-center">
-                    <img class="w-24 mx-auto" :src="require('@/assets/logos/' + reference + '-ref.png')">
+                    <img alt="Our reference" class="w-24 mx-auto" :src="require('@/assets/logos/' + reference + '-ref.png')">
                 </div>
 
             </div>

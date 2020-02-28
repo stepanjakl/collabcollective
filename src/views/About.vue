@@ -40,25 +40,25 @@
         <div class="container mx-auto flex flex-row md:justify-between sm:justify-center justify-center flex-wrap sm:p-8 p-2">
 
             <div class="md:w-auto w-1/2 xl:px-8 px-4 mb-4 text-center">
-                <img src="@/assets/people-lowres.jpg" class="py-2 mx-auto">
+                <img alt="Erik Lorenz" src="@/assets/people-lowres.jpg" class="py-2 mx-auto">
                 <h3 class="text-xl text-gray-800 capitalize pb-1">Erik Lorenz</h3>
                 <p class="text-md text-gray-700">CEO</p>
             </div>
 
             <div class="md:w-auto w-1/2 xl:px-8 px-4 mb-4 text-center">
-                <img src="@/assets/people-lowres.jpg" class="py-2 mx-auto">
+                <img alt="Chuan Talco Cruz" src="@/assets/people-lowres.jpg" class="py-2 mx-auto">
                 <h3 class="text-xl text-gray-800 capitalize pb-1">Chuan Talco Cruz</h3>
                 <p class="text-md text-gray-700">CTO</p>
             </div>
 
             <div class="md:w-auto w-1/2 xl:px-8 px-4 mb-4 text-center">
-                <img src="@/assets/people-lowres.jpg" class="py-2 mx-auto">
+                <img alt="Aslinda Ali" src="@/assets/people-lowres.jpg" class="py-2 mx-auto">
                 <h3 class="text-xl text-gray-800 capitalize pb-1">Aslinda Ali</h3>
                 <p class="text-md text-gray-700">Cotnent Activation Manager</p>
             </div>
 
             <div class="md:w-auto w-1/2 xl:px-8 px-4 mb-4 text-center">
-                <img src="@/assets/people-lowres.jpg" class="py-2 mx-auto">
+                <img alt="Jamie Rascon" src="@/assets/people-lowres.jpg" class="py-2 mx-auto">
                 <h3 class="text-xl text-gray-800 capitalize pb-1">Jamie Rascon</h3>
                 <p class="text-md text-gray-700">Bussiness Developer</p>
             </div>
@@ -72,31 +72,31 @@
         <div class="container mx-auto flex flex-row md:justify-between sm:justify-center justify-center flex-wrap sm:p-8 p-2">
 
             <div class="md:w-auto w-1/2 xl:px-8 px-4 mb-4 text-center">
-                <img src="@/assets/people-lowres.jpg" class="py-2 mx-auto">
+                <img alt="Sascha Kojic" src="@/assets/people-lowres.jpg" class="py-2 mx-auto">
                 <h3 class="text-xl text-gray-800 capitalize pb-1">Sascha Kojic</h3>
                 <p class="text-md text-gray-700">Co-Founder Content Arena <br/> &amp; CEO SN1 Consulting</p>
             </div>
 
             <div class="md:w-auto w-1/2 xl:px-8 px-4 mb-4 text-center">
-                <img src="@/assets/people-lowres.jpg" class="py-2 mx-auto">
+                <img alt="Bernhard Reidlsperger" src="@/assets/people-lowres.jpg" class="py-2 mx-auto">
                 <h3 class="text-xl text-gray-800 capitalize pb-1">Bernhard Reidlsperger</h3>
                 <p class="text-md text-gray-700">Co-Founder Content Arena <br/> &amp; President Hogmore Media AG</p>
             </div>
 
             <div class="md:w-auto w-1/2 xl:px-8 px-4 mb-4 text-center">
-                <img src="@/assets/people-lowres.jpg" class="py-2 mx-auto">
+                <img alt="Klemens Kögle" src="@/assets/people-lowres.jpg" class="py-2 mx-auto">
                 <h3 class="text-xl text-gray-800 capitalize pb-1">Klemens Kögle</h3>
                 <p class="text-md text-gray-700">Co-Founder Content Arena <br/> &amp; CEO Hogmore Media AG</p>
             </div>
 
             <div class="md:w-auto w-1/2 xl:px-8 px-4 mb-4 text-center">
-                <img src="@/assets/people-lowres.jpg" class="py-2 mx-auto">
+                <img alt="John Gleasure" src="@/assets/people-lowres.jpg" class="py-2 mx-auto">
                 <h3 class="text-xl text-gray-800 capitalize pb-1">John Gleasure</h3>
                 <p class="text-md text-gray-700">Chief Bussiness Developer <br/> Officer DANZ Media</p>
             </div>
 
             <div class="md:w-auto w-1/2 xl:px-8 px-4 mb-4 text-center">
-                <img src="@/assets/people-lowres.jpg" class="py-2 mx-auto">
+                <img alt="Alexander Fryba" src="@/assets/people-lowres.jpg" class="py-2 mx-auto">
                 <h3 class="text-xl text-gray-800 capitalize pb-1">Alexander Fryba</h3>
                 <p class="text-md text-gray-700">Product Developer <br/> Expert</p>
             </div>

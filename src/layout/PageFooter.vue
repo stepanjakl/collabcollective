@@ -3,7 +3,7 @@
 		<div class="container mx-auto sm:p-8 p-4">
 
 			<div class="w-full pb-8">
-				<img src="@/assets/logos/logo-w.svg" class="w-auto mb-2" style="height: 40px">
+				<img alt="Logo" src="@/assets/logos/logo-w.svg" class="w-auto mb-2" style="height: 40px">
 			</div>
 
 			<div class="flex sm:flex-row flex-col">
@@ -66,7 +66,7 @@
 					</p>
 					<div class="lg:w-1/2 sm:w-16 w-12">
 						<a href="#" v-scroll-to="'#top'">
-							<img src="@/assets/back-to-top.svg" class="w-16 inline-block">
+							<img alt="Back to top" src="@/assets/back-to-top.svg" class="w-16 inline-block">
 						</a>
 					</div>
 				</div>
@@ -77,7 +77,8 @@
 					<p class="text-cc-blue-darkest text-sm">©{{ new Date().getFullYear() }} Content Arena</p>
 				</div>
 				<div class="sm:w-1/2 w-auto sm:pl-4 pl-0">
-					<p class="text-cc-blue-darkest text-sm">All rights reserved</p>
+					<p class="text-cc-blue-darkest text-sm">All rights reserved.</p>
+					<p class="text-cc-blue-darkest text-sm">Website created with ❤ by <a href="https://bohemicastudio.com?utm_source=contentarena" target="_blank">Bohemica Studio</a></p>
 				</div>
 			</div>
 

@@ -49,13 +49,13 @@
                     
                     <div class="flex flex-row justify-center">
                         <div class="lg:seller-badge-3x sm:seller-badge-2x seller-badge-1x">
-                            <img class="w-full h-full" src="@/assets/seller-security-icon-1.svg">
+                            <img alt="Security badge" class="w-full h-full" src="@/assets/seller-security-icon-1.svg">
                         </div>
                         <div class="lg:seller-badge-3x sm:seller-badge-2x seller-badge-1x">
-                            <img class="w-full h-full" src="@/assets/seller-security-icon-2.svg">
+                            <img alt="Security badge" class="w-full h-full" src="@/assets/seller-security-icon-2.svg">
                         </div>
                         <div class="lg:seller-badge-3x sm:seller-badge-2x seller-badge-1x">
-                            <img class="w-full h-full" src="@/assets/seller-security-icon-3.svg">
+                            <img alt="Security badge" class="w-full h-full" src="@/assets/seller-security-icon-3.svg">
                         </div>
                     </div>
 
