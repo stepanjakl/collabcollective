@@ -1,5 +1,5 @@
 <template>
-    <div class="sm:px-4 px-1">
+    <div class="sm:px-4 px-4">
         <div class="flex w-full h-full bg-white flex flex-col">
 
             <div class="h-full p-8 text-center flex items-center">

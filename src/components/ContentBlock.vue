@@ -1,6 +1,6 @@
 <template>
-    <div class="container mx-auto pt-4 md:pb-24 pb-8">
-        <div class="p-8">
+    <div class="container mx-auto pt-4 md:pb-24 pb-12">
+        <div class="sm:p-8 p-4">
 
             <!-- IMAGE LEFT -->
             <div v-if="this.left" class="flex xl:flex-row lg:flex-row md:flex-col sm:flex-col flex-col">

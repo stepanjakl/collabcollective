@@ -6,34 +6,40 @@
 
 
 @responsive {
-    .bottom-60px{
+    .bottom-60px {
         bottom: 60px;
     }
-    .bottom-102px{
+    .bottom-102px {
         bottom: 102px;
     }
-    .bottom-142px{
+    .bottom-142px {
         bottom: 142px;
     }
 
-    .seller-badge-1x{
+    .seller-badge-1x {
         width:  50px;
         height: 50px;
     }
-    .seller-badge-2x{
+    .seller-badge-2x {
         width:  64px;
         height: 64px;
     }
-    .seller-badge-3x{
+    .seller-badge-3x {
         width:  80px;
         height: 80px;
+    }
+
+    .title-dash-99 {
+        transform: translateX(-99%);
+    }
+    .title-dash-94 {
+        transform: translateX(-94%);
     }
 }
 
 .btn {
     padding: 8px 46px;
     border-radius: 4px;
-    border-color: transparent !important;
 }
 .btn.btn-blue {
     color: whitesmoke;
@@ -76,6 +82,10 @@
     border-bottom-color: theme('colors.cc-blue-darkest');
 }
 
+.btn.btn-nobottom {
+    border-bottom: transparent 0;
+}
+
 .btn-connect .btn {
     font-size: 14px;
     padding: 6px 24px;
@@ -88,4 +98,17 @@
 .btn-connect .btn:last-child {
     border-top-right-radius: 6px;
     border-bottom-right-radius: 6px;
+}
+
+
+
+.slick-dots {
+    bottom: -40px;
+}
+.slick-dots li button::before {
+    font-size: 6px;
+}
+.slick-dots li.slick-active button::before {
+    font-size: 8px;
+    color: theme('colors.cc-blue-dark');
 }

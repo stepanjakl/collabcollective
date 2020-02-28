@@ -53,7 +53,7 @@
     import ContentBlock from '../components/ContentBlock';
 
     export default {
-        name: 'Buyer',
+        name: 'Buyers',
         components: {
             SectionTitle,
             TopPicture,

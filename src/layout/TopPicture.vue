@@ -1,30 +1,36 @@
 <template>
     <div class="top-picture relative" id="top">
         <div class="w-full h-full z-10 relative">
+
             <div class="container flex flex-col justify-end mx-auto h-full">
-                <div class="flex flex-col md:flex-row justify-end pt-56 lg:pt-64 pb-4 md:pb-12 lg:pb-24 xl:pb-48  md:px-8 px-4">
+                <div class="flex flex-col md:flex-row justify-end lg:pt-64 pt-56 pb-8 md:pb-12 lg:pb-24 xl:pb-48  md:px-8 px-4">
+                    
                     <div class="flex flex-col w-full md:w-7/12 items-start md:text-left text-center" id="color-change">
                         <h1 class="w-full font-semibold text-2xl md:text-3xl lg:text-4xl xl:text-5xl pb-4">
                             {{this.title}}</h1>
                         <p class="font-light text-md sm:text-lg md:text-xl xl:text-2xl pb-8" v-if="this.comment">
                             {{this.comment}}</p>
-                        <button class="btn btn-blue rounded-sm self-center md:self-start text-sm mt-10 md:text-lg py-2 md:py-4 px-10 md:px-20">
+                        <button class="btn btn-blue rounded-sm self-center md:self-start text-sm md:mt-6 mt-0 lg:mb-6 md:mb-10 mb-16 md:text-lg py-1 md:py-2 px-10 md:px-20">
                             Register Now
                         </button>
                     </div>
+
                     <div class="w-full md:w-5/12 flex flex-row justify-center md:justify-end items-center md:items-end my-6 md:my-0">
                         <div class="flex items-center" v-if="this.$router.currentRoute.name === 'Home'">
                             <span class="text-white text-sm md:text-lg">Trusted by:</span>
                             <img src="@/assets/logos/pitch.png" class="h-8 ml-4">
                         </div>
                     </div>
+
                 </div>
                 <div class="flex justify-center pb-8" v-if="this.$router.currentRoute.name === 'Home'">
                     <img src="@/assets/arrow-down.svg" style="height: 12px">
                 </div>
             </div>
         </div>
+
         <slot></slot>
+
     </div>
 </template>
 

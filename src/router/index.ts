@@ -2,8 +2,8 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 
 import Home from '../views/Home.vue'
-import Buyer from '../views/Buyer.vue'
-import Seller from '../views/Seller.vue'
+import Buyers from '../views/Buyers.vue'
+import Sellers from '../views/Sellers.vue'
 import About from '../views/About.vue'
 import Contact from '../views/Contact.vue'
 
@@ -22,19 +22,19 @@ const routes = [
     }
   },
   {
-    path: '/buyer',
-    name: 'Buyer',
-    component: Buyer,
+    path: '/buyers',
+    name: 'Buyers',
+    component: Buyers,
     meta: {
-      title: "Buyer"
+      title: "Buyers"
     }
   },
   {
-    path: '/seller',
-    name: 'Seller',
-    component: Seller,
+    path: '/sellers',
+    name: 'Sellers',
+    component: Sellers,
     meta: {
-      title: "Seller"
+      title: "Sellers"
     }
   },
   {

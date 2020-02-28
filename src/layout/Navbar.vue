@@ -12,16 +12,16 @@
             <nav class="flex flex-col md:flex-row items-center">
 
                 <div class="flex-row mt-6 md:m-0 tracking-wide" id="text-change">
-                    <router-link class="mr-8" to="/seller">Seller</router-link>
-                    <router-link class="mr-8" to="/buyer">Buyer</router-link>
+                    <router-link class="mr-8" to="/sellers">Sellers</router-link>
+                    <router-link class="mr-8" to="/buyers">Buyers</router-link>
                     <router-link class="mr-8" to="/about-us">About</router-link>
                     <router-link class="md:mr-12" to="/contact">Contact</router-link>
                 </div>
 
-                <div style="width: max-content;">
+                <div class="sm:mt-0 mt-6" style="width: max-content;">
                     <div class="btn-connect">
-                        <router-link class="btn btn-blue rounded-l-sm" to="/register">Register</router-link>
-                        <router-link class="btn btn-yellow rounded-r-sm" to="/login">Sign in</router-link>
+                        <router-link class="btn btn-blue btn-nobottom rounded-l-sm" to="/register">Register</router-link>
+                        <router-link class="btn btn-yellow btn-nobottom rounded-r-sm" to="/login">Sign in</router-link>
                     </div>
                 </div>
 
@@ -91,7 +91,7 @@
 
 <style scoped>
     .router-link-active {
-        font-weight: 600;
+        font-weight: 700;
         padding-bottom: 4px;
         border-bottom: solid 2px;
     }

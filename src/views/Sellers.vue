@@ -2,7 +2,7 @@
     <div class="page">
 
         <top-picture
-                title="One stop shop to sell your rights.">
+                title="The one-stop shop to sell and manage your rights.">
             <v-lazy-image class="w-full h-full absolute object-cover top-0 no-blur"
                           :src="require('@/assets/headers/seller.jpg')"
                           :src-placeholder="require('@/assets/headers/seller-lowres.jpg')"/>

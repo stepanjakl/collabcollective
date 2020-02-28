@@ -1,6 +1,6 @@
 <template>
 	<div class="footer bg-cc-blue-second pt-12">
-		<div class="container mx-auto p-8">
+		<div class="container mx-auto sm:p-8 p-4">
 
 			<div class="w-full pb-8">
 				<img src="@/assets/logos/logo-w.svg" class="w-auto mb-2" style="height: 40px">
@@ -9,11 +9,11 @@
 			<div class="flex sm:flex-row flex-col">
 				<div class="sm:w-1/2 w-full">
 
-					<h2 class="text-black text-white text-5xl p-2">Join us today!</h2>
+					<h2 class="font-semibold text-white text-4xl p-2">Join us today!</h2>
 
-					<p class="text-white text-lg mt-4">
-						Buyers: find interesting rights <br>
-						opportunities &amp; optimize your content <br>
+					<p class="text-white text-lg mt-4" style="max-width: 340px">
+						Buyers: find interesting rights 
+						opportunities &amp; optimize your content 
 						portfolio.
 					</p>
 
@@ -26,12 +26,16 @@
 						</div>
 					</div>
 
+					<div class="w-full sm:hidden block my-8">
+						<router-link to="/login" class="btn btn-yellow py-2 px-12 text-lg">Register Now</router-link>
+					</div>
+
 				</div>
 
 				<div class="sm:w-1/2 w-full sm:mt-0 mt-8 flex flex-row">
 
 					<div class="w-1/2 sm:pl-4 pl-0">
-						<h3 class="font-bold text-cc-blue-darkest mb-6 uppercase text-sm tracking-widest">Info</h3>
+						<h3 class="font-bold text-cc-blue-darkest mb-6 uppercase sm:text-sm text-xs tracking-widest">Info</h3>
 						<ul>
 							<li class="font-medium text-white text-lg mb-3">FAQ</li>
 							<li class="font-medium text-white text-lg mb-3">Contact</li>
@@ -40,7 +44,7 @@
 					</div>
 
 					<div class="w-1/2 pl-4">
-						<h3 class="font-bold text-cc-blue-darkest mb-6 uppercase text-sm tracking-widest">Policy</h3>
+						<h3 class="font-bold text-cc-blue-darkest mb-6 uppercase sm:text-sm text-xs tracking-widest">Policy</h3>
 						<ul>
 							<li class="font-medium text-white text-lg mb-3">Terms</li>
 							<li class="font-medium text-white text-lg mb-3">Privacy</li>
@@ -51,16 +55,16 @@
 			</div>
 
 			<div class="flex flex-wrap sm:flex-row flex-col sm:mt-12 mt-4">
-				<div class="sm:w-1/2 w-full">
+				<div class="w-1/2 sm:block hidden relative" style="top: 20px">
 					<router-link to="/login" class="btn btn-yellow py-4 px-16 text-lg">Register Now</router-link>
 				</div>
 				<div class="sm:w-1/2 w-full sm:pl-4 sm: pl-0 sm:pt-2 pt-6 flex flex-row items-center">
-					<p class="lg:w-1/2 w-full text-white text-lg font-light  sm:-ml-0 -ml-2">
+					<p class="lg:w-1/2 w-full text-white text-lg font-light">
 						<span class="h-px mr-6 mb-1 bg-white inline-block" style="width: 32px"></span>
 						<a href="" class="mr-4">Facebook</a>
 						<a href="">LinkedIn</a>
 					</p>
-					<div class="lg:w-1/2 sm:w-16 w-12  sm:-ml-0 -ml-2">
+					<div class="lg:w-1/2 sm:w-16 w-12">
 						<a href="#" v-scroll-to="'#top'">
 							<img src="@/assets/back-to-top.svg" class="w-16 inline-block">
 						</a>
@@ -68,17 +72,17 @@
 				</div>
 			</div>
 
-			<div class="flex flex-wrap sm:justify-start justify-between sm:mt-24 mt-12 mb-4">
-				<div class="sm:w-1/2 w-auto sm:-ml-0 -ml-2">
+			<div class="flex flex-wrap sm:justify-start justify-between sm:mt-24 mt-16 mb-6">
+				<div class="sm:w-1/2 w-auto">
 					<p class="text-cc-blue-darkest text-sm">©{{ new Date().getFullYear() }} Content Arena</p>
 				</div>
-				<div class="sm:w-1/2 w-auto sm:pl-4 pl-0 sm:-mr-0 -mr-2">
+				<div class="sm:w-1/2 w-auto sm:pl-4 pl-0">
 					<p class="text-cc-blue-darkest text-sm">All rights reserved</p>
 				</div>
 			</div>
 
 			<!--<div class="text-center">
-				<p class="text-cc-blue-darkest text-sm">Developed by <a href="https://www.bohemicastudio.com/">Team Bohemica</a> with &lt;3</p>
+				<p class="text-cc-blue-darkest text-sm">Developed by <a href="https://www.bohemicastudio.com/">Team Bohemica</a> with ❤️</p>
 			</div>-->
 
 		</div>

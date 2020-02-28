@@ -10,8 +10,8 @@
                     <v-lazy-image class="w-10/12 h-full mx-auto top-0 py-16"
                                   :src="require('@/assets/headers/contact.png')"
                                   :src-placeholder="require('@/assets/headers/contact-lowres.jpg')"/>
-                    <p class="text-normal text-cc-blue-light text-md uppercase">Argentina (Americas) * United Kingdom,
-                        France, Germany, &amp; Spain (Europe) * South Africa (Africa) * Singapore (Asia)</p>
+                    <p class="text-normal text-cc-blue-light text-md uppercase">Argentina (Americas) • United Kingdom,
+                        France, Germany, &amp; Spain (Europe) • South Africa (Africa) • Singapore (Asia)</p>
 
                 </div>
             </div>
@@ -44,23 +44,22 @@
                         
                         <div class="w-full flex flex-col mt-8">
                             <label class="font-semibold text-black text-sm mb-4" for="message">Text</label>
-                            <textarea class="outline" rows="6" name="message" placeholder="Write..."
-                                      style="width: calc(100% + 6px)"></textarea>
+                            <textarea class="outline w-full" rows="6" name="message" placeholder="Write..."></textarea>
                         </div>
 
-                        <div class="flex flex-row justify-end relative" style="top: 32px; right: -6px;">
-                            <input class="btn btn-black rounded-none" type="submit" value="Send Message" />
+                        <div class="flex flex-row justify-end relative" style="top: 32px">
+                            <input class="btn btn-black rounded-none cursor-pointer" type="submit" value="Send Message" />
                         </div>
 
                     </form>
 
                 </div>
-                <div class="md:ml-4 sm:ml-0 xl:w-1/4 lg:w-1/4 md:w-1/4 sm:w-full w-full md:mt-0 mt-16">
+                <div class="md:ml-4 sm:ml-0 xl:w-1/4 lg:w-1/4 md:w-1/4 sm:w-full w-full md:mt-0 mt-24">
 
-                    <h6 class="font-semibold text-gray-700 text-sm mb-2">Our Email:</h6>
-                    <p>info@contentarena.com</p>
+                    <h6 class="font-semibold text-gray-500 text-sm mb-2">Our Email</h6>
+                    <p class="font-medium text-blue-600 underline">info@contentarena.com</p>
 
-                    <h6 class="font-semibold text-gray-700 text-sm mb-2 sm:mt-12 mt-6">Address:</h6>
+                    <h6 class="font-semibold text-gray-500 text-sm mb-2 sm:mt-12 mt-6">Address</h6>
                     <p>
                         Content Arena PTE. Ltd.,<br />
                         Upper Cross Street #04-02<br />
@@ -83,7 +82,8 @@
 
 <style scoped>
     .outline {
-        padding: 8px;
+        width: 100%;
+        padding: 14px;
         outline: solid lightgray 1px;
     }
 </style>

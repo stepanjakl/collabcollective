@@ -15,7 +15,7 @@
                 <section-title title="Testimonials"></section-title>
             </div>
 
-            <div class="container mx-auto px-8">
+            <div class="container mx-auto sm:px-8 px-2">
                 <vue-slick-carousel v-bind="this.carouselSetting">
 
                     <carousel-reference
@@ -98,12 +98,12 @@
 
                         <div class="relative z-10 sm:p-16 p-12 xl:pt-32 sm:pt-20 pt-12 text-center">
                             <h3 class="font-bold text-white sm:text-2xl text-xl uppercase mb-4 tracking-widest">Rightsholders Federations &amp; Agencies</h3>
-                            <p class="text-white font-light text-lg mb-8 leading-relaxed">No more manual updates of spreadsheets - manage all your rights in one place and create additional revenue opportunities.</p>
+                            <p class="font-normal text-white text-lg mb-8 leading-relaxed">No more manual updates of spreadsheets - manage all your rights in one place and create additional revenue opportunities.</p>
                         </div>
 
                         <div class="w-full absolute z-10 xl:bottom-142px sm:bottom-102px bottom-60px flex items-center">
                             <div class="mx-auto">
-                                <router-link to="/#" class="btn btn-yellow py-6 px-10 font-bold uppercase tracking-wider rounded-sm">Learn&nbsp;more</router-link>
+                                <router-link to="/#" class="btn btn-yellow sm:py-6 py-4 sm:px-10 px-8 font-bold uppercase tracking-wider rounded-sm">Learn&nbsp;more</router-link>
                             </div>
                         </div>
 
@@ -111,20 +111,20 @@
 
                     </div>
 
-                    <!-- Line between pictures, switches from verticat to horizontal -->
-                    <div class="lg:h-500px sm:h-2px h-2px lg:w-2px sm:w-10/12 w-10/12 lg:mx-16 sm:my-8 my-8 mx-auto bg-cc-blue-light"></div>
+                    <!-- Line between pictures, switches from vertical to horizontal -->
+                    <div class="lg:h-500px sm:h-2px h-2px lg:w-2px sm:w-10/12 w-10/12 lg:mx-16 sm:my-8 my-12 mx-auto bg-cc-blue-light"></div>
 
                     <div class="lg:w-1/2 w-full relative"
                          style="min-height: 500px;">
 
                          <div class="relative z-10 sm:p-16 p-12 xl:pt-32 sm:pt-20 pt-12 text-center">
                             <h3 class="font-bold text-white sm:text-2xl text-xl uppercase mb-4 tracking-widest">Broadcasters</h3>
-                            <p class="text-white font-light text-lg mb-8 leading-relaxed">Disover a multitude of rights opportunities at your finger tips and optimize your content portfolio.</p>
+                            <p class="font-normal text-white text-lg mb-8 leading-relaxed">Disover a multitude of rights opportunities at your finger tips and optimize your content portfolio.</p>
                         </div>
 
                         <div class="w-full absolute z-10 xl:bottom-142px sm:bottom-102px bottom-60px flex items-center">
                             <div class="mx-auto">
-                                <router-link to="/#" class="btn btn-yellow py-6 px-10 font-bold uppercase tracking-wider rounded-sm">Learn&nbsp;more</router-link>
+                                <router-link to="/#" class="btn btn-yellow sm:py-6 py-4 sm:px-10 px-8 font-bold uppercase tracking-wider rounded-sm">Learn&nbsp;more</router-link>
                             </div>
                         </div>
 
