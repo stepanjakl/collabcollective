@@ -1,15 +1,15 @@
 <template>
-    <div class="navbar p-8 w-full absolute z-50">
-        <div class="container mx-auto flex flex-col md:flex-row justify-between items-center" style="height: 50px;">
+    <div class="navbar p-8 w-full absolute z-30">
+        <div class="container mx-auto flex flex-row justify-between items-center" style="height: 50px;">
 
-            <div class="w-full h-full">
+            <div class="h-full">
                 <router-link to="/">
                     <img alt="Logo" src="@/assets/logos/logo-w.svg" class="w-auto h-full mx-auto md:mx-0" id="logo-light">
                     <img alt="Logo" src="@/assets/logos/logo-b.svg" class="w-auto h-full mx-auto md:mx-0" id="logo-dark">
                 </router-link>
             </div>
 
-            <nav class="flex flex-col md:flex-row items-center">
+            <nav class="hidden md:flex flex-col md:flex-row items-center">
 
                 <div class="flex-row mt-6 md:m-0 tracking-wide" id="text-change">
                     <router-link class="mr-8" to="/sellers">Sellers</router-link>
@@ -20,12 +20,18 @@
 
                 <div class="sm:mt-0 mt-6" style="width: max-content;">
                     <div class="btn-connect">
-                        <router-link class="btn btn-blue btn-nobottom rounded-l-sm" to="/register">Register</router-link>
-                        <router-link class="btn btn-yellow btn-nobottom rounded-r-sm" to="/login">Sign in</router-link>
+                        <a href="https://contentarena.com/registration" class="btn btn-blue btn-nobottom rounded-l-sm">Register</a>
+                        <a href="https://contentarena.com/login" class="btn btn-yellow btn-nobottom rounded-r-sm">Sign in</a>
                     </div>
                 </div>
 
             </nav>
+
+            <div class="flex md:hidden">
+                <button v-on:click="() => { this.$root.$emit('menu-click') }" class="flex items-center rounded text-yellow-400 p-2 hover:text-white">
+                    <svg class="fill-current h-6 w-6" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg>
+                </button>
+            </div>
 
         </div>
     </div>

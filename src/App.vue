@@ -1,6 +1,7 @@
 <template>
     <div class="app o">
         <navbar v-if="this.showNav"/>
+        <mobile-menu/>
         <transition name="fade" mode="out-in">
             <router-view/>
         </transition>
@@ -11,6 +12,7 @@
 <script>
     import Navbar from '@/layout/Navbar'
     import PageFooter from '@/layout/PageFooter'
+    import MobileMenu from "@/layout/MobileMenu";
 
     export default {
         name: 'App',
@@ -21,6 +23,7 @@
             }
         },
         components: {
+            MobileMenu,
             Navbar,
             PageFooter
         },
