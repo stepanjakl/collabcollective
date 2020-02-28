@@ -5,8 +5,8 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'cc-blue-light': '#3399ff',
-        'cc-blue-second': '#2f9aff',
+        'cc-blue-light': '#3399FF',
+        'cc-blue-second': '#63B1FF',
         'cc-blue-dark': '#015887',
         'cc-blue-darkest': '#00537d',
         'cc-yellow-light': '#ffca4a',
