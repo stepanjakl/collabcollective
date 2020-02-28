@@ -35,6 +35,22 @@
     .title-dash-94 {
         transform: translateX(-94%);
     }
+
+    .text-shadow {
+        text-shadow: 0 2px 4px rgba(0,0,0,0.10);
+    }
+
+    .text-shadow-md {
+        text-shadow: 0 4px 8px rgba(0,0,0,0.12), 0 2px 4px rgba(0,0,0,0.08);
+    }
+
+    .text-shadow-lg {
+        text-shadow: 0 15px 30px rgba(0,0,0,0.11), 0 5px 15px rgba(0,0,0,0.08);
+    }
+
+    .text-shadow-none {
+        text-shadow: none;
+    }
 }
 
 .btn {
@@ -98,17 +114,4 @@
 .btn-connect .btn:last-child {
     border-top-right-radius: 6px;
     border-bottom-right-radius: 6px;
-}
-
-
-
-.slick-dots {
-    bottom: -40px;
-}
-.slick-dots li button::before {
-    font-size: 6px;
-}
-.slick-dots li.slick-active button::before {
-    font-size: 8px;
-    color: theme('colors.cc-blue-dark');
 }
