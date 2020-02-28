@@ -12,8 +12,8 @@
 					<h2 class="font-semibold text-white text-4xl p-2">Join us today!</h2>
 
 					<p class="text-white text-lg mt-4" style="max-width: 340px">
-						Buyers: find interesting rights 
-						opportunities &amp; optimize your content 
+						Buyers: find interesting rights
+						opportunities &amp; optimize your content
 						portfolio.
 					</p>
 
@@ -74,11 +74,10 @@
 
 			<div class="flex flex-wrap sm:justify-start justify-between sm:mt-24 mt-16 mb-6">
 				<div class="sm:w-1/2 w-auto">
-					<p class="text-cc-blue-darkest text-sm">©{{ new Date().getFullYear() }} Content Arena</p>
+					<p class="text-cc-blue-darkest text-sm leading-loose">© {{ new Date().getFullYear() }} Content Arena. All rights reserved.</p>
 				</div>
-				<div class="sm:w-1/2 w-auto sm:pl-4 pl-0">
-					<p class="text-cc-blue-darkest text-sm">All rights reserved.</p>
-					<p class="text-cc-blue-darkest text-sm">Website created with ❤ by <a href="https://bohemicastudio.com?utm_source=contentarena" target="_blank">Bohemica Studio</a></p>
+				<div class="sm:w-1/2 w-auto sm:pl-4 pl-0 leading-loose">
+					<p class="text-cc-blue-darkest text-sm">Website created with ❤ by <a href="https://bohemicastudio.com?utm_source=contentarena" target="_blank" class="font-semibold">Bohemica Studio</a></p>
 				</div>
 			</div>
 

@@ -2,7 +2,7 @@
 	<div class="page">
 
         <top-picture
-            title="One stop 24/7 to buy the content you need.">
+            title="The one stop 24/7 to buy the content you need.">
             <v-lazy-image class="w-full h-full absolute object-cover top-0 no-blur"
                 :src="require('@/assets/headers/home.jpg')"
                 :src-placeholder="require('@/assets/headers/home-lowres.jpg')"/>

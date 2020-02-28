@@ -12,7 +12,7 @@
                 <div class="xl:w-5/12 lg:w-5/12 md:w-full sm:w-full w-full relative">
                     <h4 class="font-bold text-sm uppercase pb-4 tracking-widest text-gray-800">{{ this.label }}</h4>
                     <h3 class="font-semibold text-2xl pb-6 text-gray-800">{{ this.header }}</h3>
-                    <p class="font-normal text-gray-600 pb-8">{{ this.text }}</p>
+                    <p class="font-normal text-gray-600 pb-8 leading-relaxed">{{ this.text }}</p>
 
                     <div v-if="this.btnTwo" class="pt-4">
                         <router-link to="/seller" class="btn btn-blue mr-2 rounded-sm">Sellers</router-link>
@@ -31,7 +31,7 @@
                 <div class="xl:w-5/12 lg:w-5/12 md:w-full sm:w-full w-full relative">
                     <h4 class="font-bold text-sm uppercase pb-4 tracking-widest text-gray-800">{{ this.label }}</h4>
                     <h3 class="font-semibold text-2xl pb-6 text-gray-800">{{ this.header }}</h3>
-                    <p class="font-normal text-gray-600 pb-8">{{ this.text }}</p>
+                    <p class="font-normal text-gray-600 pb-8 leading-relaxed">{{ this.text }}</p>
 
                     <div v-if="this.btnTwo" class="pt-4">
                         <router-link to="/seller" class="btn btn-blue mr-2 rounded-sm">Sellers</router-link>
