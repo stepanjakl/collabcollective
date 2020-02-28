@@ -1,4 +1,15 @@
-# collabcollective
+# Content Arena Staging Site
+
+## Deploy to Heroku
+```
+heroku login
+
+git commit -m "Commit name"
+
+git push heroku master
+```
+
+For more information see this article: [Deploying Node.js Apps on Heroku](https://devcenter.heroku.com/articles/deploying-nodejs#deploy-your-application-to-heroku)
 
 ## Project setup
 ```
@@ -14,11 +25,3 @@ npm run serve
 ```
 npm run build
 ```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
