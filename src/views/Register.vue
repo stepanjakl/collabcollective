@@ -28,7 +28,7 @@
 
                     <button class="btn btn-blue w-full">Login</button>
 
-                    <p class="text-black text-center">Already have an account? <router-link to="/register">Login here</router-link></p>
+                    <p class="text-black text-center">Already have an account? <router-link to="/login">Login here</router-link></p>
                 </form>
 
             </div>
