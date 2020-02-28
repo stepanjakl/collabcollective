@@ -1,12 +1,12 @@
 <template>
-    <div class="sm:px-4 px-4">
-        <div class="flex w-full h-full bg-white flex flex-col">
+    <div class="md:px-6 px-4">
+        <div class="flex w-full h-full bg-white flex flex-col shadow-lg">
 
             <div class="h-full p-8 text-center flex items-center">
                 <p class="font-semibold text-md">"{{this.quote}}"</p>
             </div>
 
-            <div class="w-full pl-6 py-8 bg-blue-600 flex flex-row nowrap shadow-xl items-center"
+            <div class="w-full pl-6 py-8 bg-blue-600 flex flex-row nowrap items-center"
                  style="align-self: flex-end; background-image: linear-gradient(to bottom left, #03547C, #3399FF)">
                 <div class="pr-4 reference-logo">
                     <slot></slot>

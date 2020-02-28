@@ -8,12 +8,15 @@ import './assets/tailwind.css'
 import { VLazyImagePlugin } from 'v-lazy-image';
 import VueScrollTo from 'vue-scrollto';
 
+import sslRedirect from 'heroku-ssl-redirect';
+
 import './assets/fonts.scss';
 
 Vue.config.productionTip = false;
 
 Vue.use(VLazyImagePlugin);
 Vue.use(VueScrollTo);
+Vue.use(sslRedirect);
 
 const DEFAULT_TITLE = 'Content Arena – Buy, sell, and manage your sport media rights online';
 const POSTFIX_TITLE = 'Content Arena – Buy, sell, and manage your sport media rights online';

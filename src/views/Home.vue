@@ -9,13 +9,13 @@
                           :src-placeholder="require('@/assets/headers/home-lowres.jpg')"/>
         </top-picture>
 
-        <div class="bg-gray-300 w-full bg-cover bg-center pt-6 pb-16 bg-no-repeat"
+        <div class="bg-gray-300 w-full bg-cover bg-center pt-10 pb-16 bg-no-repeat"
              :style="{ backgroundImage: 'url(' + require('@/assets/bg-testimonials.png') }">
             <div class="relative py-8">
                 <section-title title="Testimonials"></section-title>
             </div>
 
-            <div class="container mx-auto sm:px-8 px-2">
+            <div class="container mx-auto pt-4">
                 <vue-slick-carousel v-bind="this.carouselSetting">
 
                     <carousel-reference
@@ -197,10 +197,13 @@
                     'astro'
                 ],
                 carouselSetting: {
-                    "focusOnSelect": true,
+                    "focusOnSelect": false,
                     "speed": 500,
+                    "autoplay": false,
+                    "autoplaySpeed": 5000,
+                    "draggable": true,
                     "infinite": true,
-                    "arrows": true,
+                    "arrows": false,
                     "dots": true,
                     "slidesToShow": 3,
                     "slidesToScroll": 2,
@@ -209,7 +212,7 @@
                     "initialSlide": 0,
                     "responsive": [
                         {
-                            "breakpoint": 1024, // tailwind LG 
+                            "breakpoint": 1024, // tailwind LG
                             "settings": {
                                 "slidesToShow": 2,
                                 "slidesToScroll": 1
@@ -231,6 +234,43 @@
     }
 </script>
 
-<style scoped>
-
+<style>
+    .slick-list {
+        padding: 1rem 0 2rem 0;
+    }
+    .slick-track {
+        display: flex !important;
+        align-items: stretch;
+    }
+    .slick-slide {
+        display: flex !important;
+        height: unset !important;
+    }
+    .slick-slide > div > div {
+        outline: none !important;
+        cursor: grab;
+        height: 100%;
+    }
+    .slick-dots {
+        position: relative;
+        bottom: unset;
+        margin-top: 1rem;
+    }
+    .slick-dots li {
+        margin: 0 !important;
+    }
+    .slick-dots li button {
+        padding: 0 !important;
+    }
+    .slick-dots li button:before {
+        color: #ACACAC;
+        font-size: 5px !important;
+        opacity: 1;
+    }
+    .slick-dots li.slick-active button:before {
+        color: #3399FF;
+        opacity: 1;
+        font-size: 10px !important;
+        margin-top: 1px !important;
+    }
 </style>
