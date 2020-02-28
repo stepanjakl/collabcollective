@@ -19,10 +19,10 @@
 
 					<div class="flex flex-row pt-8 pb-8 justify-start">
 						<div>
-							<router-link to="/buyer" class="btn btn-shallow-white lg:px-12 md:px-12 sm:px-8 px-8">Buyers</router-link>
+							<router-link to="/buyers" class="btn btn-shallow-white lg:px-12 md:px-12 sm:px-8 px-8">Buyers</router-link>
 						</div>
 						<div class="pl-6">
-							<router-link to="/seller" class="btn btn-shallow-black lg:px-12 md:px-12 sm:px-8 px-8">Sellers</router-link>
+							<router-link to="/sellers" class="btn btn-shallow-black lg:px-12 md:px-12 sm:px-8 px-8">Sellers</router-link>
 						</div>
 					</div>
 

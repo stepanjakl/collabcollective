@@ -3,7 +3,7 @@
         <div class="w-full h-full z-10 relative">
 
             <div class="container flex flex-col justify-end mx-auto h-full">
-                <div class="flex flex-col md:flex-row justify-end lg:pt-64 pt-56 pb-8 md:pb-12 lg:pb-24 xl:pb-48">
+                <div class="flex flex-col md:flex-row justify-end lg:pt-64 md:pt-40 pt-32 pb-8 md:pb-12 lg:pb-24 xl:pb-48 md:mx-4 mx-2">
 
                     <div class="flex flex-col w-full md:w-6/12 items-start md:text-left text-center" id="color-change">
                         <h1 class="w-full font-semibold text-2xl md:text-3xl lg:text-4xl xl:text-5xl pb-4">

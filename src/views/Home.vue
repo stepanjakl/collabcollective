@@ -105,12 +105,12 @@
                     <section-title title="Buyers &amp; sellers"></section-title>
                 </div>
 
-                <div class="sm:p-8 p-2 flex xl:flex-row lg:flex-row md:flex-col sm:flex-col flex-col">
+                <div class="sm:p-8 p-2 flex xl:flex-row lg:flex-row md:flex-col sm:flex-col flex-col" style="min-width: 300px">
 
                     <div class="lg:w-1/2 w-full relative"
                          style="min-height: 500px;">
 
-                        <div class="relative z-10 sm:p-16 p-12 xl:pt-32 sm:pt-20 pt-12 text-center">
+                        <div class="relative z-10 sm:p-16 p-12 xl:pt-32 sm:pt-20 pt-12 text-center lg:mx-0 mx-auto" style="max-width: 500px">
                             <h3 class="font-bold text-white sm:text-2xl text-xl uppercase mb-4 tracking-widest">Rightsholders Federations &amp; Agencies</h3>
                             <p class="font-normal text-white text-lg mb-8 leading-relaxed">No more manual updates of spreadsheets - manage all your rights in one place and create additional revenue opportunities.</p>
                         </div>
@@ -121,7 +121,7 @@
                             </div>
                         </div>
 
-                        <img alt="Sellers" src="@/assets/home-sellers.png" class="w-full h-full absolute top-0 left-0 z-0">
+                        <img alt="Sellers" src="@/assets/home-sellers.png" class="lg:max-w-full md:max-w-64 max-w-full  h-full absolute top-0 lg:left-0 md:left-135px sm:left-70px left-0 z-0">
 
                     </div>
 
@@ -131,18 +131,18 @@
                     <div class="lg:w-1/2 w-full relative"
                          style="min-height: 500px;">
 
-                         <div class="relative z-10 sm:p-16 p-12 xl:pt-32 sm:pt-20 pt-12 text-center">
+                         <div class="relative z-10 sm:p-16 p-12 xl:pt-32 sm:pt-20 pt-12 text-center lg:mx-0 mx-auto" style="max-width: 500px">
                             <h3 class="font-bold text-white sm:text-2xl text-xl uppercase mb-4 tracking-widest">Broadcasters</h3>
                             <p class="font-normal text-white text-lg mb-8 leading-relaxed">Disover a multitude of rights opportunities at your finger tips and optimize your content portfolio.</p>
                         </div>
 
                         <div class="w-full absolute z-10 xl:bottom-142px sm:bottom-102px bottom-60px flex items-center">
-                            <div class="mx-auto">
+                            <div class="xl:mx-40 mx-auto">
                                 <router-link to="/#" class="btn btn-yellow sm:py-6 py-4 sm:px-10 px-8 font-bold uppercase tracking-wider rounded-sm">Learn&nbsp;more</router-link>
                             </div>
                         </div>
 
-                        <img alt="Buyers" src="@/assets/home-buyers.png" class="w-full h-full absolute top-0 left-0 z-0">
+                        <img alt="Buyers" src="@/assets/home-buyers.png" class="lg:max-w-full md:max-w-64 max-w-full h-full absolute top-0 lg:left-0 md:left-135px sm:left-70px xs:left-20px left-0 z-0">
 
                     </div>
 
