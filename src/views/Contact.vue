@@ -1,5 +1,5 @@
 <template>
-    <div class="page">
+    <div class="page" id="top">
 
         <div class="w-full bg-gray-100">
             <div class="container mx-auto">
@@ -48,7 +48,7 @@
                         </div>
 
                         <div class="flex flex-row justify-end relative mt-6">
-                            <input class="btn btn-black bg-gray-800 rounded-none cursor-pointer px-10 py-4" type="submit" value="Send Message" />
+                            <input class="btn btn-black bg-gray-800 rounded-none cursor-pointer px-10 py-4 hover:text-cc-yellow-light btn-transition" type="submit" value="Send Message" />
                         </div>
 
                     </form>

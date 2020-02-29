@@ -122,7 +122,7 @@
                             </div>
                         </div>
 
-                        <img alt="Sellers" src="@/assets/home-sellers.png" class="lg:max-w-full md:max-w-64 max-w-full  h-full absolute top-0 lg:left-0 md:left-135px sm:left-70px left-0 z-0">
+                        <img alt="Sellers" src="@/assets/home-sellers.png" class="md:max-w-64 w-full h-full absolute top-0 lg:left-0 md:left-135px sm:left-70px left-0 z-0">
 
                     </div>
 
@@ -144,7 +144,7 @@
                             </div>
                         </div>
 
-                        <img alt="Buyers" src="@/assets/home-buyers.png" class="lg:max-w-full md:max-w-64 max-w-full h-full absolute top-0 lg:left-0 md:left-135px sm:left-70px xs:left-20px left-0 z-0">
+                        <img alt="Buyers" src="@/assets/home-buyers.png" class="md:max-w-64 w-full h-full absolute top-0 lg:left-0 md:left-135px sm:left-70px xs:left-20px left-0 z-0">
 
                     </div>
 

@@ -10,10 +10,7 @@
                             {{this.title}}</h1>
                         <p class="font-light text-md sm:text-lg md:text-xl xl:text-2xl pb-8" v-if="this.comment">
                             {{this.comment}}</p>
-                        <anim-button blue to="/register" class="self-center md:self-start text-sm md:mt-6 mt-0 lg:mb-6 md:mb-10 mb-16 md:text-lg py-1 md:py-4 px-10 md:px-20">Register Now</anim-button>
-                        <!--<button class="btn btn-blue raised relative clickable overflow-hidden z-0 rounded-sm self-center md:self-start text-sm md:mt-6 mt-0 lg:mb-6 md:mb-10 mb-16 md:text-lg py-1 md:py-4 px-10 md:px-20">
-                            <input class="toggle" type="checkbox"/><div class="anim"></div>Register Now
-                        </button>-->
+                        <anim-button blue class="self-center md:self-start text-sm md:mt-6 mt-0 lg:mb-6 md:mb-10 mb-16 md:text-lg py-1 md:py-4 px-10 md:px-20">Register Now</anim-button>
                     </div>
 
                     <div class="w-full md:w-6/12 flex flex-row justify-center md:justify-end items-center md:items-end my-6 md:my-0">

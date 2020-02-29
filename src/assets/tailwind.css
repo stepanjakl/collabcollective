@@ -139,18 +139,14 @@
 
 /* Water Drop Effect Button */
 
-.raised {
-    -moz-transition: all 0.1s;
-    -o-transition: all 0.1s;
-    -webkit-transition: all 0.1s;
-    transition: all 0.1s;
+.btn-transition {
+    -moz-transition: all 0.15s;
+    -o-transition: all 0.15s;
+    -webkit-transition: all 0.15s;
+    transition: all 0.15s;
 }
 
-span {
-    font-weight: 400;
-}
-
-input[type="checkbox"].toggle {
+/*input[type="checkbox"].toggle {
     -moz-appearance: none;
     -webkit-appearance: none;
     position: absolute;
@@ -163,9 +159,9 @@ input[type="checkbox"].toggle {
 }
 input[type="checkbox"].toggle:focus {
     outline: 0;
-}
+}*/
 
-.anim {
+.ripple {
     -moz-transform: translateY(-50%) translateX(-50%);
     -ms-transform: translateY(-50%) translateX(-50%);
     -webkit-transform: translateY(-50%) translateX(-50%);
@@ -175,13 +171,13 @@ input[type="checkbox"].toggle:focus {
     left: 50%;
     z-index: -1;
 }
-.anim:before {
+.ripple:before {
     position: relative;
     content: '';
     display: block;
     margin-top: 100%;
 }
-.anim:after {
+.ripple:after {
     content: '';
     position: absolute;
     top: 0;
@@ -191,26 +187,44 @@ input[type="checkbox"].toggle:focus {
     border-radius: 50%;
 }
 
-.clickable .toggle:checked + .anim {
+.animate .ripple {
     -moz-animation: anim-in 0.75s;
     -webkit-animation: anim-in 0.75s;
     animation: anim-in 0.75s;
 }
-.clickable .toggle:checked + .anim:after {
-    -moz-animation: anim-in-pseudo 0.75s;
-    -webkit-animation: anim-in-pseudo 0.75s;
-    animation: anim-in-pseudo 0.75s;
+
+.animate.dark .ripple:after {
+    -moz-animation: anim-dark 0.75s;
+    -webkit-animation: anim-dark 0.75s;
+    animation: anim-dark 0.75s ease-in-out;
 }
-.clickable .toggle:not(:checked) + .anim {
+
+.animate.light .ripple:after {
+    -moz-animation: anim-light 0.75s;
+    -webkit-animation: anim-light 0.75s;
+    animation: anim-light 0.75s ease-in-out;
+}
+
+/*.clickable .toggle:checked + .ripple {
+    -moz-animation: anim-in 0.75s;
+    -webkit-animation: anim-in 0.75s;
+    animation: anim-in 0.75s;
+}
+.clickable .toggle:checked + .ripple:after {
+    -moz-animation: anim-dark 0.75s;
+    -webkit-animation: anim-dark 0.75s;
+    animation: anim-dark 0.75s;
+}
+.clickable .toggle:not(:checked) + .ripple {
     -moz-animation: anim-out 0.75s;
     -webkit-animation: anim-out 0.75s;
     animation: anim-out 0.75s;
 }
-.clickable .toggle:not(:checked) + .anim:after {
+.clickable .toggle:not(:checked) + .ripple:after {
     -moz-animation: anim-out-pseudo 0.75s;
     -webkit-animation: anim-out-pseudo 0.75s;
     animation: anim-out-pseudo 0.75s;
-}
+}*/
 
 @-webkit-keyframes anim-in {
     0% {
@@ -244,38 +258,97 @@ input[type="checkbox"].toggle:focus {
         width: 100%;
     }
 }
-@-webkit-keyframes anim-in-pseudo {
+
+@-webkit-keyframes anim-dark {
     0% {
+        background: rgba(0, 0, 0, 0.25);
+    }
+    50% {
         background: rgba(0, 0, 0, 0.25);
     }
     100% {
         background: transparent;
     }
 }
-@-moz-keyframes anim-in-pseudo {
+@-moz-keyframes anim-dark {
     0% {
+        background: rgba(0, 0, 0, 0.25);
+    }
+    50% {
         background: rgba(0, 0, 0, 0.25);
     }
     100% {
         background: transparent;
     }
 }
-@-ms-keyframes anim-in-pseudo {
+@-ms-keyframes anim-dark {
     0% {
+        background: rgba(0, 0, 0, 0.25);
+    }
+    50% {
         background: rgba(0, 0, 0, 0.25);
     }
     100% {
         background: transparent;
     }
 }
-@keyframes anim-in-pseudo {
+@keyframes anim-dark {
     0% {
+        background: rgba(0, 0, 0, 0.25);
+    }
+    50% {
         background: rgba(0, 0, 0, 0.25);
     }
     100% {
         background: transparent;
     }
 }
+
+@-webkit-keyframes anim-light {
+    0% {
+        background: rgba(255, 255, 255, 0.25);
+    }
+    50% {
+        background: rgba(255, 255, 255, 0.25);
+    }
+    100% {
+        background: transparent;
+    }
+}
+@-moz-keyframes anim-light {
+    0% {
+        background: rgba(255, 255, 255, 0.25);
+    }
+    50% {
+        background: rgba(255, 255, 255, 0.25);
+    }
+    100% {
+        background: transparent;
+    }
+}
+@-ms-keyframes anim-light {
+    0% {
+        background: rgba(255, 255, 255, 0.25);
+    }
+    50% {
+        background: rgba(255, 255, 255, 0.25);
+    }
+    100% {
+        background: transparent;
+    }
+}
+@keyframes anim-light {
+    0% {
+        background: rgba(255, 255, 255, 0.25);
+    }
+    50% {
+        background: rgba(255, 255, 255, 0.25);
+    }
+    100% {
+        background: transparent;
+    }
+}
+
 @-webkit-keyframes anim-out {
     0% {
         width: 0%;
