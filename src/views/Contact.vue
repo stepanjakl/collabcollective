@@ -3,7 +3,7 @@
 
         <div class="w-full bg-gray-100">
             <div class="container mx-auto">
-                <div class="relative w-full md:pt-20 pt-56 pb-24 text-center">
+                <div class="relative w-full pt-20 pb-24 text-center">
 
                     <h1 class="text-bolder text-cc-blue-darkest text-4xl pt-16">Our Locations</h1>
 

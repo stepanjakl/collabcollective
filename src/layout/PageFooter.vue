@@ -61,14 +61,14 @@
 					<!--<a href="https://contentarena.com/registration" class="btn btn-yellow py-4 px-16 text-lg">Register Now</a>-->
 				</div>
 				<div class="sm:w-1/2 w-full sm:pl-4 sm: pl-0 sm:pt-2 pt-6 flex flex-row items-center">
-					<p class="lg:w-1/2 w-full text-white text-lg font-light">
+					<p class="w-1/2 w-full text-white text-lg font-light">
 						<span class="h-px mr-6 mb-1 bg-white inline-block" style="width: 32px"></span>
 						<a href="" class="mr-4">Facebook</a>
 						<a href="">LinkedIn</a>
 					</p>
-					<div class="lg:w-1/2 sm:w-16 w-12">
+					<div class="w-1/2 sm:w-16 w-12">
 						<a href="#" v-scroll-to="'#top'">
-							<img alt="Back to top" src="@/assets/back-to-top.svg" class="w-16 inline-block">
+							<img alt="Back to top" src="@/assets/back-to-top.svg" class="w-max-10 inline-block">
 						</a>
 					</div>
 				</div>

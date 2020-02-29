@@ -20,7 +20,7 @@
 
                 <h2 class="font-semibold text-4xl pb-6 text-gray-800">Our story</h2>
 
-                <div class="text-justify leading-loose text-gray-600" style="columns: 2; column-gap: 4rem;">
+                <div class="text-justify leading-loose text-gray-600 no-columns md:columns-2">
                     Content Arena was founded by a team of sports media rights experts with the vision to provide
                     bespoke solutions that support sports media rights sellers and buyers in optimising their
                     commercial business processes. Content Arena’s software solutions aim to improve the efficiency,
