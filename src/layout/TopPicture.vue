@@ -28,7 +28,9 @@
 
                 </div>
                 <div class="flex justify-center pb-8" v-if="this.$router.currentRoute.name === 'Home'">
+                    <a href="#" v-scroll-to="'#next'">
                     <img alt="Arrow" src="@/assets/arrow-down.svg" style="height: 12px">
+                    </a>
                 </div>
             </div>
         </div>
@@ -44,7 +46,7 @@
     export default {
         name: 'TopPicture',
         components: {
-            AnimButton  
+            AnimButton
         },
         props: {
             title: String,

@@ -9,7 +9,7 @@
                           :src-placeholder="require('@/assets/headers/home-lowres.jpg')"/>
         </top-picture>
 
-        <div class="bg-gray-300 w-full bg-cover bg-center pt-10 pb-16 bg-no-repeat"
+        <div class="bg-gray-300 w-full bg-cover bg-center pt-10 pb-16 bg-no-repeat" id="next"
              :style="{ backgroundImage: 'url(' + require('@/assets/bg-testimonials.png') }">
             <div class="relative py-8">
                 <section-title title="Testimonials"></section-title>
@@ -216,7 +216,7 @@
                     "focusOnSelect": false,
                     "speed": 500,
                     "autoplay": true,
-                    "autoplaySpeed": 3000,
+                    "autoplaySpeed": 5000,
                     "draggable": true,
                     "infinite": true,
                     "arrows": false,
@@ -251,42 +251,4 @@
 </script>
 
 <style>
-    .slick-list {
-        padding: 1rem 0 2rem 0;
-    }
-    .slick-track {
-        display: flex !important;
-        align-items: stretch;
-    }
-    .slick-slide {
-        display: flex !important;
-        height: unset !important;
-    }
-    .slick-slide > div > div {
-        outline: none !important;
-        cursor: grab;
-        height: 100%;
-    }
-    .slick-dots {
-        position: relative;
-        bottom: unset;
-        margin-top: 1rem;
-    }
-    .slick-dots li {
-        margin: 0 !important;
-    }
-    .slick-dots li button {
-        padding: 0 !important;
-    }
-    .slick-dots li button:before {
-        color: #ACACAC;
-        font-size: 5px !important;
-        opacity: 1;
-    }
-    .slick-dots li.slick-active button:before {
-        color: #3399FF;
-        opacity: 1;
-        font-size: 10px !important;
-        margin-top: 1px !important;
-    }
 </style>

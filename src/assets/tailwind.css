@@ -71,6 +71,8 @@
 .btn {
     padding: 8px 46px;
     border-radius: 4px;
+    overflow: hidden;
+    z-index: 0;
 }
 .btn.btn-blue {
     color: whitesmoke;
@@ -210,17 +212,6 @@ input[type="checkbox"].toggle:focus {
     animation: anim-out-pseudo 0.75s;
 }
 
-.hoverable:hover > .anim {
-    -moz-animation: anim-out 0.75s;
-    -webkit-animation: anim-out 0.75s;
-    animation: anim-out 0.75s;
-}
-.hoverable:hover > .anim:after {
-    -moz-animation: anim-out-pseudo 0.75s;
-    -webkit-animation: anim-out-pseudo 0.75s;
-    animation: anim-out-pseudo 0.75s;
-}
-
 @-webkit-keyframes anim-in {
     0% {
         width: 0%;
@@ -348,4 +339,46 @@ input[type="checkbox"].toggle:focus {
     100% {
         background: transparent;
     }
+}
+
+
+/* Slick Carousel */
+
+.slick-list {
+    padding: 1rem 0 2rem 0;
+}
+.slick-track {
+    display: flex !important;
+    align-items: stretch;
+}
+.slick-slide {
+    display: flex !important;
+    height: unset !important;
+}
+.slick-slide > div > div {
+    outline: none !important;
+    cursor: grab;
+    height: 100%;
+}
+.slick-dots {
+    position: relative;
+    bottom: unset;
+    margin-top: 1rem;
+}
+.slick-dots li {
+    margin: 0 !important;
+}
+.slick-dots li button {
+    padding: 0 !important;
+}
+.slick-dots li button:before {
+    color: #ACACAC;
+    font-size: 5px !important;
+    opacity: 1;
+}
+.slick-dots li.slick-active button:before {
+    color: #3399FF;
+    opacity: 1;
+    font-size: 10px !important;
+    margin-top: 1px !important;
 }
