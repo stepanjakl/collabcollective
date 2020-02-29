@@ -110,7 +110,7 @@
                     <div class="lg:w-1/2 w-full relative"
                          style="min-height: 500px;">
 
-                        <div class="relative z-10 sm:p-16 p-12 xl:pt-32 sm:pt-20 pt-12 text-center lg:mx-0 mx-auto" style="max-width: 500px">
+                        <div class="relative z-10 sm:p-16 p-12 xl:pt-32 sm:pt-20 pt-12 text-center xl:mx-auto lg:mx-0 mx-auto" style="max-width: 500px">
                             <h3 class="font-bold text-white sm:text-2xl text-xl uppercase mb-4 tracking-widest">Rightsholders Federations &amp; Agencies</h3>
                             <p class="font-normal text-white text-lg mb-8 leading-relaxed">No more manual updates of spreadsheets - manage all your rights in one place and create additional revenue opportunities.</p>
                         </div>
@@ -133,13 +133,13 @@
                     <div class="lg:w-1/2 w-full relative"
                          style="min-height: 500px;">
 
-                         <div class="relative z-10 sm:p-16 p-12 xl:pt-32 sm:pt-20 pt-12 text-center lg:mx-0 mx-auto" style="max-width: 500px">
+                         <div class="relative z-10 sm:p-16 p-12 xl:pt-32 sm:pt-20 pt-12 text-center xl:mx-auto lg:mx-0 mx-auto" style="max-width: 500px">
                             <h3 class="font-bold text-white sm:text-2xl text-xl uppercase mb-4 tracking-widest">Broadcasters</h3>
                             <p class="font-normal text-white text-lg mb-8 leading-relaxed">Discover a multitude of rights opportunities at your finger tips and optimize your content portfolio.</p>
                         </div>
 
                         <div class="w-full absolute z-10 xl:bottom-142px sm:bottom-102px bottom-60px flex items-center">
-                            <div class="xl:mx-40 mx-auto">
+                            <div class="mx-auto">
                                 <anim-button yellow to="/sellers" class="sm:py-6 py-4 sm:px-10 px-8 font-bold uppercase tracking-wider">Learn&nbsp;more</anim-button>
                                 <!--<router-link to="/buyers" class="btn btn-yellow sm:py-6 py-4 sm:px-10 px-8 font-bold uppercase tracking-wider rounded-sm">Learn&nbsp;more</router-link>-->
                             </div>

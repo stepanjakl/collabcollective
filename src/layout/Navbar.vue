@@ -18,7 +18,7 @@
                     <router-link class="md:mr-12" to="/contact">Contact</router-link>
                 </div>
 
-                <div class="sm:mt-0 mt-6" style="width: max-content;">
+                <div class="sm:mt-2 mt-6" style="width: max-content;">
                     <div class="btn-connect">
                         <anim-button blue to="/register" class="btn-nobottom rounded-l-sm rounded-r-none">Register</anim-button>
                         <anim-button yellow to="/login" class="btn-nobottom rounded-l-none rounded-r-sm">Sign in</anim-button>

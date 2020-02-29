@@ -22,7 +22,7 @@
     margin-top: 1rem;
 }
 .slick-dots li {
-    margin: 0 !important;
+    margin: 0 6px 0 0 !important;
 }
 .slick-dots li button {
     padding: 0 !important;
