@@ -20,8 +20,10 @@
 
                 <div class="sm:mt-0 mt-6" style="width: max-content;">
                     <div class="btn-connect">
-                        <a href="https://contentarena.com/registration" class="btn btn-blue btn-nobottom rounded-l-sm">Register</a>
-                        <a href="https://contentarena.com/login" class="btn btn-yellow btn-nobottom rounded-r-sm">Sign in</a>
+                        <anim-button blue to="/register" class="btn-nobottom rounded-l-sm rounded-r-none">Register</anim-button>
+                        <anim-button yellow to="/login" class="btn-nobottom rounded-l-none rounded-r-sm">Sign in</anim-button>
+                        <!--<a href="https://contentarena.com/registration" class="btn btn-blue btn-nobottom rounded-l-sm">Register</a>
+                        <a href="https://contentarena.com/login" class="btn btn-yellow btn-nobottom rounded-r-sm">Sign in</a>-->
                     </div>
                 </div>
 
@@ -38,8 +40,13 @@
 </template>
 
 <script>
+    import AnimButton from '@/components/AnimButton'
+
     export default {
         name: 'Navbar',
+        components: {
+            AnimButton
+        },
         watch: {
             $route() {
                 this.$nextTick(() => {

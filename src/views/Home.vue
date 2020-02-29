@@ -117,7 +117,8 @@
 
                         <div class="w-full absolute z-10 xl:bottom-142px sm:bottom-102px bottom-60px flex items-center">
                             <div class="mx-auto">
-                                <router-link to="/#" class="btn btn-yellow sm:py-6 py-4 sm:px-10 px-8 font-bold uppercase tracking-wider rounded-sm">Learn&nbsp;more</router-link>
+                                <anim-button yellow to="/buyers" class="sm:py-6 py-4 sm:px-10 px-8 font-bold uppercase tracking-wider">Learn&nbsp;more</anim-button>
+                                <!--<router-link to="/sellers" class="btn btn-yellow sm:py-6 py-4 sm:px-10 px-8 font-bold uppercase tracking-wider rounded-sm">Learn&nbsp;more</router-link>-->
                             </div>
                         </div>
 
@@ -138,7 +139,8 @@
 
                         <div class="w-full absolute z-10 xl:bottom-142px sm:bottom-102px bottom-60px flex items-center">
                             <div class="xl:mx-40 mx-auto">
-                                <router-link to="/#" class="btn btn-yellow sm:py-6 py-4 sm:px-10 px-8 font-bold uppercase tracking-wider rounded-sm">Learn&nbsp;more</router-link>
+                                <anim-button yellow to="/buyers" class="sm:py-6 py-4 sm:px-10 px-8 font-bold uppercase tracking-wider">Learn&nbsp;more</anim-button>
+                                <!--<router-link to="/buyers" class="btn btn-yellow sm:py-6 py-4 sm:px-10 px-8 font-bold uppercase tracking-wider rounded-sm">Learn&nbsp;more</router-link>-->
                             </div>
                         </div>
 
@@ -169,8 +171,6 @@
 
 <script>
     import VueSlickCarousel from 'vue-slick-carousel'
-    //import 'vue-slick-carousel/dist/slick.css'
-    //import 'vue-slick-carousel/dist/slick-theme.css'
     require('vue-slick-carousel/dist/vue-slick-carousel.css')
     require('vue-slick-carousel/dist/vue-slick-carousel-theme.css')
 
@@ -178,6 +178,7 @@
     import TopPicture from '../layout/TopPicture';
     import CarouselReference from '../components/CarouselReference';
     import ContentBlock from '../components/ContentBlock';
+    import AnimButton from '../components/AnimButton';
 
     export default {
         name: 'Home',
@@ -186,6 +187,7 @@
             TopPicture,
             CarouselReference,
             ContentBlock,
+            AnimButton,
             VueSlickCarousel
         },
         data() {

@@ -20,6 +20,7 @@ Vue.use(sslRedirect);
 
 const DEFAULT_TITLE = 'Content Arena – Buy, sell, and manage your sport media rights online';
 const POSTFIX_TITLE = 'Content Arena – Buy, sell, and manage your sport media rights online';
+
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 router.afterEach((to, from) => {
     // Use next tick to handle router history correctly
@@ -28,6 +29,15 @@ router.afterEach((to, from) => {
         document.title = to.meta.title + " | " + POSTFIX_TITLE || DEFAULT_TITLE;
     });
 });
+
+router.beforeEach((to, from, next) => {
+    if(to.path == '/login')
+        window.location.href = "https://contentarena.com/login";
+    else if(to.path == '/register')
+        window.location.href = "https://contentarena.com/registration";
+    else
+        next();
+})
 
 new Vue({
     router,

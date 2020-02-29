@@ -7,9 +7,6 @@ import Sellers from '../views/Sellers.vue'
 import About from '../views/About.vue'
 import Contact from '../views/Contact.vue'
 
-import Login from '../views/Login.vue'
-import Register from '../views/Register.vue'
-
 Vue.use(VueRouter);
 
 const routes = [
@@ -57,22 +54,19 @@ const routes = [
   {
     path: '/login',
     name: 'Login',
-    component: Login,
-    meta: {
-      title: "Sign in"
-    }
+    //redirect: "https://contentarena.com/login"
   },
   {
     path: '/register',
     name: 'Register',
-    component: Register,
-    meta: {
-      title: "Register"
-    }
+    //redirect: "https://contentarena.com/registration"
   }
 ];
 
 const router = new VueRouter({
+  scrollBehavior() {
+    return { x: 0, y: 0 };
+  },
   routes,
   mode: 'history'
 });
