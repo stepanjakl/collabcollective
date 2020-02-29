@@ -4,7 +4,7 @@
         <top-picture
                 title="We make sports media management easy."
                 comment="Bringing efficiency to the business">
-            <v-lazy-image class="w-full h-full absolute object-cover top-0 no-blur"
+            <v-lazy-image class="w-full h-full absolute object-cover top-0 no-blur" alt="Top picture for about page - dirtbike"
                           :src="require('@/assets/headers/about.jpg')"
                           :src-placeholder="require('@/assets/headers/about-lowres.jpg')"/>
         </top-picture>

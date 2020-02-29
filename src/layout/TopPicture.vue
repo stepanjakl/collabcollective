@@ -15,7 +15,7 @@
 
                     <div class="w-full lg:w-6/12 flex flex-row justify-center lg:justify-end items-center lg:items-end my-6 lg:my-0">
                         <div class="flex items-start" v-if="this.$router.currentRoute.name === 'Home'">
-                            <v-lazy-image class="w-8/12 mb-8 md:mb-0 md:w-full h-full mx-auto"
+                            <v-lazy-image class="w-8/12 mb-8 md:mb-0 md:w-full h-full mx-auto" alt="Home screen graphic"
                                           :src="require('@/assets/headers/home-screens.png')"
                                           :src-placeholder="require('@/assets/headers/home-screens-lowres.png')"/>
                             <!--<span class="text-white text-sm md:text-lg">Trusted by:</span>
@@ -26,7 +26,7 @@
                 </div>
                 <div class="flex justify-center pb-8" v-if="this.$router.currentRoute.name === 'Home'">
                     <a href="#" v-scroll-to="'#next'">
-                    <img alt="Arrow" src="@/assets/arrow-down.svg" style="height: 12px">
+                    <img alt="Arrow icon" src="@/assets/arrow-down.svg" style="height: 12px">
                     </a>
                 </div>
             </div>

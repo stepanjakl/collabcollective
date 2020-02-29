@@ -4,7 +4,7 @@
         <top-picture
                 title="Buy, sell, and manage your sports media rights online."
                 comment="Our bespoke software helps sports federations, leagues, agencies, and media companies to optimise their media rights business.">
-            <v-lazy-image class="w-full h-full absolute object-cover top-0 no-blur"
+            <v-lazy-image class="w-full h-full absolute object-cover top-0 no-blur" alt="Top picture for home page"
                           :src="require('@/assets/headers/home.jpg')"
                           :src-placeholder="require('@/assets/headers/home-lowres.jpg')"/>
         </top-picture>
@@ -22,42 +22,42 @@
                             quote="Creating a marketplace listing was a straightforward process. The platform really covers all relevant points in our complex media rights world."
                             name="Miguel Mateo"
                             position="European Handball Federation (Austria)">
-                        <img alt="Slideshow picture" src="@/assets/logos/ehf.png" class="w-12">
+                        <img alt="EHF company logo" src="@/assets/logos/ehf.png" class="w-12">
                     </carousel-reference>
 
                     <carousel-reference
                             quote="We have so much content that it is impossible to promote everything manually. Having a digital channel to create visibility and automate time consuming processes is a great idea."
                             name="Annie O'Shea"
                             position="FIBA (Switzerland)">
-                        <img alt="Slideshow picture" src="@/assets/logos/fiba.png" class="w-24">
+                        <img alt="FIBA company logo" src="@/assets/logos/fiba.png" class="w-24">
                     </carousel-reference>
 
                     <carousel-reference
                             quote="It is great to have a platform like Content Arena which provides a new and innovative way to find sports media rights. They really make buying rights simple."
                             name="Oliver Godallier"
                             position="Game Sport Management (France)">
-                        <img alt="Slideshow picture" src="@/assets/logos/sportklub.png" class="w-16">
+                        <img alt="Sportklub company logo" src="@/assets/logos/sportklub.png" class="w-16">
                     </carousel-reference>
 
                     <carousel-reference
                             quote="Creating a marketplace listing was a very straightforward process. The platform really covers all relevant points in our complex media rights world."
                             name="Miguel Mateo"
                             position="EHF Marketing, Austria">
-                        <img alt="Slideshow picture" src="@/assets/logos/ehf-marketing.jpg" class="w-20">
+                        <img alt="EHF Marketing company logo" src="@/assets/logos/ehf-marketing.jpg" class="w-20">
                     </carousel-reference>
 
                     <carousel-reference
                             quote="Our needs for new content are increasing non-stop, especially for our digital channels. Having an additional source like Content Arena is of great help."
                             name="ORF"
                             position="Austria">
-                        <img alt="Slideshow picture" src="@/assets/logos/orf.png" class="w-24">
+                        <img alt="ORF company logo" src="@/assets/logos/orf.png" class="w-24">
                     </carousel-reference>
 
                     <carousel-reference
                             quote="It is great to have a platform like Content Arena which provides a new and innovative way to find sports media rights. They really make buying rights simple."
                             name="Tom Schuster"
                             position="SportKlub, Serbia">
-                        <img alt="Slideshow picture" src="@/assets/logos/sportklub.png" class="w-20">
+                        <img alt="Sportklub company logo" src="@/assets/logos/sportklub.png" class="w-20">
                     </carousel-reference>
 
                 </vue-slick-carousel>
@@ -75,7 +75,7 @@
             label="Market place"
             header="The easiest way to sell and buy media rights."
             text="The worldwide only digital marketplace dedicated to sports content. Creating additional revenue opportunities for rights holders. Allowing buyers to easily find live and non-live content for their territories.">
-            <v-lazy-image class="w-full h-auto"
+            <v-lazy-image class="w-full h-auto" alt="Marketplace graphic"
                           :src="require('@/assets/asides/home-marketplace.png')"
                           :src-placeholder="require('@/assets/asides/home-marketplace-lowres.png')"/>
         </content-block>
@@ -84,7 +84,7 @@
             label="Rights Manager"
             header="The most efficient way to manage your right portfolio."
             text="Stay on top of your rights and optimize your sales management. Forget about spreadsheets! Have all information in one place, generate commercial reports, and expose available rights on the marketplace with just a few clicks.">
-            <v-lazy-image class="w-full h-auto"
+            <v-lazy-image class="w-full h-auto" alt="Rights manager graphic"
                           :src="require('@/assets/asides/home-rights-manager.png')"
                           :src-placeholder="require('@/assets/asides/home-rights-manager-lowres.png')"/>
         </content-block>
@@ -93,7 +93,7 @@
             label="Content marketing"
             header="Bringing the right message to the right people."
             text="Create meaningful visibility for your available rights around the world through targeted communication. Email & SMS alerts, newsletters, social media marketing Content Arena covers it all for you, expose your potential to thousands of buyers.">
-            <v-lazy-image class="w-full h-auto"
+            <v-lazy-image class="w-full h-auto" alt="Content marketing graphic"
                           :src="require('@/assets/asides/home-content-marketing.png')"
                           :src-placeholder="require('@/assets/asides/home-content-marketing-lowres.png')"/>
         </content-block>
@@ -122,7 +122,8 @@
                             </div>
                         </div>
 
-                        <v-lazy-image class="w-full h-full absolute object-cover top-0 rounded-lg" :src="require('@/assets/home-sellers.png')"/>
+                        <v-lazy-image class="w-full h-full absolute object-cover top-0 rounded-lg" alt="Background graphic"
+                                      :src="require('@/assets/home-sellers.png')"/>
 
                     </div>
 
@@ -144,7 +145,8 @@
                             </div>
                         </div>
 
-                        <v-lazy-image class="w-full h-full absolute object-cover top-0 rounded-lg" :src="require('@/assets/home-buyers.png')"/>
+                        <v-lazy-image class="w-full h-full absolute object-cover top-0 rounded-lg" alt="Background graphic"
+                                      :src="require('@/assets/home-buyers.png')"/>
 
                     </div>
 
@@ -160,7 +162,7 @@
             <div class="flex flex-row flex-wrap md:px-20 px-8">
 
                 <div v-for="reference in references" :key="reference" class="xl:w-1/6 lg:w-1/6 md:w-1/4 sm:w-1/4 w-1/2 mb-12 flex items-center">
-                    <img alt="Our reference" class="w-24 mx-auto" :src="require('@/assets/logos/' + reference + '-ref.png')">
+                    <img :alt="reference+' company logo reference'" class="w-24 mx-auto" :src="require('@/assets/logos/' + reference + '-ref.png')">
                 </div>
 
             </div>

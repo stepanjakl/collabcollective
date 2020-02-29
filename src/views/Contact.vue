@@ -7,7 +7,7 @@
 
                     <h1 class="text-bolder text-cc-blue-darkest text-4xl pt-16">Our Locations</h1>
 
-                    <v-lazy-image class="w-10/12 h-full mx-auto top-0 py-16"
+                    <v-lazy-image class="w-10/12 h-full mx-auto top-0 py-16" alt="World map with countries active with project"
                                   :src="require('@/assets/headers/contact.png')"
                                   :src-placeholder="require('@/assets/headers/contact-lowres.jpg')"/>
                     <p class="text-normal text-cc-blue-light text-md uppercase">Argentina (Americas) • United Kingdom,

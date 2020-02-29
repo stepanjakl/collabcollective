@@ -3,7 +3,7 @@
         <div class="fixed w-10/12 h-full right-0 bg-gray-300 container z-50">
             <div class="w-full h-full flex flex-col items-center justify-between content-center p-8">
                 <button class="text-cc-blue-light self-end" v-on:click="hidden = !hidden">
-                    <svg class="stroke-current h-10 w-10" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="butt" stroke-linejoin="arcs"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                    <svg class="stroke-current h-10 w-10"  alt="Mobile menu toggle" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="butt" stroke-linejoin="arcs"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
                 </button>
                 <ul class="list-reset flex flex-col items-start">
                     <li class="pb-2">

@@ -3,7 +3,7 @@
 
         <top-picture
             title="The one stop 24/7 to buy the content you need.">
-            <v-lazy-image class="w-full h-full absolute object-cover top-0 no-blur"
+            <v-lazy-image class="w-full h-full absolute object-cover top-0 no-blur" alt="Top picture for buyers page - water polo"
                 :src="require('@/assets/headers/buyers.jpg')"
                 :src-placeholder="require('@/assets/headers/buyers-lowres.jpg')"/>
         </top-picture>
@@ -20,7 +20,7 @@
                        label="Browse Listings"
                        header="Optimize your content portfolio"
                        text="Browse available live and non-live rights from sellers around the world that suit your needs by filtering sports, territories and rights categories. Recieve automated alerts when new content is available for your markets.">
-            <v-lazy-image class="w-full h-auto"
+            <v-lazy-image class="w-full h-auto" alt="Buyer listing graphic"
                           :src="require('@/assets/asides/buyer-listing.png')"
                           :src-placeholder="require('@/assets/asides/buyer-listing-lowres.png')"/>
         </content-block>
@@ -29,7 +29,7 @@
                        label="Bid and buy"
                        header="Buying sports content has never been easier"
                        text="All information that is important for your buying decisions is provided for each content listing. Review event information, comprehensive term sheets, production standarts and other relevenat iformation. Contact the seller or directly bid for content with just a few clicks.">
-            <v-lazy-image class="w-full h-auto"
+            <v-lazy-image class="w-full h-auto" alt="Bid and buy graphic"
                           :src="require('@/assets/asides/buyer-bid.png')"
                           :src-placeholder="require('@/assets/asides/buyer-bid-lowres.png')"/>
         </content-block>
@@ -38,7 +38,7 @@
                        label="Security &amp; Transparency"
                        header="Buy from vetted sellers only"
                        text="All sellers and rights listed are vetted by Content Arena. Communicate with sellers directly via the platform and review all contractual details before making a bid. You will recieve a counter-signed license agreement immidiately after your offer has been accepted.">
-            <v-lazy-image class="w-full h-auto"
+            <v-lazy-image class="w-full h-auto" alt="Securty and transparency graphic"
                           :src="require('@/assets/asides/buyer-security.png')"
                           :src-placeholder="require('@/assets/asides/buyer-security-lowres.png')"/>
         </content-block>

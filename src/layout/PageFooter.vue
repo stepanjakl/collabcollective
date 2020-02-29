@@ -3,7 +3,7 @@
 		<div class="container mx-auto sm:p-8 p-4">
 
 			<div class="w-full pb-8">
-				<img alt="Logo" src="@/assets/logos/logo-w.svg" class="w-auto mb-2" style="height: 40px">
+				<img alt="Content Arena Logo" src="@/assets/logos/logo-w.svg" class="w-auto mb-2" style="height: 40px">
 			</div>
 
 			<div class="flex sm:flex-row flex-col">
@@ -68,7 +68,7 @@
 					</p>
 					<div class="w-1/2 sm:w-16 w-12">
 						<a href="#" v-scroll-to="'#top'">
-							<img alt="Back to top" src="@/assets/back-to-top.svg" class="w-max-10 inline-block">
+							<img alt="Back to top button" src="@/assets/back-to-top.svg" class="w-max-10 inline-block">
 						</a>
 					</div>
 				</div>
