@@ -80,7 +80,7 @@
                           :src-placeholder="require('@/assets/asides/home-marketplace-lowres.png')"/>
         </content-block>
 
-        <content-block left btnOne btnLink="/#"
+        <content-block left btnOne btnLink="/sellers"
             label="Rights Manager"
             header="The most efficient way to manage your right portfolio."
             text="Stay on top of your rights and optimize your sales management. Forget about spreadsheets! Have all information in one place, generate commercial reports, and expose available rights on the marketplace with just a few clicks.">
@@ -89,7 +89,7 @@
                           :src-placeholder="require('@/assets/asides/home-rights-manager-lowres.png')"/>
         </content-block>
 
-        <content-block right btnOne btnLink="/#" class="lg:pl-12 pl-0"
+        <content-block right btnOne btnLink="/sellers" class="lg:pl-12 pl-0"
             label="Content marketing"
             header="Bringing the right message to the right people."
             text="Create meaningful visibility for your available rights around the world through targeted communication. Email & SMS alerts, newsletters, social media marketing Content Arena covers it all for you, expose your potential to thousands of buyers.">
@@ -117,7 +117,7 @@
 
                         <div class="w-full absolute z-10 xl:bottom-142px sm:bottom-102px bottom-60px flex items-center">
                             <div class="mx-auto">
-                                <anim-button yellow to="/buyers" class="sm:py-6 py-4 sm:px-10 px-8 font-bold uppercase tracking-wider">Learn&nbsp;more</anim-button>
+                                <anim-button yellow to="/sellers" class="sm:py-6 py-4 sm:px-10 px-8 font-bold uppercase tracking-wider">Learn&nbsp;more</anim-button>
                                 <!--<router-link to="/sellers" class="btn btn-yellow sm:py-6 py-4 sm:px-10 px-8 font-bold uppercase tracking-wider rounded-sm">Learn&nbsp;more</router-link>-->
                             </div>
                         </div>
@@ -134,12 +134,12 @@
 
                          <div class="relative z-10 sm:p-16 p-12 xl:pt-32 sm:pt-20 pt-12 text-center lg:mx-0 mx-auto" style="max-width: 500px">
                             <h3 class="font-bold text-white sm:text-2xl text-xl uppercase mb-4 tracking-widest">Broadcasters</h3>
-                            <p class="font-normal text-white text-lg mb-8 leading-relaxed">Disover a multitude of rights opportunities at your finger tips and optimize your content portfolio.</p>
+                            <p class="font-normal text-white text-lg mb-8 leading-relaxed">Discover a multitude of rights opportunities at your finger tips and optimize your content portfolio.</p>
                         </div>
 
                         <div class="w-full absolute z-10 xl:bottom-142px sm:bottom-102px bottom-60px flex items-center">
                             <div class="xl:mx-40 mx-auto">
-                                <anim-button yellow to="/buyers" class="sm:py-6 py-4 sm:px-10 px-8 font-bold uppercase tracking-wider">Learn&nbsp;more</anim-button>
+                                <anim-button yellow to="/sellers" class="sm:py-6 py-4 sm:px-10 px-8 font-bold uppercase tracking-wider">Learn&nbsp;more</anim-button>
                                 <!--<router-link to="/buyers" class="btn btn-yellow sm:py-6 py-4 sm:px-10 px-8 font-bold uppercase tracking-wider rounded-sm">Learn&nbsp;more</router-link>-->
                             </div>
                         </div>
@@ -171,8 +171,6 @@
 
 <script>
     import VueSlickCarousel from 'vue-slick-carousel'
-    require('vue-slick-carousel/dist/vue-slick-carousel.css')
-    require('vue-slick-carousel/dist/vue-slick-carousel-theme.css')
 
     import SectionTitle from '../components/SectionTitle';
     import TopPicture from '../layout/TopPicture';
