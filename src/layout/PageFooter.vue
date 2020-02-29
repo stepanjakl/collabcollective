@@ -28,7 +28,6 @@
 
 					<div class="w-full sm:hidden block my-8">
 						<anim-button yellow to="/register" class="py-4 px-16 text-lg">Register now</anim-button>
-						<!--<a href="https://contentarena.com/registration" class="btn btn-yellow py-4 px-16 text-lg">Register Now</a>-->
 					</div>
 
 				</div>
@@ -58,7 +57,6 @@
 			<div class="flex flex-wrap sm:flex-row flex-col sm:mt-12 mt-4">
 				<div class="w-1/2 sm:block hidden relative" style="top: 20px">
 					<anim-button yellow to="/register" class="py-4 px-16 text-lg">Register now</anim-button>
-					<!--<a href="https://contentarena.com/registration" class="btn btn-yellow py-4 px-16 text-lg">Register Now</a>-->
 				</div>
 				<div class="sm:w-1/2 w-full sm:pl-4 sm: pl-0 sm:pt-2 pt-6 flex flex-row items-center">
 					<p class="w-1/2 w-full text-white text-lg font-light">

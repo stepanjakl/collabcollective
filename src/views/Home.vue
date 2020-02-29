@@ -118,7 +118,6 @@
                         <div class="w-full absolute z-10 xl:bottom-142px sm:bottom-102px bottom-60px flex items-center">
                             <div class="mx-auto">
                                 <anim-button yellow to="/sellers" class="sm:py-6 py-4 sm:px-10 px-8 font-bold uppercase tracking-wider">Learn&nbsp;more</anim-button>
-                                <!--<router-link to="/sellers" class="btn btn-yellow sm:py-6 py-4 sm:px-10 px-8 font-bold uppercase tracking-wider rounded-sm">Learn&nbsp;more</router-link>-->
                             </div>
                         </div>
 
@@ -141,7 +140,6 @@
                         <div class="w-full absolute z-10 xl:bottom-142px sm:bottom-102px bottom-60px flex items-center">
                             <div class="mx-auto">
                                 <anim-button yellow to="/sellers" class="sm:py-6 py-4 sm:px-10 px-8 font-bold uppercase tracking-wider">Learn&nbsp;more</anim-button>
-                                <!--<router-link to="/buyers" class="btn btn-yellow sm:py-6 py-4 sm:px-10 px-8 font-bold uppercase tracking-wider rounded-sm">Learn&nbsp;more</router-link>-->
                             </div>
                         </div>
 

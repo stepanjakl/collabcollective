@@ -2,7 +2,6 @@
     <button v-if="blue" v-on:click="() => { routePush(); animate = true }" v-on:animationend="animate = false"
             v-bind:class="{ 'animate light' : animate }"
             class="btn btn-blue btn-transition relative clickable rounded-sm">
-        <!--self-center md:self-start text-sm md:mt-6 mt-0 lg:mb-6 md:mb-10 mb-16 md:text-lg py-1 md:py-4 px-10 md:px-20">-->
         <div class="ripple"></div>
         <slot></slot>
     </button>
@@ -10,7 +9,6 @@
     <button v-else-if="yellow" v-on:click="() => { routePush(); animate = true }" v-on:animationend="animate = false"
             v-bind:class="{ 'animate dark' : animate }"
             class="btn btn-yellow btn-transition relative clickable rounded-sm">
-        <!--self-center md:self-start text-sm md:mt-6 mt-0 lg:mb-6 md:mb-10 mb-16 md:text-lg py-1 md:py-4 px-10 md:px-20">-->
         <div class="ripple"></div>
         <slot></slot>
     </button>

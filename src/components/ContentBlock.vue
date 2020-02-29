@@ -17,13 +17,10 @@
                     <div v-if="this.btnTwo" class="pt-4">
                         <anim-button blue to="/sellers" class="mr-2">Sellers</anim-button>
                         <anim-button yellow to="/buyers">Buyers</anim-button>
-                        <!--<router-link to="/seller" class="btn btn-blue mr-2 rounded-sm">Sellers</router-link>
-                        <router-link to="/buyer" class="btn btn-yellow rounded-sm">Buyers</router-link>-->
                     </div>
 
                     <div v-if="this.btnOne" class="pt-4">
                         <anim-button blue :ahref="this.btnLink">Learn more</anim-button>
-                        <!--<a :href="this.btnLink" class="btn btn-blue rounded-sm">Learn More</a>-->
                     </div>
                 </div>
             </div>
@@ -39,13 +36,10 @@
                     <div v-if="this.btnTwo" class="pt-4">
                         <anim-button blue to="/sellers" class="mr-2">Sellers</anim-button>
                         <anim-button yellow to="/buyers">Buyers</anim-button>
-                        <!--<router-link to="/seller" class="btn btn-blue mr-2 rounded-sm">Sellers</router-link>
-                        <router-link to="/buyer" class="btn btn-yellow rounded-sm">Buyers</router-link>-->
                     </div>
 
                     <div v-if="this.btnOne" class="pt-4">
                         <anim-button blue :ahref="this.btnLink">Learn more</anim-button>
-                        <!--<a :href="this.btnLink" class="btn btn-blue rounded-sm">Learn More</a>-->
                     </div>
                 </div>
 

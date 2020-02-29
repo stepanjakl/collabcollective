@@ -22,8 +22,6 @@
                     <div class="btn-connect">
                         <anim-button blue to="/register" class="btn-nobottom rounded-l-sm rounded-r-none">Register</anim-button>
                         <anim-button yellow to="/login" class="btn-nobottom rounded-l-none rounded-r-sm">Sign in</anim-button>
-                        <!--<a href="https://contentarena.com/registration" class="btn btn-blue btn-nobottom rounded-l-sm">Register</a>
-                        <a href="https://contentarena.com/login" class="btn btn-yellow btn-nobottom rounded-r-sm">Sign in</a>-->
                     </div>
                 </div>
 
