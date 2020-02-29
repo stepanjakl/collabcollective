@@ -39,10 +39,11 @@
 
         <div class="container mx-auto flex flex-row md:justify-between sm:justify-center justify-center flex-wrap sm:p-8 p-2">
 
-            <ContactPerson name="Erik Lorenz" role="CEO"/>
-            <ContactPerson name="Aslinda Ali" role="CTO"/>
-            <ContactPerson name="Jamie Rascon" role="Content Activation Manager"/>
-            <ContactPerson name="Juan Talco Cruz" role="Business Developer"/>
+            <ContactPerson name="Erik Lorenz" role="CEO & Founder"/>
+            <ContactPerson name="Aslinda Ali" role="Content Activation Manager"/>
+            <ContactPerson name="Jamie Rascon" role="Business Development"/>
+            <ContactPerson name="Lawrance Shepstone" role="CTO"/>
+            <ContactPerson name="Juan Talco Cruz" role="Lead Developer"/>
 
         </div>
 
@@ -55,8 +56,8 @@
             <ContactPerson name="Sascha Kojic" role="Co-Founder Content Arena & CEO SN1 Consulting"/>
             <ContactPerson name="Bernhard Reidlsperger" role="Co-Founder Content Arena & President Hogmore Media AG"/>
             <ContactPerson name="Klemens Kögle" role="Co-Founder Content Arena & CEO Hogmore Media AG"/>
-            <ContactPerson name="John Gleasure" role="Chief Bussiness Developer Officer DANZ Media"/>
-            <ContactPerson name="Alexander Fryba" role="Product Developmet Expert"/>
+            <ContactPerson name="John Gleasure" role="Strategic Advisor (Chief Business Development Officer DAZN Media)"/>
+            <ContactPerson name="Alexander Fryba" role="Strategic Advisor (Ex Managing Director Innovation Sportradar)"/>
 
         </div>
 

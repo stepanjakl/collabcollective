@@ -10,6 +10,7 @@
 </template>
 
 <script>
+
     import Navbar from '@/layout/Navbar'
     import PageFooter from '@/layout/PageFooter'
     import MobileMenu from "@/layout/MobileMenu";

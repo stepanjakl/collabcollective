@@ -76,16 +76,13 @@
 
 			<div class="flex flex-wrap sm:justify-start justify-between sm:mt-24 mt-16 mb-6">
 				<div class="sm:w-1/2 w-auto">
-					<p class="text-cc-blue-darkest text-sm leading-loose">© {{ new Date().getFullYear() }} Content Arena. All rights reserved.</p>
+					<p class="text-cc-blue-darkest text-sm leading-loose">© {{ new Date().getFullYear() }} Content Arena.</p>
 				</div>
 				<div class="sm:w-1/2 w-auto sm:pl-4 pl-0 leading-loose">
-					<p class="text-cc-blue-darkest text-sm">Website created with ❤ by <a href="https://bohemicastudio.com?utm_source=contentarena" target="_blank" class="font-semibold">Bohemica Studio</a></p>
+					<p class="text-cc-blue-darkest text-sm">All rights reserved.</p>
+					<!--<p class="text-cc-blue-darkest text-sm">Website created with ❤ by <a href="https://bohemicastudio.com?utm_source=contentarena" target="_blank" class="font-semibold">Bohemica Studio</a></p>-->
 				</div>
 			</div>
-
-			<!--<div class="text-center">
-				<p class="text-cc-blue-darkest text-sm">Developed by <a href="https://www.bohemicastudio.com/">Team Bohemica</a> with ❤️</p>
-			</div>-->
 
 		</div>
 	</div>
