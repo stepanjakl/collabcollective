@@ -30,8 +30,8 @@
             </nav>
 
             <div class="flex md:hidden">
-                <button v-on:click="() => { this.$root.$emit('menu-click') }" class="flex items-center rounded text-yellow-400 p-2 hover:text-white">
-                    <svg class="fill-current h-6 w-6" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg>
+                <button v-on:click="() => { this.$root.$emit('menu-click') }" aria-label="Menu toggle" class="flex items-center rounded text-yellow-400 p-2 hover:text-white">
+                    <svg class="fill-current h-6 w-6" alt="Buger menu toggle" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path alt="Line of menu icon" d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg>
                 </button>
             </div>
 
