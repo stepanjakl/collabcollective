@@ -2,16 +2,16 @@ import Vue from 'vue'
 import App from './App.vue'
 import router from './router'
 
-import './assets/tailwind.css'
+import './assets/fonts.scss';
+import './assets/tailwind.css';
+import '../node_modules/vue-slick-carousel/dist/vue-slick-carousel.css';
+import '../node_modules/vue-slick-carousel/dist/vue-slick-carousel-theme.css';
+import './assets/style.css';
 
-// import { VLazyImagePlugin } = require('v-lazy-image');
 import { VLazyImagePlugin } from 'v-lazy-image';
 import VueScrollTo from 'vue-scrollto';
 
 import sslRedirect from 'heroku-ssl-redirect';
-
-import './assets/fonts.scss';
-import './assets/style.css'
 
 Vue.config.productionTip = false;
 
