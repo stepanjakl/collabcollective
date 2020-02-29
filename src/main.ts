@@ -11,6 +11,7 @@ import VueScrollTo from 'vue-scrollto';
 import sslRedirect from 'heroku-ssl-redirect';
 
 import './assets/fonts.scss';
+import './assets/style.css'
 
 Vue.config.productionTip = false;
 

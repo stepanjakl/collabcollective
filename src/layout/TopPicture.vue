@@ -10,7 +10,7 @@
                             {{this.title}}</h1>
                         <p class="font-light text-md w-full sm:text-lg md:text-xl xl:text-2xl pb-8" v-if="this.comment">
                             {{this.comment}}</p>
-                        <anim-button blue class="self-center lg:self-start text-sm md:mt-6 mt-0 lg:mb-6 md:mb-10 mb-8 md:text-lg py-1 md:py-4 px-10 py-2 md:px-20">Register Now</anim-button>
+                        <anim-button blue to="/register" class="self-center lg:self-start text-sm md:mt-6 mt-0 lg:mb-6 md:mb-10 mb-8 md:text-lg py-1 md:py-4 px-10 py-2 md:px-20">Register Now</anim-button>
                     </div>
 
                     <div class="w-full lg:w-6/12 flex flex-row justify-center lg:justify-end items-center lg:items-end my-6 lg:my-0">
