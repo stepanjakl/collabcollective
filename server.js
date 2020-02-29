@@ -32,7 +32,11 @@ var express = require('express');
 var app = express();
 
 // enable ssl redirect
-app.use(sslRedirect());
+app.use(sslRedirect([
+    'other',
+    'development',
+    'production'
+]));
 
 app.get('/', function(req, res){
     res.send('hello world');
