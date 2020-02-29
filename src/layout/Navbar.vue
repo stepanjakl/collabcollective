@@ -59,7 +59,9 @@
                         document.getElementById('logo-dark').classList.remove('hidden');
 
                         document.getElementById('text-change').style.color = '#00537d';
-                        document.getElementsByClassName('router-link-active')[1].style.textDecorationColor = '#00537d';
+                        
+                        if(document.getElementsByClassName('router-link-active').length >= 2)
+                            document.getElementsByClassName('router-link-active')[1].style.textDecorationColor = '#00537d';
 
                     } else {
 
@@ -67,7 +69,9 @@
                         document.getElementById('logo-dark').classList.add('hidden');
 
                         document.getElementById('text-change').style.color = 'whitesmoke';
-                        document.getElementsByClassName('router-link-active')[1].style.textDecorationColor = 'whitesmoke';
+
+                        if(document.getElementsByClassName('router-link-active').length >= 2)
+                            document.getElementsByClassName('router-link-active')[1].style.textDecorationColor = 'whitesmoke';
 
                     }
                 })
@@ -83,7 +87,9 @@
                 document.getElementById('logo-dark').classList.remove('hidden');
 
                 document.getElementById('text-change').style.color = '#00537d';
-                document.getElementsByClassName('router-link-active')[1].style.textDecorationColor = '#00537d';
+
+                if(document.getElementsByClassName('router-link-active').length >= 2)
+                    document.getElementsByClassName('router-link-active')[1].style.textDecorationColor = '#00537d';
 
                 document.getElementById('text-change').style.borderBottomColor = '#00537d';
 
@@ -93,7 +99,9 @@
                 document.getElementById('logo-dark').classList.add('hidden');
 
                 document.getElementById('text-change').style.color = 'whitesmoke';
-                document.getElementsByClassName('router-link-active')[1].style.textDecorationColor = 'whitesmoke';
+
+                if(document.getElementsByClassName('router-link-active').length >= 2)
+                    document.getElementsByClassName('router-link-active')[1].style.textDecorationColor = 'whitesmoke';
 
                 document.getElementById('text-change').style.borderBottomColor = 'whitesmoke';
 
