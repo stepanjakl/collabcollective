@@ -42,8 +42,8 @@
             <ContactPerson name="Erik Lorenz" role="CEO & Founder"/>
             <ContactPerson name="Aslinda Ali" role="Content Activation Manager"/>
             <ContactPerson name="Jamie Rascon" role="Business Development"/>
-            <ContactPerson name="Lawrance Shepstone" role="CTO"/>
-            <ContactPerson name="Juan Talco Cruz" role="Lead Developer"/>
+            <!--<ContactPerson name="Lawrance Shepstone" role="Lead Developer"/>-->
+            <ContactPerson name="Juan Talco Cruz" role="CTO"/>
 
         </div>
 

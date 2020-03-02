@@ -27,7 +27,7 @@ app.listen(port);
 console.log("server started");
 */
 
-var sslRedirect = require('heroku-ssl-redirect');
+/*var sslRedirect = require('heroku-ssl-redirect');
 var express = require('express');
 var app = express();
 
@@ -42,4 +42,4 @@ app.get('/', function(req, res){
     res.send('hello world');
 });
 
-app.listen(process.env.PORT || 3000);
+app.listen(process.env.PORT || 3000);*/
